@@ -1,0 +1,7 @@
+[2026-03-20T09:23:27Z] cmake -S /home/jimi/PaperExperiment/CompilerOptimization/Target/flatbuffers -B /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM14-O2-g/build -G Unix Makefiles -DCMAKE_C_COMPILER=clang-14 -DCMAKE_CXX_COMPILER=clang++-14 -DCMAKE_C_FLAGS=-O2 -g -DCMAKE_CXX_FLAGS=-O2 -g -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+[2026-03-20T09:23:27Z] cmake --build /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM14-O2-g/build --target flatc -j10
+[2026-03-20T09:23:27Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM14-O2-g/build/compile_commands.json /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM14-O2-g/artifacts/compile_commands.json
+[2026-03-20T09:23:27Z] python3_recompile_flatc_objects_to_bc
+[2026-03-20T09:26:14Z] llvm-link-14_flatc_objects
+[2026-03-20T09:26:31Z] llvm-dis-14_flatc_bc
+[2026-03-20T09:26:50Z] llvm-nm-14_main_symbol_check

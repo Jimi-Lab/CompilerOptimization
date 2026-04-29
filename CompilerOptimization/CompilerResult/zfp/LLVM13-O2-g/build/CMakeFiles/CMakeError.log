@@ -1,0 +1,329 @@
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d455/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d455.dir/build.make CMakeFiles/cmTC_3d455.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d455.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-13   -fopenmp=libomp -v -fPIE -std=gnu99 -MD -MT CMakeFiles/cmTC_3d455.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_3d455.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_3d455.dir/OpenMPTryFlag.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 13.0.1-2ubuntu2.2
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-13/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-13/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_3d455.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_3d455.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-13/lib/clang/13.0.1/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu99 -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3d455.dir/OpenMPTryFlag.c.o -x c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-13/lib/clang/13.0.1/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_3d455.dir/build.make:79: CMakeFiles/cmTC_3d455.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3d455/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7054/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7054.dir/build.make CMakeFiles/cmTC_b7054.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7054.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-13   -fopenmp=libiomp5 -v -fPIE -std=gnu99 -MD -MT CMakeFiles/cmTC_b7054.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_b7054.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_b7054.dir/OpenMPTryFlag.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 13.0.1-2ubuntu2.2
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-13/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-13/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_b7054.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_b7054.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-13/lib/clang/13.0.1/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu99 -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b7054.dir/OpenMPTryFlag.c.o -x c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-13/lib/clang/13.0.1/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_b7054.dir/build.make:79: CMakeFiles/cmTC_b7054.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b7054/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3d81/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3d81.dir/build.make CMakeFiles/cmTC_a3d81.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3d81.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-13   -fopenmp -v -fPIE -std=gnu99 -MD -MT CMakeFiles/cmTC_a3d81.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_a3d81.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_a3d81.dir/OpenMPTryFlag.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 13.0.1-2ubuntu2.2
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-13/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-13/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_a3d81.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_a3d81.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-13/lib/clang/13.0.1/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu99 -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a3d81.dir/OpenMPTryFlag.c.o -x c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-13/lib/clang/13.0.1/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_a3d81.dir/build.make:79: CMakeFiles/cmTC_a3d81.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a3d81/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_25c83/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25c83.dir/build.make CMakeFiles/cmTC_25c83.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25c83.dir/OpenMPTryFlag.c.o
+/usr/bin/clang-13   -Xclang -fopenmp -v -fPIE -std=gnu99 -MD -MT CMakeFiles/cmTC_25c83.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_25c83.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_25c83.dir/OpenMPTryFlag.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Ubuntu clang version 13.0.1-2ubuntu2.2
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-13/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-13/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_25c83.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_25c83.dir/OpenMPTryFlag.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-13/lib/clang/13.0.1/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu99 -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_25c83.dir/OpenMPTryFlag.c.o -x c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-13/lib/clang/13.0.1/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_25c83.dir/build.make:79: CMakeFiles/cmTC_25c83.dir/OpenMPTryFlag.c.o] Error 1
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_25c83/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ab975/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ab975.dir/build.make CMakeFiles/cmTC_ab975.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab975.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-13   -fopenmp=libomp -v -fPIE -std=gnu++98 -MD -MT CMakeFiles/cmTC_ab975.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_ab975.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_ab975.dir/OpenMPTryFlag.cpp.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 13.0.1-2ubuntu2.2
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-13/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-13/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_ab975.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_ab975.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-13/lib/clang/13.0.1/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu++98 -fdeprecated-macro -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ab975.dir/OpenMPTryFlag.cpp.o -x c++ /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-13/lib/clang/13.0.1/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_ab975.dir/build.make:79: CMakeFiles/cmTC_ab975.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ab975/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2c7f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2c7f.dir/build.make CMakeFiles/cmTC_f2c7f.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2c7f.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-13   -fopenmp=libiomp5 -v -fPIE -std=gnu++98 -MD -MT CMakeFiles/cmTC_f2c7f.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_f2c7f.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_f2c7f.dir/OpenMPTryFlag.cpp.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 13.0.1-2ubuntu2.2
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-13/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-13/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_f2c7f.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_f2c7f.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-13/lib/clang/13.0.1/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu++98 -fdeprecated-macro -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f2c7f.dir/OpenMPTryFlag.cpp.o -x c++ /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-13/lib/clang/13.0.1/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_f2c7f.dir/build.make:79: CMakeFiles/cmTC_f2c7f.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f2c7f/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3866e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3866e.dir/build.make CMakeFiles/cmTC_3866e.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3866e.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-13   -fopenmp -v -fPIE -std=gnu++98 -MD -MT CMakeFiles/cmTC_3866e.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_3866e.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_3866e.dir/OpenMPTryFlag.cpp.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 13.0.1-2ubuntu2.2
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-13/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-13/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_3866e.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_3866e.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-13/lib/clang/13.0.1/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu++98 -fdeprecated-macro -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3866e.dir/OpenMPTryFlag.cpp.o -x c++ /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-13/lib/clang/13.0.1/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_3866e.dir/build.make:79: CMakeFiles/cmTC_3866e.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3866e/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef305/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef305.dir/build.make CMakeFiles/cmTC_ef305.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef305.dir/OpenMPTryFlag.cpp.o
+/usr/bin/clang++-13   -Xclang -fopenmp -v -fPIE -std=gnu++98 -MD -MT CMakeFiles/cmTC_ef305.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_ef305.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_ef305.dir/OpenMPTryFlag.cpp.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Ubuntu clang version 13.0.1-2ubuntu2.2
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-13/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-13/lib/clang/13.0.1 -dependency-file CMakeFiles/cmTC_ef305.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_ef305.dir/OpenMPTryFlag.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-13/lib/clang/13.0.1/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu++98 -fdeprecated-macro -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ef305.dir/OpenMPTryFlag.cpp.o -x c++ /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 13.0.1 based upon LLVM 13.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-13/lib/clang/13.0.1/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_ef305.dir/build.make:79: CMakeFiles/cmTC_ef305.dir/OpenMPTryFlag.cpp.o] Error 1
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ef305/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_MATH failed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5c488/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c488.dir/build.make CMakeFiles/cmTC_5c488.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c488.dir/src.c.o
+/usr/bin/clang-13 -DHAVE_MATH  -fPIE -std=gnu99 -MD -MT CMakeFiles/cmTC_5c488.dir/src.c.o -MF CMakeFiles/cmTC_5c488.dir/src.c.o.d -o CMakeFiles/cmTC_5c488.dir/src.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5c488
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c488.dir/link.txt --verbose=1
+/usr/bin/clang-13 CMakeFiles/cmTC_5c488.dir/src.c.o -o cmTC_5c488 
+/usr/bin/ld: CMakeFiles/cmTC_5c488.dir/src.c.o: in function `main':
+src.c:(.text+0x1c): undefined reference to `sqrt'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+gmake[1]: *** [CMakeFiles/cmTC_5c488.dir/build.make:100: cmTC_5c488] Error 1
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5c488/fast] Error 2
+
+
+Source file was:
+#include<math.h>
+int main(int n,char*v[]){return sqrt(n);}

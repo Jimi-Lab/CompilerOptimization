@@ -1,0 +1,441 @@
+{
+  "case_count": 1818776,
+  "case_kind_counts": {
+    "DGLineHit": 1799483,
+    "LocationInvalid": 295,
+    "RunDegradation": 56,
+    "RunOrLocationWeakEvidence": 18324,
+    "ToolWarningDebugLocCandidate": 618
+  },
+  "location_validity_counts": {
+    "column_out_of_range": 131,
+    "line_zero": 159,
+    "no_debug_loc": 8702,
+    "preprocessor_only": 5,
+    "unknown": 868,
+    "valid": 1808911
+  },
+  "output_dir": "/home/jimi/PaperExperiment/CompilerOptimization/Result/AllUsefulCases/dg/O2-g",
+  "priority_counts": {
+    "P0": 295,
+    "P1": 618,
+    "P2": 1817863
+  },
+  "priority_reason_counts": {
+    "ColumnOutOfRange": 131,
+    "ExternalOrUnresolvedSource": 8780,
+    "LineZero": 159,
+    "RunTimeoutOnly": 19,
+    "SourceLinePreprocessorOnly": 5,
+    "ToolFailureOnly": 22,
+    "ToolWarningOnly": 9544,
+    "ToolWarningWithDebugLocNeedsReview": 618,
+    "UnsupportedModeFailure": 15,
+    "ValidDgLineHit": 1799483
+  },
+  "result_txt": "/home/jimi/PaperExperiment/CompilerOptimization/Result/AllUsefulCases/dg/result.txt",
+  "run_count": 8,
+  "source_region_counts": {
+    "llvm_ir_only": 9570,
+    "project_header": 30871,
+    "project_source": 1594492,
+    "system_header": 8551,
+    "third_party_header": 43995,
+    "third_party_source": 130811,
+    "unknown": 486
+  },
+  "targets": {
+    "flatbuffers": {
+      "case_kind_counts": {
+        "DGLineHit": 32409,
+        "LocationInvalid": 65,
+        "RunDegradation": 9,
+        "RunOrLocationWeakEvidence": 6661
+      },
+      "expanded_line_hit_cases": 36825,
+      "failure_rows": 9,
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM14-O2-g/artifacts/flatbuffers_flatc_O2_g.bc",
+      "line_hit_rows": 24759,
+      "location_validity_counts": {
+        "column_out_of_range": 47,
+        "line_zero": 13,
+        "no_debug_loc": 2296,
+        "preprocessor_only": 5,
+        "unknown": 9,
+        "valid": 36774
+      },
+      "priority_counts": {
+        "P0": 65,
+        "P2": 39079
+      },
+      "priority_reason_counts": {
+        "ColumnOutOfRange": 47,
+        "ExternalOrUnresolvedSource": 4351,
+        "LineZero": 13,
+        "RunTimeoutOnly": 7,
+        "SourceLinePreprocessorOnly": 5,
+        "ToolFailureOnly": 1,
+        "ToolWarningOnly": 2310,
+        "UnsupportedModeFailure": 1,
+        "ValidDgLineHit": 32409
+      },
+      "run_dir": "/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/dg/dg-LLVM14-O2-g/high_precision_20260326_164052",
+      "source_region_counts": {
+        "llvm_ir_only": 2305,
+        "project_header": 5086,
+        "project_source": 27323,
+        "system_header": 4233,
+        "unknown": 197
+      },
+      "warning_dbg_mapped": 14,
+      "warning_family_counts": {
+        "unhandled_ir": 2310
+      },
+      "warning_rows": 2310
+    },
+    "lepton": {
+      "case_kind_counts": {
+        "DGLineHit": 81632,
+        "LocationInvalid": 124,
+        "RunDegradation": 8,
+        "RunOrLocationWeakEvidence": 4344,
+        "ToolWarningDebugLocCandidate": 152
+      },
+      "expanded_line_hit_cases": 85876,
+      "failure_rows": 8,
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM14-O2-g/lepton_artifacts/lepton_O2_g.bc",
+      "line_hit_rows": 72696,
+      "location_validity_counts": {
+        "column_out_of_range": 84,
+        "line_zero": 40,
+        "no_debug_loc": 94,
+        "unknown": 106,
+        "valid": 85936
+      },
+      "priority_counts": {
+        "P0": 124,
+        "P1": 152,
+        "P2": 85984
+      },
+      "priority_reason_counts": {
+        "ColumnOutOfRange": 84,
+        "ExternalOrUnresolvedSource": 4152,
+        "LineZero": 40,
+        "RunTimeoutOnly": 1,
+        "ToolFailureOnly": 6,
+        "ToolWarningOnly": 192,
+        "ToolWarningWithDebugLocNeedsReview": 152,
+        "UnsupportedModeFailure": 1,
+        "ValidDgLineHit": 81632
+      },
+      "run_dir": "/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/dg/dg-LLVM14-O2-g/high_precision_20260402_153121",
+      "source_region_counts": {
+        "llvm_ir_only": 200,
+        "project_header": 12466,
+        "project_source": 69344,
+        "system_header": 4035,
+        "unknown": 215
+      },
+      "warning_dbg_mapped": 184,
+      "warning_family_counts": {
+        "inttoptr_constant": 14,
+        "nonzero_memset": 146,
+        "unhandled_ir": 136,
+        "unsupported_shufflevector": 80
+      },
+      "warning_rows": 376
+    },
+    "libsndfile": {
+      "case_kind_counts": {
+        "DGLineHit": 176559,
+        "LocationInvalid": 10,
+        "RunDegradation": 6,
+        "RunOrLocationWeakEvidence": 294,
+        "ToolWarningDebugLocCandidate": 14
+      },
+      "expanded_line_hit_cases": 176625,
+      "failure_rows": 6,
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/artifacts/libsndfile_sndfile_convert_O2_g.bc",
+      "line_hit_rows": 124113,
+      "location_validity_counts": {
+        "line_zero": 10,
+        "no_debug_loc": 182,
+        "unknown": 62,
+        "valid": 176629
+      },
+      "priority_counts": {
+        "P0": 10,
+        "P1": 14,
+        "P2": 176859
+      },
+      "priority_reason_counts": {
+        "ExternalOrUnresolvedSource": 56,
+        "LineZero": 10,
+        "RunTimeoutOnly": 1,
+        "ToolFailureOnly": 2,
+        "ToolWarningOnly": 238,
+        "ToolWarningWithDebugLocNeedsReview": 14,
+        "UnsupportedModeFailure": 3,
+        "ValidDgLineHit": 176559
+      },
+      "run_dir": "/home/jimi/PaperExperiment/CompilerOptimization/Result/libsndfile/dg/dg-LLVM14-O2-g/high_precision_20260402_153719",
+      "source_region_counts": {
+        "llvm_ir_only": 244,
+        "project_header": 1348,
+        "project_source": 175225,
+        "system_header": 56,
+        "unknown": 10
+      },
+      "warning_dbg_mapped": 14,
+      "warning_family_counts": {
+        "nonzero_memset": 70,
+        "unsupported_shufflevector": 182
+      },
+      "warning_rows": 252
+    },
+    "masscan": {
+      "case_kind_counts": {
+        "DGLineHit": 162208,
+        "LocationInvalid": 7,
+        "RunDegradation": 11,
+        "RunOrLocationWeakEvidence": 757,
+        "ToolWarningDebugLocCandidate": 266
+      },
+      "expanded_line_hit_cases": 162234,
+      "failure_rows": 11,
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/masscan/LLVM14-O2-g/artifacts/masscan_O2_g.bc",
+      "line_hit_rows": 118098,
+      "location_validity_counts": {
+        "line_zero": 7,
+        "no_debug_loc": 584,
+        "unknown": 165,
+        "valid": 162493
+      },
+      "priority_counts": {
+        "P0": 7,
+        "P1": 266,
+        "P2": 162976
+      },
+      "priority_reason_counts": {
+        "ExternalOrUnresolvedSource": 19,
+        "LineZero": 7,
+        "RunTimeoutOnly": 4,
+        "ToolWarningOnly": 738,
+        "ToolWarningWithDebugLocNeedsReview": 266,
+        "UnsupportedModeFailure": 7,
+        "ValidDgLineHit": 162208
+      },
+      "run_dir": "/home/jimi/PaperExperiment/CompilerOptimization/Result/masscan/dg/dg-LLVM14-O2-g/high_precision_20260326_165024",
+      "source_region_counts": {
+        "llvm_ir_only": 749,
+        "project_header": 847,
+        "project_source": 161627,
+        "system_header": 19,
+        "unknown": 7
+      },
+      "warning_dbg_mapped": 266,
+      "warning_family_counts": {
+        "nonzero_memset": 196,
+        "unhandled_ir": 224,
+        "unsupported_shufflevector": 584
+      },
+      "warning_rows": 1004
+    },
+    "redis": {
+      "case_kind_counts": {
+        "DGLineHit": 1265992,
+        "LocationInvalid": 55,
+        "RunDegradation": 10,
+        "RunOrLocationWeakEvidence": 2122,
+        "ToolWarningDebugLocCandidate": 122
+      },
+      "expanded_line_hit_cases": 1266179,
+      "failure_rows": 10,
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/artifacts/redis-server_O2_g.bc",
+      "line_hit_rows": 772574,
+      "location_validity_counts": {
+        "line_zero": 55,
+        "no_debug_loc": 1518,
+        "unknown": 440,
+        "valid": 1266288
+      },
+      "priority_counts": {
+        "P0": 55,
+        "P1": 122,
+        "P2": 1268124
+      },
+      "priority_reason_counts": {
+        "ExternalOrUnresolvedSource": 174,
+        "LineZero": 55,
+        "RunTimeoutOnly": 4,
+        "ToolFailureOnly": 5,
+        "ToolWarningOnly": 1948,
+        "ToolWarningWithDebugLocNeedsReview": 122,
+        "UnsupportedModeFailure": 1,
+        "ValidDgLineHit": 1265992
+      },
+      "run_dir": "/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/dg/dg-LLVM14-O2-g/high_precision_20260409_123302",
+      "source_region_counts": {
+        "llvm_ir_only": 1958,
+        "project_header": 5160,
+        "project_source": 1118445,
+        "system_header": 164,
+        "third_party_header": 11740,
+        "third_party_source": 130811,
+        "unknown": 23
+      },
+      "warning_dbg_mapped": 164,
+      "warning_family_counts": {
+        "inttoptr_constant": 6,
+        "native_warning": 26,
+        "nonzero_memset": 304,
+        "unhandled_ir": 264,
+        "unsupported_shufflevector": 1512
+      },
+      "warning_rows": 2112
+    },
+    "tengine": {
+      "case_kind_counts": {
+        "DGLineHit": 41899,
+        "LocationInvalid": 9,
+        "RunDegradation": 7,
+        "RunOrLocationWeakEvidence": 2383,
+        "ToolWarningDebugLocCandidate": 64
+      },
+      "expanded_line_hit_cases": 41923,
+      "failure_rows": 7,
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/artifacts/tengine.bc",
+      "line_hit_rows": 41579,
+      "location_validity_counts": {
+        "line_zero": 9,
+        "no_debug_loc": 2320,
+        "unknown": 39,
+        "valid": 41994
+      },
+      "priority_counts": {
+        "P0": 9,
+        "P1": 64,
+        "P2": 44289
+      },
+      "priority_reason_counts": {
+        "ExternalOrUnresolvedSource": 15,
+        "LineZero": 9,
+        "RunTimeoutOnly": 2,
+        "ToolFailureOnly": 5,
+        "ToolWarningOnly": 2368,
+        "ToolWarningWithDebugLocNeedsReview": 64,
+        "ValidDgLineHit": 41899
+      },
+      "run_dir": "/home/jimi/PaperExperiment/CompilerOptimization/Result/tengine/dg/dg-LLVM14-O2-g/high_precision_20260325_125828",
+      "source_region_counts": {
+        "llvm_ir_only": 2359,
+        "project_header": 4778,
+        "project_source": 4930,
+        "system_header": 31,
+        "third_party_header": 32255,
+        "unknown": 9
+      },
+      "warning_dbg_mapped": 80,
+      "warning_family_counts": {
+        "inttoptr_constant": 16,
+        "nonzero_memset": 112,
+        "unsupported_shufflevector": 2304
+      },
+      "warning_rows": 2432
+    },
+    "zfp": {
+      "case_kind_counts": {
+        "DGLineHit": 18072,
+        "LocationInvalid": 12,
+        "RunDegradation": 3,
+        "RunOrLocationWeakEvidence": 1624
+      },
+      "expanded_line_hit_cases": 18084,
+      "failure_rows": 3,
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM14-O2-g/artifacts/zfp_O2_g.bc",
+      "line_hit_rows": 14831,
+      "location_validity_counts": {
+        "line_zero": 12,
+        "no_debug_loc": 1624,
+        "unknown": 3,
+        "valid": 18072
+      },
+      "priority_counts": {
+        "P0": 12,
+        "P2": 19699
+      },
+      "priority_reason_counts": {
+        "LineZero": 12,
+        "ToolFailureOnly": 2,
+        "ToolWarningOnly": 1624,
+        "UnsupportedModeFailure": 1,
+        "ValidDgLineHit": 18072
+      },
+      "run_dir": "/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/dg/dg-LLVM14-O2-g/high_precision_20260402_154412",
+      "source_region_counts": {
+        "llvm_ir_only": 1627,
+        "project_header": 943,
+        "project_source": 17129,
+        "unknown": 12
+      },
+      "warning_dbg_mapped": 0,
+      "warning_family_counts": {
+        "unsupported_shufflevector": 1624
+      },
+      "warning_rows": 1624
+    },
+    "zopfli": {
+      "case_kind_counts": {
+        "DGLineHit": 20712,
+        "LocationInvalid": 13,
+        "RunDegradation": 2,
+        "RunOrLocationWeakEvidence": 139
+      },
+      "expanded_line_hit_cases": 20738,
+      "failure_rows": 2,
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM14-O2-g/artifacts/zopfli_O2_g_zopfli_only.bc",
+      "line_hit_rows": 18933,
+      "location_validity_counts": {
+        "line_zero": 13,
+        "no_debug_loc": 84,
+        "unknown": 44,
+        "valid": 20725
+      },
+      "priority_counts": {
+        "P0": 13,
+        "P2": 20853
+      },
+      "priority_reason_counts": {
+        "ExternalOrUnresolvedSource": 13,
+        "LineZero": 13,
+        "ToolFailureOnly": 1,
+        "ToolWarningOnly": 126,
+        "UnsupportedModeFailure": 1,
+        "ValidDgLineHit": 20712
+      },
+      "run_dir": "/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/dg/dg-LLVM14-O2-g/high_precision_20260403_041913",
+      "source_region_counts": {
+        "llvm_ir_only": 128,
+        "project_header": 243,
+        "project_source": 20469,
+        "system_header": 13,
+        "unknown": 13
+      },
+      "warning_dbg_mapped": 0,
+      "warning_family_counts": {
+        "nonzero_memset": 42,
+        "unsupported_shufflevector": 84
+      },
+      "warning_rows": 126
+    }
+  },
+  "tool": "dg",
+  "universe": "O2-g",
+  "warning_family_counts": {
+    "inttoptr_constant": 36,
+    "native_warning": 26,
+    "nonzero_memset": 870,
+    "unhandled_ir": 2934,
+    "unsupported_shufflevector": 6370
+  }
+}

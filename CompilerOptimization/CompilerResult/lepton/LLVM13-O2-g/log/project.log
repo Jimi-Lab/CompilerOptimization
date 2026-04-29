@@ -1,0 +1,236 @@
+project=lepton
+source=/home/jimi/PaperExperiment/CompilerOptimization/Target/lepton
+start_utc=2026-03-25T00:56:20Z
+policy=README Using CMAKE flow (mkdir -p build; cd build; cmake ..; make -j8) in SMACK llvm13; force -O2 -g; program-level bc
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is Clang 13.0.1
+-- The CXX compiler identification is Clang 13.0.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang-13 - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++-13 - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/build
+[  0%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/inflate.c.o
+[  0%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/trees.c.o
+[  0%] Building C object CMakeFiles/localmd5.dir/dependencies/md5/md5.c.o
+[  1%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/memory.c.o
+[  1%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/common/dictionary.c.o
+[  2%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/infback.c.o
+[  2%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/entropy_encode.c.o
+[  2%] Built target version
+[  3%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/compress_fragment.c.o
+[  3%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/utf8_util.c.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/lepton/dependencies/zlib/inflate.c:1507:61: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+    if (strm == Z_NULL || strm->state == Z_NULL) return -1L << 16;
+                                                        ~~~ ^
+[  4%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/adler32.c.o
+[  5%] Linking C static library liblocalmd5.a
+[  5%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/gzclose.c.o
+[  6%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/literal_cost.c.o
+[  6%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/static_dict.c.o
+[  6%] Built target localmd5
+[  6%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/crc32.c.o
+[  7%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/compress.c.o
+[  8%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/inftrees.c.o
+[  8%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/zutil.c.o
+[  9%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/deflate.c.o
+[  9%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/inffast.c.o
+[ 10%] Building C object CMakeFiles/localzlib.dir/dependencies/zlib/uncompr.c.o
+[ 11%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/backward_references_hq.c.o
+[ 11%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/compress_fragment_two_pass.c.o
+[ 12%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/dictionary_hash.c.o
+1 warning generated.
+[ 12%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/cluster.c.o
+[ 13%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/metablock.c.o
+[ 13%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/histogram.c.o
+[ 14%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/encode.c.o
+[ 14%] Linking C static library liblocalzlib.a
+[ 14%] Built target localzlib
+[ 15%] Building CXX object CMakeFiles/test_invariants.dir/src/io/MemMgrAllocator.cc.o
+[ 15%] Building CXX object CMakeFiles/test_invariants.dir/src/io/MemReadWriter.cc.o
+[ 15%] Building CXX object CMakeFiles/test_invariants.dir/src/vp8/util/memory.cc.o
+[ 16%] Building CXX object CMakeFiles/test_invariants.dir/src/lepton/thread_handoff.cc.o
+[ 17%] Building CXX object CMakeFiles/test_invariants.dir/test_suite/test_invariants.cc.o
+[ 17%] Building CXX object CMakeFiles/test_invariants.dir/src/vp8/util/billing.cc.o
+[ 18%] Building CXX object CMakeFiles/test_invariants.dir/src/vp8/model/numeric.cc.o
+[ 19%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/block_splitter.c.o
+[ 19%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/brotli_bit_stream.c.o
+[ 20%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/bit_cost.c.o
+[ 20%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/enc/backward_references.c.o
+[ 21%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/dec/state.c.o
+[ 21%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/dec/bit_reader.c.o
+[ 22%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/dec/huffman.c.o
+[ 22%] Building C object CMakeFiles/localbrotli.dir/dependencies/brotli/c/dec/decode.c.o
+[ 23%] Linking CXX executable test_invariants
+[ 23%] Built target test_invariants
+[ 24%] Linking C static library liblocalbrotli.a
+[ 24%] Built target localbrotli
+[ 24%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/bitops.cc.o
+[ 25%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/fork_serve.cc.o
+[ 25%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/thread_handoff.cc.o
+[ 25%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/bitops.cc.o
+[ 26%] Building CXX object CMakeFiles/lepton.dir/src/lepton/fork_serve.cc.o
+[ 25%] Building CXX object CMakeFiles/lepton.dir/src/lepton/bitops.cc.o
+[ 26%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/bitops.cc.o
+[ 26%] Building CXX object CMakeFiles/lepton.dir/src/lepton/thread_handoff.cc.o
+[ 27%] Building CXX object CMakeFiles/lepton.dir/src/lepton/socket_serve.cc.o
+[ 28%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/fork_serve.cc.o
+[ 29%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/socket_serve.cc.o
+[ 29%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/jpgcoder.cc.o
+[ 30%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/fork_serve.cc.o
+[ 30%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/thread_handoff.cc.o
+[ 30%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/thread_handoff.cc.o
+[ 31%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/socket_serve.cc.o
+[ 31%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/jpgcoder.cc.o
+[ 32%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/concat.cc.o
+[ 32%] Building CXX object CMakeFiles/lepton.dir/src/lepton/jpgcoder.cc.o
+[ 33%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/concat.cc.o
+[ 34%] Building CXX object CMakeFiles/lepton.dir/src/lepton/concat.cc.o
+[ 35%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/socket_serve.cc.o
+[ 35%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/jpgcoder.cc.o
+[ 35%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/benchmark.cc.o
+[ 35%] Building CXX object CMakeFiles/lepton.dir/src/lepton/benchmark.cc.o
+[ 36%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/concat.cc.o
+[ 37%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/main.cc.o
+[ 38%] Building CXX object CMakeFiles/lepton.dir/src/lepton/main.cc.o
+[ 38%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/benchmark.cc.o
+[ 38%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/benchmark.cc.o
+[ 39%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/main.cc.o
+[ 39%] Building CXX object CMakeFiles/lepton.dir/src/lepton/validation.cc.o
+[ 39%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/validation.cc.o
+[ 40%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/generic_compress.cc.o
+[ 40%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/recoder.cc.o
+[ 40%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/validation.cc.o
+[ 41%] Building CXX object CMakeFiles/lepton.dir/src/lepton/generic_compress.cc.o
+[ 42%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/generic_compress.cc.o
+[ 43%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/main.cc.o
+[ 43%] Building CXX object CMakeFiles/lepton.dir/src/lepton/recoder.cc.o
+[ 44%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/idct.cc.o
+[ 44%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/validation.cc.o
+[ 45%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/generic_compress.cc.o
+[ 45%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/recoder.cc.o
+[ 45%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/recoder.cc.o
+[ 46%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/idct.cc.o
+[ 47%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/idct.cc.o
+[ 47%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/uncompressed_components.cc.o
+[ 48%] Building CXX object CMakeFiles/lepton.dir/src/lepton/idct.cc.o
+[ 49%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/lepton_codec.cc.o
+[ 49%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/uncompressed_components.cc.o
+[ 49%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/uncompressed_components.cc.o
+[ 50%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/lepton_codec.cc.o
+[ 50%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/vp8_decoder.cc.o
+[ 50%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/vp8_decoder.cc.o
+[ 51%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/simple_decoder.cc.o
+[ 51%] Building CXX object CMakeFiles/lepton.dir/src/lepton/uncompressed_components.cc.o
+[ 52%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/lepton_codec.cc.o
+[ 53%] Building CXX object CMakeFiles/lepton.dir/src/lepton/lepton_codec.cc.o
+[ 54%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/simple_decoder.cc.o
+[ 54%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/vp8_encoder.cc.o
+[ 54%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/vp8_encoder.cc.o
+[ 54%] Building CXX object CMakeFiles/lepton.dir/src/lepton/vp8_decoder.cc.o
+[ 55%] Building CXX object CMakeFiles/lepton.dir/src/lepton/simple_decoder.cc.o
+[ 55%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/vp8_decoder.cc.o
+[ 56%] Building CXX object CMakeFiles/lepton-avx.dir/src/lepton/simple_encoder.cc.o
+[ 56%] Building CXX object CMakeFiles/lepton.dir/src/lepton/vp8_encoder.cc.o
+[ 57%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/simple_decoder.cc.o
+[ 58%] Building CXX object CMakeFiles/lepton.dir/src/lepton/simple_encoder.cc.o
+[ 58%] Building CXX object CMakeFiles/lepton.dir/src/io/ZlibCompression.cc.o
+[ 59%] Building CXX object CMakeFiles/lepton.dir/src/io/BrotliCompression.cc.o
+[ 59%] Building CXX object CMakeFiles/lepton.dir/src/io/Seccomp.cc.o
+[ 60%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/lepton/simple_encoder.cc.o
+[ 61%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/io/ZlibCompression.cc.o
+[ 61%] Building CXX object CMakeFiles/lepton-avx.dir/src/io/ZlibCompression.cc.o
+[ 61%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/vp8_encoder.cc.o
+[ 61%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/io/BrotliCompression.cc.o
+[ 62%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/io/Seccomp.cc.o
+[ 62%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/io/MemReadWriter.cc.o
+[ 63%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/io/ioutil.cc.o
+[ 64%] Building CXX object CMakeFiles/lepton.dir/src/io/MemReadWriter.cc.o
+[ 65%] Building CXX object CMakeFiles/lepton-avx.dir/src/io/BrotliCompression.cc.o
+[ 65%] Building CXX object CMakeFiles/lepton-avx.dir/src/io/Seccomp.cc.o
+[ 66%] Building CXX object CMakeFiles/lepton-scalar.dir/src/lepton/simple_encoder.cc.o
+[ 67%] Building CXX object CMakeFiles/lepton-avx.dir/src/io/MemReadWriter.cc.o
+[ 67%] Building CXX object CMakeFiles/lepton-avx.dir/src/io/ioutil.cc.o
+[ 68%] Building CXX object CMakeFiles/lepton-avx.dir/src/io/Zlib0.cc.o
+[ 68%] Building CXX object CMakeFiles/lepton-scalar.dir/src/io/ZlibCompression.cc.o
+[ 68%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/io/Zlib0.cc.o
+[ 68%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/util/generic_worker.cc.o
+[ 69%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/util/generic_worker.cc.o
+[ 70%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/util/memory.cc.o
+[ 70%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/util/billing.cc.o
+[ 70%] Building CXX object CMakeFiles/lepton.dir/src/io/ioutil.cc.o
+[ 70%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/util/memory.cc.o
+[ 71%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/util/debug.cc.o
+[ 72%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/model/JpegArithmeticCoder.cc.o
+[ 73%] Building CXX object CMakeFiles/lepton-scalar.dir/src/io/BrotliCompression.cc.o
+[ 73%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/model/model.cc.o
+[ 74%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/util/billing.cc.o
+[ 75%] Building CXX object CMakeFiles/lepton.dir/src/io/Zlib0.cc.o
+[ 75%] Building CXX object CMakeFiles/lepton.dir/src/vp8/util/generic_worker.cc.o
+[ 76%] Building CXX object CMakeFiles/lepton.dir/src/vp8/util/memory.cc.o
+[ 77%] Building CXX object CMakeFiles/lepton.dir/src/vp8/util/billing.cc.o
+[ 77%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/model/numeric.cc.o
+[ 77%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/util/debug.cc.o
+[ 77%] Building CXX object CMakeFiles/lepton-scalar.dir/src/io/Seccomp.cc.o
+[ 78%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/model/JpegArithmeticCoder.cc.o
+[ 79%] Building CXX object CMakeFiles/lepton-scalar.dir/src/io/MemReadWriter.cc.o
+[ 79%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/encoder/encoder.cc.o
+[ 80%] Building CXX object CMakeFiles/lepton.dir/src/vp8/util/debug.cc.o
+[ 80%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/model/model.cc.o
+[ 80%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/encoder/encoder.cc.o
+[ 81%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/model/numeric.cc.o
+[ 82%] Building CXX object CMakeFiles/lepton-scalar.dir/src/io/ioutil.cc.o
+[ 82%] Building CXX object CMakeFiles/lepton.dir/src/vp8/model/JpegArithmeticCoder.cc.o
+[ 83%] Building CXX object CMakeFiles/lepton.dir/src/vp8/model/model.cc.o
+[ 84%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/decoder/decoder.cc.o
+[ 84%] Building CXX object CMakeFiles/lepton-scalar.dir/src/io/Zlib0.cc.o
+[ 84%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/encoder/boolwriter.cc.o
+[ 85%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/util/generic_worker.cc.o
+[ 85%] Building CXX object CMakeFiles/lepton.dir/src/vp8/model/numeric.cc.o
+[ 86%] Building CXX object CMakeFiles/lepton.dir/src/vp8/encoder/encoder.cc.o
+[ 86%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/util/memory.cc.o
+[ 87%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/decoder/decoder.cc.o
+[ 88%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/util/billing.cc.o
+[ 89%] Building CXX object CMakeFiles/lepton-avx.dir/src/vp8/decoder/boolreader.cc.o
+[ 90%] Building CXX object CMakeFiles/lepton.dir/src/vp8/decoder/decoder.cc.o
+[ 90%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/util/debug.cc.o
+[ 91%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/model/JpegArithmeticCoder.cc.o
+[ 91%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/encoder/boolwriter.cc.o
+[ 91%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/model/model.cc.o
+[ 91%] Building CXX object CMakeFiles/lepton-avx.dir/src/io/MemMgrAllocator.cc.o
+[ 91%] Building CXX object CMakeFiles/lepton.dir/src/vp8/encoder/boolwriter.cc.o
+[ 92%] Building CXX object CMakeFiles/lepton.dir/src/vp8/decoder/boolreader.cc.o
+[ 92%] Building CXX object CMakeFiles/lepton.dir/src/io/MemMgrAllocator.cc.o
+[ 93%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/model/numeric.cc.o
+[ 93%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/encoder/encoder.cc.o
+[ 94%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/decoder/decoder.cc.o
+[ 94%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/encoder/boolwriter.cc.o
+[ 95%] Building CXX object CMakeFiles/lepton-scalar.dir/src/vp8/decoder/boolreader.cc.o
+[ 96%] Linking CXX executable lepton-avx
+[ 97%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/vp8/decoder/boolreader.cc.o
+[ 97%] Building CXX object CMakeFiles/lepton-slow-best-ratio.dir/src/io/MemMgrAllocator.cc.o
+[ 97%] Building CXX object CMakeFiles/lepton-scalar.dir/src/io/MemMgrAllocator.cc.o
+[ 97%] Built target lepton-avx
+[ 98%] Linking CXX executable lepton-slow-best-ratio
+[ 99%] Linking CXX executable lepton
+[ 99%] Built target lepton-slow-best-ratio
+[ 99%] Built target lepton
+[100%] Linking CXX executable lepton-scalar
+[100%] Built target lepton-scalar
+done_utc=2026-03-25T00:58:04Z

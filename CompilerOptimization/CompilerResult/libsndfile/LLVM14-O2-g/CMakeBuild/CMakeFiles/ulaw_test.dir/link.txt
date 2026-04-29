@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/ulaw_test.dir/tests/ulaw_test.c.o -o ulaw_test  libsndfile.a libtest_utils.a -lm libsndfile.a -lm 

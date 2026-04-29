@@ -1,0 +1,867 @@
+[
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/file_io.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/file_io.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/file_io.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/command.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/command.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/command.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/pcm.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/pcm.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/pcm.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ulaw.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ulaw.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ulaw.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/alaw.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/alaw.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/alaw.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/float32.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/float32.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/float32.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/double64.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/double64.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/double64.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ima_adpcm.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ima_adpcm.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ima_adpcm.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ms_adpcm.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ms_adpcm.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ms_adpcm.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/gsm610.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/gsm610.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/gsm610.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/dwvw.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/dwvw.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/dwvw.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/vox_adpcm.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/vox_adpcm.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/vox_adpcm.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/interleave.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/interleave.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/interleave.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/strings.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/strings.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/strings.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/dither.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/dither.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/dither.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/cart.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/cart.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/cart.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/broadcast.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/broadcast.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/broadcast.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/audio_detect.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/audio_detect.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/audio_detect.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ima_oki_adpcm.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ima_oki_adpcm.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ima_oki_adpcm.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/alac.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/alac.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/alac.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/chunk.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/chunk.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/chunk.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ogg.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/chanmap.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/chanmap.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/chanmap.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/id3.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/id3.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/id3.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/sndfile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/sndfile.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/sndfile.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/aiff.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/aiff.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/aiff.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/au.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/au.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/au.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/avr.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/avr.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/avr.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/caf.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/caf.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/caf.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/dwd.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/dwd.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/dwd.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/flac.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/flac.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/flac.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/g72x.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/g72x.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/g72x.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/htk.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/htk.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/htk.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ircam.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ircam.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ircam.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/macos.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/macos.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/macos.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/mat4.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mat4.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mat4.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/mat5.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mat5.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mat5.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/nist.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/nist.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/nist.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/paf.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/paf.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/paf.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/pvf.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/pvf.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/pvf.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/raw.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/raw.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/raw.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/rx2.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/rx2.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/rx2.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/sd2.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/sd2.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/sd2.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/sds.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/sds.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/sds.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/svx.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/svx.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/svx.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/txw.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/txw.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/txw.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/voc.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/voc.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/voc.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/wve.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/wve.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/wve.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/w64.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/w64.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/w64.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/wavlike.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/wavlike.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/wavlike.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/wav.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/wav.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/wav.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/xi.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/xi.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/xi.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/mpc2k.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mpc2k.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mpc2k.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/rf64.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/rf64.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/rf64.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ogg_vorbis.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg_vorbis.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg_vorbis.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ogg_speex.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg_speex.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg_speex.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ogg_pcm.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg_pcm.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg_pcm.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ogg_opus.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg_opus.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg_opus.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ogg_vcomment.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg_vcomment.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ogg_vcomment.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/nms_adpcm.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/nms_adpcm.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/nms_adpcm.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/mpeg.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mpeg.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mpeg.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/mpeg_decode.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mpeg_decode.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mpeg_decode.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/mpeg_l3_encode.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mpeg_l3_encode.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/mpeg_l3_encode.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/add.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/add.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/add.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/code.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/code.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/code.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/decode.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/decode.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/decode.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/gsm_create.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/gsm_create.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/gsm_create.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/gsm_decode.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/gsm_decode.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/gsm_decode.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/gsm_destroy.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/gsm_destroy.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/gsm_destroy.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/gsm_encode.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/gsm_encode.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/gsm_encode.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/gsm_option.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/gsm_option.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/gsm_option.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/long_term.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/long_term.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/long_term.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/lpc.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/lpc.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/lpc.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/preprocess.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/preprocess.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/preprocess.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/rpe.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/rpe.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/rpe.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/short_term.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/short_term.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/short_term.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/GSM610/table.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/table.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/GSM610/table.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/G72x/g721.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g721.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g721.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/G72x/g723_16.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g723_16.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g723_16.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/G72x/g723_24.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g723_24.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g723_24.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/G72x/g723_40.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g723_40.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g723_40.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/G72x/g72x.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g72x.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g72x.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ALAC/ALACBitUtilities.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/ALACBitUtilities.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/ALACBitUtilities.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ALAC/ag_dec.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/ag_dec.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/ag_dec.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ALAC/ag_enc.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/ag_enc.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/ag_enc.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ALAC/dp_dec.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/dp_dec.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/dp_dec.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ALAC/dp_enc.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/dp_enc.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/dp_enc.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ALAC/matrix_dec.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/matrix_dec.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/matrix_dec.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ALAC/matrix_enc.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/matrix_enc.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/matrix_enc.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ALAC/alac_decoder.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/alac_decoder.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/alac_decoder.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -O2 -g -std=gnu99 -o CMakeFiles/sndfile.dir/src/ALAC/alac_encoder.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/alac_encoder.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/ALAC/alac_encoder.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-info.dir/programs/sndfile-info.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-info.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-info.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-info.dir/programs/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-play.dir/programs/sndfile-play.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-play.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-play.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-play.dir/programs/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-convert.dir/programs/sndfile-convert.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-convert.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-convert.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-convert.dir/programs/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-cmp.dir/programs/sndfile-cmp.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-cmp.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-cmp.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-cmp.dir/programs/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-metadata-set.dir/programs/sndfile-metadata-set.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-metadata-set.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-metadata-set.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-metadata-set.dir/programs/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-metadata-get.dir/programs/sndfile-metadata-get.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-metadata-get.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-metadata-get.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-metadata-get.dir/programs/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-interleave.dir/programs/sndfile-interleave.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-interleave.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-interleave.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-interleave.dir/programs/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-deinterleave.dir/programs/sndfile-deinterleave.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-deinterleave.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-deinterleave.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-deinterleave.dir/programs/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-concat.dir/programs/sndfile-concat.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-concat.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-concat.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-concat.dir/programs/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-salvage.dir/programs/sndfile-salvage.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-salvage.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/sndfile-salvage.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-salvage.dir/programs/common.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/programs/common.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-to-text.dir/examples/sndfile-to-text.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/sndfile-to-text.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/sndfile-to-text.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sndfile-loopify.dir/examples/sndfile-loopify.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/sndfile-loopify.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/sndfile-loopify.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/make_sine.dir/examples/make_sine.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/make_sine.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/make_sine.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sfprocess.dir/examples/sfprocess.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/sfprocess.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/sfprocess.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/list_formats.dir/examples/list_formats.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/list_formats.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/list_formats.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/generate.dir/examples/generate.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/generate.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/generate.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang++-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -o CMakeFiles/sndfilehandle.dir/examples/sndfilehandle.cc.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/sndfilehandle.cc",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/examples/sndfilehandle.cc"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_utils.dir/tests/utils.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/utils.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/utils.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_main.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_main.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_main.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_conversions.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_conversions.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_conversions.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_float.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_float.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_float.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_endswap.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src/test_endswap.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src/test_endswap.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_audio_detect.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_audio_detect.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_audio_detect.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_log_printf.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_log_printf.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_log_printf.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_file_io.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_file_io.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_file_io.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_ima_oki_adpcm.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_ima_oki_adpcm.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_ima_oki_adpcm.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_strncpy_crlf.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_strncpy_crlf.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_strncpy_crlf.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_broadcast_var.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_broadcast_var.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_broadcast_var.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_cart_var.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_cart_var.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_cart_var.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_binheader_writef.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_binheader_writef.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_binheader_writef.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/test_main.dir/src/test_nms_adpcm.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_nms_adpcm.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/test_nms_adpcm.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/sfversion.dir/tests/sfversion.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/sfversion.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/sfversion.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/error_test.dir/tests/error_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/error_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/error_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/ulaw_test.dir/tests/ulaw_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/ulaw_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/ulaw_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/alaw_test.dir/tests/alaw_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/alaw_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/alaw_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/dwvw_test.dir/tests/dwvw_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/dwvw_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/dwvw_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/command_test.dir/tests/command_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/command_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/command_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/floating_point_test.dir/tests/dft_cmp.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/dft_cmp.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/dft_cmp.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/floating_point_test.dir/tests/floating_point_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/floating_point_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/floating_point_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/checksum_test.dir/tests/checksum_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/checksum_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/checksum_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/scale_clip_test.dir/tests/scale_clip_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/scale_clip_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/scale_clip_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/headerless_test.dir/tests/headerless_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/headerless_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/headerless_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/rdwr_test.dir/tests/rdwr_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/rdwr_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/rdwr_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/locale_test.dir/tests/locale_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/locale_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/locale_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang++-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -o CMakeFiles/cpp_test.dir/tests/cpp_test.cc.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/cpp_test.cc",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/cpp_test.cc"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/external_libs_test.dir/tests/external_libs_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/external_libs_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/external_libs_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/format_check_test.dir/tests/format_check_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/format_check_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/format_check_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/channel_test.dir/tests/channel_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/channel_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/channel_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/pcm_test.dir/tests/pcm_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/pcm_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/pcm_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/write_read_test.dir/tests/generate.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/generate.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/generate.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/write_read_test.dir/tests/write_read_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/write_read_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/write_read_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/lossy_comp_test.dir/tests/lossy_comp_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/lossy_comp_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/lossy_comp_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/peak_chunk_test.dir/tests/peak_chunk_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/peak_chunk_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/peak_chunk_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/header_test.dir/tests/header_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/header_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/header_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/misc_test.dir/tests/misc_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/misc_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/misc_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/string_test.dir/tests/string_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/string_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/string_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/multi_file_test.dir/tests/multi_file_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/multi_file_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/multi_file_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/aiff_rw_test.dir/tests/aiff_rw_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/aiff_rw_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/aiff_rw_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/chunk_test.dir/tests/chunk_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/chunk_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/chunk_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/long_read_write_test.dir/tests/long_read_write_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/long_read_write_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/long_read_write_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/raw_test.dir/tests/raw_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/raw_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/raw_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/compression_size_test.dir/tests/compression_size_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/compression_size_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/compression_size_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/ogg_test.dir/tests/ogg_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/ogg_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/ogg_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/ogg_opus_test.dir/tests/ogg_opus_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/ogg_opus_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/ogg_opus_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/mpeg_test.dir/tests/mpeg_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/mpeg_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/mpeg_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/stdin_test.dir/tests/stdin_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/stdin_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/stdin_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/stdout_test.dir/tests/stdout_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/stdout_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/stdout_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/stdio_test.dir/tests/stdio_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/stdio_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/stdio_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/pipe_test.dir/tests/pipe_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/pipe_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests/pipe_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/tests -O2 -g -std=gnu99 -o CMakeFiles/virtual_io_test.dir/tests/virtual_io_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/virtual_io_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/tests/virtual_io_test.c"
+},
+{
+  "directory": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild",
+  "command": "/usr/bin/clang-14  -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/src -I/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/include -I/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/include -O2 -g -std=gnu99 -o CMakeFiles/g72x_test.dir/src/G72x/g72x_test.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g72x_test.c",
+  "file": "/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/src/G72x/g72x_test.c"
+}
+]

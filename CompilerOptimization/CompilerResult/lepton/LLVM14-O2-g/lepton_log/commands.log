@@ -1,0 +1,9 @@
+[2026-03-20T11:55:22Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM14-O2-g/lepton_build
+[2026-03-20T11:55:22Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM14-O2-g/lepton_build
+[2026-03-20T11:55:23Z] cmake -S /home/jimi/PaperExperiment/CompilerOptimization/Target/lepton -B /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM14-O2-g/lepton_build -G Unix Makefiles -DCMAKE_C_COMPILER=clang-14 -DCMAKE_CXX_COMPILER=clang++-14 -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS_RELEASE=-O2 -g -DCMAKE_CXX_FLAGS_RELEASE=-O2 -g -DCMAKE_C_FLAGS=-std=c99 -DHAVE_CONFIG_H -O2 -g -DCMAKE_CXX_FLAGS=-std=c++11 -fno-exceptions -fno-rtti -O2 -g -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+[2026-03-20T11:55:24Z] cmake --build /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM14-O2-g/lepton_build -j10
+[2026-03-20T11:56:03Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM14-O2-g/lepton_build/compile_commands.json /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM14-O2-g/lepton_artifacts/compile_commands.json
+[2026-03-20T11:56:03Z] python3_recompile_lepton_objects_to_bc
+[2026-03-20T11:56:51Z] llvm-link-14_lepton_objects
+[2026-03-20T11:56:53Z] llvm-dis-14_lepton_bc
+[2026-03-20T11:56:54Z] llvm-nm-14_main_symbol_check

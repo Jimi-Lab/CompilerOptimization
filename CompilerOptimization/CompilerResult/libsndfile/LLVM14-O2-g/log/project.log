@@ -1,0 +1,525 @@
+project=libsndfile
+source=/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile
+start_utc=2026-03-20T12:17:36Z
+policy=README cmake flow (mkdir CMakeBuild; cmake ..; cmake --build .) with clang-14 -O2 -g
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang-14 - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++-14 - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- 
+-- 
+-- Checking large files support...
+-- 
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- 
+-- Checking size of off_t without any definitions:
+-- Check size of off_t
+-- Check size of off_t - done
+-- Checking of off_t without any definitions: 8
+-- 
+-- Result of checking large files support: supported
+
+
+-- Could NOT find ALSA (missing: ALSA_LIBRARY ALSA_INCLUDE_DIR) 
+-- Could NOT find Sndio (missing: SNDIO_LIBRARY SNDIO_INCLUDE_DIR) 
+-- Could NOT find Ogg (missing: OGG_LIBRARY OGG_INCLUDE_DIR) (Required is at least version "1.3")
+-- Could NOT find Vorbis (missing: Vorbis_Vorbis_LIBRARY Vorbis_Vorbis_INCLUDE_DIR Ogg_FOUND Enc) 
+-- Could NOT find FLAC (missing: FLAC_LIBRARY FLAC_INCLUDE_DIR Ogg_FOUND) 
+-- Could NOT find Opus (missing: OPUS_LIBRARY OPUS_INCLUDE_DIR OGG_FOUND) 
+-- Could NOT find mp3lame (missing: MP3LAME_LIBRARY MP3LAME_INCLUDE_DIR) 
+-- Could NOT find mpg123 (missing: mpg123_LIBRARY mpg123_INCLUDE_DIR) (Required is at least version "1.25.10")
+-- Could NOT find Speex (missing: SPEEX_LIBRARY SPEEX_INCLUDE_DIR) 
+-- Could NOT find SQLite3 (missing: SQLite3_INCLUDE_DIR SQLite3_LIBRARY) 
+-- Looking for byteswap.h
+-- Looking for byteswap.h - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for direct.h
+-- Looking for direct.h - not found
+-- Looking for endian.h
+-- Looking for endian.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for io.h
+-- Looking for io.h - not found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for immintrin.h
+-- Looking for immintrin.h - found
+-- Looking for stdbool.h
+-- Looking for stdbool.h - found
+-- Check CPU architecture is x86
+-- Check CPU architecture is x86 - no
+-- Check CPU architecture is x64
+-- Check CPU architecture is x64 - yes
+-- Looking for locale.h
+-- Looking for locale.h - found
+-- Looking for sys/wait.h
+-- Looking for sys/wait.h - found
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of wchar_t
+-- Check size of wchar_t - done
+-- Looking for floor in m
+-- Looking for floor in m - found
+-- Looking for sqlite3_close in sqlite3
+-- Looking for sqlite3_close in sqlite3 - not found
+-- Looking for fstat
+-- Looking for fstat - found
+-- Looking for fstat64
+-- Looking for fstat64 - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for gmtime
+-- Looking for gmtime - found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - found
+-- Looking for localtime
+-- Looking for localtime - found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for lseek
+-- Looking for lseek - found
+-- Looking for open
+-- Looking for open - found
+-- Looking for read
+-- Looking for read - found
+-- Looking for write
+-- Looking for write - found
+-- Looking for lrint
+-- Looking for lrint - found
+-- Looking for lrintf
+-- Looking for lrintf - found
+-- Looking for ftruncate
+-- Looking for ftruncate - found
+-- Looking for fsync
+-- Looking for fsync - found
+-- Looking for pipe
+-- Looking for pipe - found
+-- Looking for setlocale
+-- Looking for setlocale - found
+-- Looking for waitpid
+-- Looking for waitpid - found
+-- Looking for S_IRGRP
+-- Looking for S_IRGRP - found
+-- Checking for inline...
+-- Checking for inline... supported
+-- The following features have been enabled:
+
+ * BUILD_TESTING, build tests
+ * ENABLE_CPACK, enable CPack support
+ * ENABLE_PACKAGE_CONFIG, generate and install package config file
+ * INSTALL_PKGCONFIG_MODULE, generate and install pkg-config module
+ * INSTALL_MANPAGES, install man pages for programs
+
+-- The following features have been disabled:
+
+ * BUILD_SHARED_LIBS, build shared libraries
+ * ENABLE_EXTERNAL_LIBS, enable FLAC, Vorbis, and Opus codecs
+ * ENABLE_MPEG, enable MPEG audio (including mp3) codecs
+ * ENABLE_EXPERIMENTAL, enable experimental code
+ * BUILD_REGTEST, build regtest
+ * ENABLE_BOW_DOCS, enable black-on-white html docs
+
+-- The following OPTIONAL packages have not been found:
+
+ * ALSA
+ * Sndio
+ * Speex, an audio codec tuned for speech, <www.speex.org/>
+   Enables experimental Speex support
+ * SQLite3, light weight SQL database engine., <www.sqlite.org/>
+   Enables regtest
+
+-- The following RECOMMENDED packages have not been found:
+
+ * Vorbis, open source lossy audio codec, <www.vorbis.com/>
+   Enables Vorbis support
+ * FLAC, Free Lossless Audio Codec Library, <www.xiph.org/flac/>
+   Enables FLAC support
+ * Opus, Standardized open source low-latency fullband codec, <www.opus-codec.org/>
+   Enables experimental Opus support
+ * mp3lame, High quality MPEG Audio Layer III (MP3) encoder, <https://lame.sourceforge.io/>
+   Enables MPEG layer III (MP3) writing support
+ * mpg123 (required version >= 1.25.10), MPEG Audio Layer I/II/III decoder, <https://www.mpg123.de/>
+   Enables MPEG Audio reading support
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild
+-- Could NOT find ALSA (missing: ALSA_LIBRARY ALSA_INCLUDE_DIR) 
+-- Could NOT find Sndio (missing: SNDIO_LIBRARY SNDIO_INCLUDE_DIR) 
+-- Could NOT find Ogg (missing: OGG_LIBRARY OGG_INCLUDE_DIR) (Required is at least version "1.3")
+-- Could NOT find Vorbis (missing: Vorbis_Vorbis_LIBRARY Vorbis_Vorbis_INCLUDE_DIR Ogg_FOUND Enc) 
+-- Could NOT find FLAC (missing: FLAC_LIBRARY FLAC_INCLUDE_DIR Ogg_FOUND) 
+-- Could NOT find Opus (missing: OPUS_LIBRARY OPUS_INCLUDE_DIR OGG_FOUND) 
+-- Could NOT find mp3lame (missing: MP3LAME_LIBRARY MP3LAME_INCLUDE_DIR) 
+-- Could NOT find mpg123 (missing: mpg123_LIBRARY mpg123_INCLUDE_DIR) (Required is at least version "1.25.10")
+-- Could NOT find Speex (missing: SPEEX_LIBRARY SPEEX_INCLUDE_DIR) 
+-- Could NOT find SQLite3 (missing: SQLite3_INCLUDE_DIR SQLite3_LIBRARY) 
+-- The following features have been enabled:
+
+ * BUILD_TESTING, build tests
+ * ENABLE_CPACK, enable CPack support
+ * ENABLE_PACKAGE_CONFIG, generate and install package config file
+ * INSTALL_PKGCONFIG_MODULE, generate and install pkg-config module
+ * INSTALL_MANPAGES, install man pages for programs
+
+-- The following features have been disabled:
+
+ * BUILD_SHARED_LIBS, build shared libraries
+ * ENABLE_EXTERNAL_LIBS, enable FLAC, Vorbis, and Opus codecs
+ * ENABLE_MPEG, enable MPEG audio (including mp3) codecs
+ * ENABLE_EXPERIMENTAL, enable experimental code
+ * BUILD_REGTEST, build regtest
+ * ENABLE_BOW_DOCS, enable black-on-white html docs
+
+-- The following OPTIONAL packages have not been found:
+
+ * ALSA
+ * Sndio
+ * Speex, an audio codec tuned for speech, <www.speex.org/>
+   Enables experimental Speex support
+ * SQLite3, light weight SQL database engine., <www.sqlite.org/>
+   Enables regtest
+
+-- The following RECOMMENDED packages have not been found:
+
+ * Vorbis, open source lossy audio codec, <www.vorbis.com/>
+   Enables Vorbis support
+ * FLAC, Free Lossless Audio Codec Library, <www.xiph.org/flac/>
+   Enables FLAC support
+ * Opus, Standardized open source low-latency fullband codec, <www.opus-codec.org/>
+   Enables experimental Opus support
+ * mp3lame, High quality MPEG Audio Layer III (MP3) encoder, <https://lame.sourceforge.io/>
+   Enables MPEG layer III (MP3) writing support
+ * mpg123 (required version >= 1.25.10), MPEG Audio Layer I/II/III decoder, <https://www.mpg123.de/>
+   Enables MPEG Audio reading support
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild
+[  1%] Building C object CMakeFiles/sndfile.dir/src/ulaw.c.o
+[  1%] Building C object CMakeFiles/sndfile.dir/src/common.c.o
+[  2%] Building C object CMakeFiles/sndfile.dir/src/float32.c.o
+[  2%] Building C object CMakeFiles/sndfile.dir/src/double64.c.o
+[  2%] Building C object CMakeFiles/sndfile.dir/src/pcm.c.o
+[  2%] Building C object CMakeFiles/sndfile.dir/src/file_io.c.o
+[  3%] Building C object CMakeFiles/sndfile.dir/src/command.c.o
+[  3%] Building C object CMakeFiles/sndfile.dir/src/ima_adpcm.c.o
+[  4%] Building C object CMakeFiles/sndfile.dir/src/ms_adpcm.c.o
+[  4%] Building C object CMakeFiles/sndfile.dir/src/alaw.c.o
+[  4%] Building C object CMakeFiles/sndfile.dir/src/gsm610.c.o
+[  4%] Building C object CMakeFiles/sndfile.dir/src/vox_adpcm.c.o
+[  5%] Building C object CMakeFiles/sndfile.dir/src/dwvw.c.o
+[  5%] Building C object CMakeFiles/sndfile.dir/src/interleave.c.o
+[  6%] Building C object CMakeFiles/sndfile.dir/src/strings.c.o
+[  6%] Building C object CMakeFiles/sndfile.dir/src/dither.c.o
+[  7%] Building C object CMakeFiles/sndfile.dir/src/cart.c.o
+[  7%] Building C object CMakeFiles/sndfile.dir/src/broadcast.c.o
+[  8%] Building C object CMakeFiles/sndfile.dir/src/audio_detect.c.o
+[  8%] Building C object CMakeFiles/sndfile.dir/src/ima_oki_adpcm.c.o
+[  8%] Building C object CMakeFiles/sndfile.dir/src/alac.c.o
+[  9%] Building C object CMakeFiles/sndfile.dir/src/chunk.c.o
+[ 10%] Building C object CMakeFiles/sndfile.dir/src/chanmap.c.o
+[ 10%] Building C object CMakeFiles/sndfile.dir/src/id3.c.o
+[ 10%] Building C object CMakeFiles/sndfile.dir/src/ogg.c.o
+[ 11%] Building C object CMakeFiles/sndfile.dir/src/aiff.c.o
+[ 11%] Building C object CMakeFiles/sndfile.dir/src/sndfile.c.o
+[ 11%] Building C object CMakeFiles/sndfile.dir/src/au.c.o
+[ 12%] Building C object CMakeFiles/sndfile.dir/src/avr.c.o
+[ 12%] Building C object CMakeFiles/sndfile.dir/src/caf.c.o
+[ 13%] Building C object CMakeFiles/sndfile.dir/src/dwd.c.o
+[ 13%] Building C object CMakeFiles/sndfile.dir/src/flac.c.o
+[ 13%] Building C object CMakeFiles/sndfile.dir/src/g72x.c.o
+[ 14%] Building C object CMakeFiles/sndfile.dir/src/htk.c.o
+[ 14%] Building C object CMakeFiles/sndfile.dir/src/ircam.c.o
+[ 15%] Building C object CMakeFiles/sndfile.dir/src/macos.c.o
+[ 15%] Building C object CMakeFiles/sndfile.dir/src/mat4.c.o
+[ 15%] Building C object CMakeFiles/sndfile.dir/src/mat5.c.o
+[ 16%] Building C object CMakeFiles/sndfile.dir/src/nist.c.o
+[ 16%] Building C object CMakeFiles/sndfile.dir/src/paf.c.o
+[ 18%] Building C object CMakeFiles/sndfile.dir/src/raw.c.o
+[ 18%] Building C object CMakeFiles/sndfile.dir/src/rx2.c.o
+[ 18%] Building C object CMakeFiles/sndfile.dir/src/pvf.c.o
+[ 18%] Building C object CMakeFiles/sndfile.dir/src/sd2.c.o
+[ 18%] Building C object CMakeFiles/sndfile.dir/src/sds.c.o
+[ 19%] Building C object CMakeFiles/sndfile.dir/src/svx.c.o
+[ 19%] Building C object CMakeFiles/sndfile.dir/src/txw.c.o
+[ 20%] Building C object CMakeFiles/sndfile.dir/src/voc.c.o
+[ 20%] Building C object CMakeFiles/sndfile.dir/src/wve.c.o
+[ 20%] Building C object CMakeFiles/sndfile.dir/src/w64.c.o
+[ 20%] Building C object CMakeFiles/sndfile.dir/src/wav.c.o
+[ 21%] Building C object CMakeFiles/sndfile.dir/src/wavlike.c.o
+[ 22%] Building C object CMakeFiles/sndfile.dir/src/xi.c.o
+[ 22%] Building C object CMakeFiles/sndfile.dir/src/mpc2k.c.o
+[ 23%] Building C object CMakeFiles/sndfile.dir/src/rf64.c.o
+[ 23%] Building C object CMakeFiles/sndfile.dir/src/ogg_vorbis.c.o
+[ 23%] Building C object CMakeFiles/sndfile.dir/src/ogg_speex.c.o
+[ 24%] Building C object CMakeFiles/sndfile.dir/src/ogg_pcm.c.o
+[ 24%] Building C object CMakeFiles/sndfile.dir/src/ogg_opus.c.o
+[ 25%] Building C object CMakeFiles/sndfile.dir/src/ogg_vcomment.c.o
+[ 25%] Building C object CMakeFiles/sndfile.dir/src/nms_adpcm.c.o
+[ 25%] Building C object CMakeFiles/sndfile.dir/src/mpeg.c.o
+[ 26%] Building C object CMakeFiles/sndfile.dir/src/mpeg_decode.c.o
+[ 26%] Building C object CMakeFiles/sndfile.dir/src/mpeg_l3_encode.c.o
+[ 27%] Building C object CMakeFiles/sndfile.dir/src/GSM610/add.c.o
+[ 27%] Building C object CMakeFiles/sndfile.dir/src/GSM610/code.c.o
+[ 28%] Building C object CMakeFiles/sndfile.dir/src/GSM610/decode.c.o
+[ 28%] Building C object CMakeFiles/sndfile.dir/src/GSM610/gsm_create.c.o
+[ 28%] Building C object CMakeFiles/sndfile.dir/src/GSM610/gsm_decode.c.o
+[ 29%] Building C object CMakeFiles/sndfile.dir/src/GSM610/gsm_destroy.c.o
+[ 29%] Building C object CMakeFiles/sndfile.dir/src/GSM610/gsm_encode.c.o
+[ 30%] Building C object CMakeFiles/sndfile.dir/src/GSM610/gsm_option.c.o
+[ 30%] Building C object CMakeFiles/sndfile.dir/src/GSM610/lpc.c.o
+[ 30%] Building C object CMakeFiles/sndfile.dir/src/GSM610/long_term.c.o
+[ 31%] Building C object CMakeFiles/sndfile.dir/src/GSM610/preprocess.c.o
+[ 31%] Building C object CMakeFiles/sndfile.dir/src/GSM610/rpe.c.o
+[ 31%] Building C object CMakeFiles/sndfile.dir/src/GSM610/table.c.o
+[ 32%] Building C object CMakeFiles/sndfile.dir/src/GSM610/short_term.c.o
+[ 33%] Building C object CMakeFiles/sndfile.dir/src/G72x/g721.c.o
+[ 33%] Building C object CMakeFiles/sndfile.dir/src/G72x/g723_16.c.o
+[ 33%] Building C object CMakeFiles/sndfile.dir/src/G72x/g72x.c.o
+[ 33%] Building C object CMakeFiles/sndfile.dir/src/G72x/g723_24.c.o
+[ 34%] Building C object CMakeFiles/sndfile.dir/src/G72x/g723_40.c.o
+[ 34%] Building C object CMakeFiles/sndfile.dir/src/ALAC/ag_dec.c.o
+[ 35%] Building C object CMakeFiles/sndfile.dir/src/ALAC/ALACBitUtilities.c.o
+[ 35%] Building C object CMakeFiles/sndfile.dir/src/ALAC/ag_enc.c.o
+[ 36%] Building C object CMakeFiles/sndfile.dir/src/ALAC/dp_dec.c.o
+[ 36%] Building C object CMakeFiles/sndfile.dir/src/ALAC/dp_enc.c.o
+[ 36%] Building C object CMakeFiles/sndfile.dir/src/ALAC/matrix_enc.c.o
+[ 37%] Building C object CMakeFiles/sndfile.dir/src/ALAC/matrix_dec.c.o
+[ 38%] Building C object CMakeFiles/sndfile.dir/src/ALAC/alac_decoder.c.o
+[ 38%] Building C object CMakeFiles/sndfile.dir/src/ALAC/alac_encoder.c.o
+[ 38%] Linking C static library libsndfile.a
+[ 38%] Built target sndfile
+[ 38%] Building C object CMakeFiles/sndfile-convert.dir/programs/sndfile-convert.c.o
+[ 39%] Building C object CMakeFiles/sndfile-cmp.dir/programs/sndfile-cmp.c.o
+[ 40%] Building C object CMakeFiles/sndfile-info.dir/programs/sndfile-info.c.o
+[ 41%] Building C object CMakeFiles/sndfile-play.dir/programs/sndfile-play.c.o
+[ 42%] Building C object CMakeFiles/sndfile-salvage.dir/programs/sndfile-salvage.c.o
+[ 42%] Building C object CMakeFiles/sndfile-metadata-set.dir/programs/sndfile-metadata-set.c.o
+[ 42%] Building C object CMakeFiles/sndfile-metadata-get.dir/programs/sndfile-metadata-get.c.o
+[ 42%] Building C object CMakeFiles/sndfile-interleave.dir/programs/sndfile-interleave.c.o
+[ 42%] Building C object CMakeFiles/sndfile-concat.dir/programs/sndfile-concat.c.o
+[ 43%] Building C object CMakeFiles/sndfile-deinterleave.dir/programs/sndfile-deinterleave.c.o
+[ 43%] Building C object CMakeFiles/sndfile-concat.dir/programs/common.c.o
+[ 44%] Building C object CMakeFiles/sndfile-convert.dir/programs/common.c.o
+[ 44%] Building C object CMakeFiles/sndfile-salvage.dir/programs/common.c.o
+[ 44%] Building C object CMakeFiles/sndfile-cmp.dir/programs/common.c.o
+[ 44%] Building C object CMakeFiles/sndfile-interleave.dir/programs/common.c.o
+[ 44%] Building C object CMakeFiles/sndfile-deinterleave.dir/programs/common.c.o
+[ 45%] Building C object CMakeFiles/sndfile-metadata-get.dir/programs/common.c.o
+[ 45%] Building C object CMakeFiles/sndfile-info.dir/programs/common.c.o
+[ 46%] Building C object CMakeFiles/sndfile-metadata-set.dir/programs/common.c.o
+[ 46%] Building C object CMakeFiles/sndfile-play.dir/programs/common.c.o
+[ 47%] Linking C executable sndfile-concat
+[ 48%] Linking C executable sndfile-salvage
+[ 49%] Linking C executable sndfile-interleave
+[ 49%] Linking C executable sndfile-convert
+[ 50%] Linking C executable sndfile-cmp
+[ 49%] Linking C executable sndfile-deinterleave
+[ 50%] Built target sndfile-concat
+[ 50%] Linking C executable sndfile-metadata-get
+[ 51%] Linking C executable sndfile-info
+[ 51%] Building C object CMakeFiles/sndfile-to-text.dir/examples/sndfile-to-text.c.o
+[ 51%] Linking C executable sndfile-metadata-set
+[ 51%] Linking C executable sndfile-play
+[ 51%] Built target sndfile-convert
+[ 51%] Built target sndfile-salvage
+[ 51%] Building C object CMakeFiles/sndfile-loopify.dir/examples/sndfile-loopify.c.o
+[ 51%] Built target sndfile-cmp
+[ 52%] Building C object CMakeFiles/make_sine.dir/examples/make_sine.c.o
+[ 52%] Built target sndfile-deinterleave
+[ 52%] Built target sndfile-interleave
+[ 52%] Built target sndfile-info
+[ 53%] Linking C executable sndfile-to-text
+[ 53%] Built target sndfile-metadata-get
+[ 53%] Building C object CMakeFiles/sfprocess.dir/examples/sfprocess.c.o
+[ 53%] Building C object CMakeFiles/generate.dir/examples/generate.c.o
+[ 53%] Built target sndfile-metadata-set
+[ 54%] Linking C executable sndfile-loopify
+[ 54%] Built target sndfile-play
+[ 54%] Building CXX object CMakeFiles/sndfilehandle.dir/examples/sndfilehandle.cc.o
+[ 54%] Building C object CMakeFiles/list_formats.dir/examples/list_formats.c.o
+[ 54%] CMakeAutoGen: generating utils.c;utils.h
+[ 54%] CMakeAutoGen: generating test_endswap.c
+[ 54%] Building C object CMakeFiles/sfversion.dir/tests/sfversion.c.o
+[ 54%] Linking C executable make_sine
+[ 55%] Linking C executable sfprocess
+[ 56%] Linking C executable generate
+[ 56%] Built target sndfile-to-text
+[ 57%] Linking C executable list_formats
+[ 58%] Building C object CMakeFiles/test_main.dir/src/test_main.c.o
+[ 58%] Built target sndfile-loopify
+[ 59%] Linking C executable sfversion
+[ 59%] Building C object CMakeFiles/test_main.dir/src/test_conversions.c.o
+[ 60%] Building C object CMakeFiles/g72x_test.dir/src/G72x/g72x_test.c.o
+[ 60%] Built target sfprocess
+[ 60%] Building C object CMakeFiles/test_main.dir/src/test_float.c.o
+[ 60%] Built target make_sine
+[ 60%] Built target generate
+[ 61%] Building C object CMakeFiles/test_main.dir/src/test_endswap.c.o
+[ 61%] Building C object CMakeFiles/test_main.dir/src/test_audio_detect.c.o
+[ 62%] Building C object CMakeFiles/test_main.dir/src/test_log_printf.c.o
+[ 62%] Built target sfversion
+[ 62%] Building C object CMakeFiles/test_main.dir/src/test_file_io.c.o
+[ 62%] Built target list_formats
+[ 62%] Building C object CMakeFiles/test_main.dir/src/test_ima_oki_adpcm.c.o
+[ 62%] Linking C executable g72x_test
+[ 63%] Building C object CMakeFiles/test_utils.dir/tests/utils.c.o
+[ 63%] Built target g72x_test
+[ 64%] Building C object CMakeFiles/test_main.dir/src/test_strncpy_crlf.c.o
+[ 64%] Building C object CMakeFiles/test_main.dir/src/test_broadcast_var.c.o
+[ 65%] Building C object CMakeFiles/test_main.dir/src/test_cart_var.c.o
+[ 65%] Building C object CMakeFiles/test_main.dir/src/test_binheader_writef.c.o
+[ 66%] Building C object CMakeFiles/test_main.dir/src/test_nms_adpcm.c.o
+[ 66%] Linking C static library libtest_utils.a
+[ 66%] Built target test_utils
+[ 66%] CMakeAutoGen: generating floating_point_test.c
+[ 67%] Building C object CMakeFiles/ulaw_test.dir/tests/ulaw_test.c.o
+[ 68%] Building C object CMakeFiles/dwvw_test.dir/tests/dwvw_test.c.o
+[ 69%] Building C object CMakeFiles/alaw_test.dir/tests/alaw_test.c.o
+[ 69%] Building C object CMakeFiles/command_test.dir/tests/command_test.c.o
+[ 69%] Building C object CMakeFiles/error_test.dir/tests/error_test.c.o
+[ 69%] CMakeAutoGen: generating scale_clip_test.c
+[ 69%] Linking CXX executable sndfilehandle
+[ 69%] Building C object CMakeFiles/checksum_test.dir/tests/checksum_test.c.o
+[ 69%] Linking C executable dwvw_test
+[ 69%] Linking C executable alaw_test
+[ 69%] Linking C executable ulaw_test
+[ 70%] Linking C executable checksum_test
+[ 71%] Linking C executable error_test
+[ 72%] Building C object CMakeFiles/scale_clip_test.dir/tests/scale_clip_test.c.o
+[ 72%] Built target dwvw_test
+[ 73%] Building C object CMakeFiles/floating_point_test.dir/tests/dft_cmp.c.o
+[ 73%] Built target alaw_test
+[ 73%] Built target sndfilehandle
+[ 73%] Built target ulaw_test
+[ 73%] Building C object CMakeFiles/floating_point_test.dir/tests/floating_point_test.c.o
+[ 73%] Building C object CMakeFiles/locale_test.dir/tests/locale_test.c.o
+[ 74%] CMakeAutoGen: generating rdwr_test.c
+[ 75%] Building C object CMakeFiles/headerless_test.dir/tests/headerless_test.c.o
+[ 75%] Built target checksum_test
+[ 75%] Built target error_test
+[ 76%] Linking C executable locale_test
+[ 77%] Building CXX object CMakeFiles/cpp_test.dir/tests/cpp_test.cc.o
+[ 77%] Building C object CMakeFiles/external_libs_test.dir/tests/external_libs_test.c.o
+[ 78%] Linking C executable command_test
+[ 78%] Building C object CMakeFiles/rdwr_test.dir/tests/rdwr_test.c.o
+[ 79%] Building C object CMakeFiles/format_check_test.dir/tests/format_check_test.c.o
+[ 79%] Linking C executable floating_point_test
+[ 79%] Linking C executable headerless_test
+[ 79%] Linking C executable test_main
+[ 80%] Linking C executable external_libs_test
+[ 80%] Linking C executable scale_clip_test
+[ 81%] Linking C executable rdwr_test
+[ 81%] Built target locale_test
+[ 81%] Built target command_test
+[ 81%] Linking C executable format_check_test
+[ 82%] CMakeAutoGen: generating pcm_test.c
+[ 83%] Building C object CMakeFiles/channel_test.dir/tests/channel_test.c.o
+[ 83%] Built target test_main
+[ 83%] Built target floating_point_test
+[ 83%] CMakeAutoGen: generating write_read_test.c
+[ 83%] Built target external_libs_test
+[ 83%] Built target scale_clip_test
+[ 83%] Building C object CMakeFiles/pcm_test.dir/tests/pcm_test.c.o
+[ 83%] CMakeAutoGen: generating header_test.c
+[ 84%] Building C object CMakeFiles/lossy_comp_test.dir/tests/lossy_comp_test.c.o
+[ 84%] Building C object CMakeFiles/peak_chunk_test.dir/tests/peak_chunk_test.c.o
+[ 84%] Built target headerless_test
+[ 84%] Built target rdwr_test
+[ 85%] Building C object CMakeFiles/misc_test.dir/tests/misc_test.c.o
+[ 85%] Built target format_check_test
+[ 85%] Building C object CMakeFiles/string_test.dir/tests/string_test.c.o
+[ 86%] Building C object CMakeFiles/header_test.dir/tests/header_test.c.o
+[ 86%] Linking C executable channel_test
+[ 86%] Linking CXX executable cpp_test
+[ 86%] Building C object CMakeFiles/multi_file_test.dir/tests/multi_file_test.c.o
+[ 86%] Linking C executable peak_chunk_test
+[ 87%] Linking C executable multi_file_test
+[ 87%] Linking C executable misc_test
+[ 87%] Built target channel_test
+[ 87%] Linking C executable header_test
+[ 88%] Linking C executable string_test
+[ 88%] Built target cpp_test
+[ 88%] Built target multi_file_test
+[ 88%] Built target peak_chunk_test
+[ 88%] Building C object CMakeFiles/aiff_rw_test.dir/tests/aiff_rw_test.c.o
+[ 88%] Building C object CMakeFiles/chunk_test.dir/tests/chunk_test.c.o
+[ 88%] Built target misc_test
+[ 88%] Building C object CMakeFiles/long_read_write_test.dir/tests/long_read_write_test.c.o
+[ 88%] Building C object CMakeFiles/raw_test.dir/tests/raw_test.c.o
+[ 88%] Building C object CMakeFiles/compression_size_test.dir/tests/compression_size_test.c.o
+[ 88%] Linking C executable aiff_rw_test
+[ 88%] Built target header_test
+[ 88%] Built target string_test
+[ 89%] Linking C executable pcm_test
+[ 89%] Linking C executable long_read_write_test
+[ 90%] Building C object CMakeFiles/write_read_test.dir/tests/generate.c.o
+[ 91%] Linking C executable chunk_test
+[ 92%] Building C object CMakeFiles/ogg_test.dir/tests/ogg_test.c.o
+[ 92%] Linking C executable compression_size_test
+[ 92%] Linking C executable raw_test
+[ 92%] Building C object CMakeFiles/ogg_opus_test.dir/tests/ogg_opus_test.c.o
+[ 92%] Built target aiff_rw_test
+[ 92%] Building C object CMakeFiles/write_read_test.dir/tests/write_read_test.c.o
+[ 92%] Built target compression_size_test
+[ 92%] Building C object CMakeFiles/mpeg_test.dir/tests/mpeg_test.c.o
+[ 92%] Linking C executable ogg_test
+[ 92%] Built target pcm_test
+[ 92%] Built target long_read_write_test
+[ 93%] Building C object CMakeFiles/stdin_test.dir/tests/stdin_test.c.o
+[ 93%] Built target raw_test
+[ 93%] Linking C executable ogg_opus_test
+[ 94%] CMakeAutoGen: generating pipe_test.c
+[ 95%] Built target chunk_test
+[ 95%] Building C object CMakeFiles/stdio_test.dir/tests/stdio_test.c.o
+[ 95%] Building C object CMakeFiles/stdout_test.dir/tests/stdout_test.c.o
+[ 96%] Linking C executable mpeg_test
+[ 96%] Built target ogg_test
+[ 96%] Building C object CMakeFiles/pipe_test.dir/tests/pipe_test.c.o
+[ 96%] Building C object CMakeFiles/virtual_io_test.dir/tests/virtual_io_test.c.o
+[ 96%] Built target ogg_opus_test
+[ 96%] Linking C executable tests/stdin_test
+[ 96%] Linking C executable lossy_comp_test
+[ 96%] Linking C executable stdio_test
+[ 97%] Linking C executable tests/stdout_test
+[ 97%] Built target mpeg_test
+[ 98%] Linking C executable virtual_io_test
+[ 99%] Linking C executable pipe_test
+[ 99%] Built target lossy_comp_test
+[ 99%] Built target stdin_test
+[ 99%] Built target stdio_test
+[ 99%] Built target stdout_test
+[ 99%] Built target virtual_io_test
+[ 99%] Built target pipe_test
+[100%] Linking C executable write_read_test
+[100%] Built target write_read_test
+total_compile_commands 173
+commands_with_O2 173
+commands_with_g 173
+commands_with_O3 0
+selected_outputs 37
+done_utc=2026-03-20T12:18:03Z

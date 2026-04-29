@@ -1,0 +1,5 @@
+total_entries=796
+entries_with_O2=796
+entries_with_g=796
+entries_with_O0=0
+entries_with_clang14=796

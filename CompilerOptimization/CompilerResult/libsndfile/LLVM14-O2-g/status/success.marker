@@ -1,0 +1,5 @@
+build_dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild
+compile_commands=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/artifacts/compile_commands.json
+flag_check=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/artifacts/compile_flag_check.txt
+outputs_manifest=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/artifacts/build_outputs.list
+done_utc=2026-03-20T12:18:03Z

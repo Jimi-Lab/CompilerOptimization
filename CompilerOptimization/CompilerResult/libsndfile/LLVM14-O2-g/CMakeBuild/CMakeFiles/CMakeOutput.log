@@ -1,0 +1,963 @@
+The system is: Linux - 6.8.0-106-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang-14 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++-14 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a6b6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6b6c.dir/build.make CMakeFiles/cmTC_a6b6c.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang-14   -v -MD -MT CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Candidate multilib: x32;@mx32
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking C executable cmTC_a6b6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6b6c.dir/link.txt --verbose=1
+/usr/bin/clang-14  -v CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -o cmTC_a6b6c 
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Candidate multilib: x32;@mx32
+Selected multilib: .;@m64
+ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a6b6c /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/llvm-14/lib/clang/14.0.0/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/llvm-14/lib/clang/14.0.0/include] ==> [/usr/lib/llvm-14/lib/clang/14.0.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/llvm-14/lib/clang/14.0.0/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld-14|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a6b6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6b6c.dir/build.make CMakeFiles/cmTC_a6b6c.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang-14   -v -MD -MT CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Ubuntu clang version 14.0.0-1ubuntu1]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Candidate multilib: x32]
+  ignore line: [@mx32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/llvm-14/lib/clang/14.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_a6b6c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6b6c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang-14  -v CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -o cmTC_a6b6c ]
+  ignore line: [Ubuntu clang version 14.0.0-1ubuntu1]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Candidate multilib: x32]
+  ignore line: [@mx32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a6b6c /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a6b6c] ==> ignore
+    arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+    arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/llvm-14/bin/../lib] ==> dir [/usr/lib/llvm-14/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_a6b6c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/llvm-14/bin/../lib] ==> [/usr/lib/llvm-14/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib/llvm-14/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d9f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d9f0.dir/build.make CMakeFiles/cmTC_9d9f0.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++-14   -v -MD -MT CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Candidate multilib: x32;@mx32
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-14/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_9d9f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d9f0.dir/link.txt --verbose=1
+/usr/bin/clang++-14  -v CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9d9f0 
+Ubuntu clang version 14.0.0-1ubuntu1
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Candidate multilib: x32;@mx32
+Selected multilib: .;@m64
+ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d9f0 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11]
+    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11]
+    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward]
+    add: [/usr/lib/llvm-14/lib/clang/14.0.0/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/llvm-14/lib/clang/14.0.0/include] ==> [/usr/lib/llvm-14/lib/clang/14.0.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/llvm-14/lib/clang/14.0.0/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld-14|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d9f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d9f0.dir/build.make CMakeFiles/cmTC_9d9f0.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++-14   -v -MD -MT CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Ubuntu clang version 14.0.0-1ubuntu1]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Candidate multilib: x32]
+  ignore line: [@mx32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11]
+  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward]
+  ignore line: [ /usr/lib/llvm-14/lib/clang/14.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_9d9f0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d9f0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++-14  -v CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9d9f0 ]
+  ignore line: [Ubuntu clang version 14.0.0-1ubuntu1]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Candidate multilib: x32]
+  ignore line: [@mx32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d9f0 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9d9f0] ==> ignore
+    arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+    arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/llvm-14/bin/../lib] ==> dir [/usr/lib/llvm-14/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_9d9f0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+  collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/llvm-14/bin/../lib] ==> [/usr/lib/llvm-14/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib/llvm-14/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a057a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a057a.dir/build.make CMakeFiles/cmTC_a057a.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a057a.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_a057a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a057a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a057a.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a057a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a057a.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_a057a.dir/CheckIncludeFile.c.o -o cmTC_a057a 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fbbd9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fbbd9.dir/build.make CMakeFiles/cmTC_fbbd9.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbbd9.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_fbbd9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_fbbd9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_fbbd9.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fbbd9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbbd9.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_fbbd9.dir/CheckIncludeFile.c.o -o cmTC_fbbd9 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0ec51/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0ec51.dir/build.make CMakeFiles/cmTC_0ec51.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ec51.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_0ec51.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_0ec51.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_0ec51.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0ec51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ec51.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_0ec51.dir/CheckIncludeFile.c.o -o cmTC_0ec51 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84b18/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84b18.dir/build.make CMakeFiles/cmTC_84b18.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84b18.dir/SIZEOF_OFF_T.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_84b18.dir/SIZEOF_OFF_T.c.o -MF CMakeFiles/cmTC_84b18.dir/SIZEOF_OFF_T.c.o.d -o CMakeFiles/cmTC_84b18.dir/SIZEOF_OFF_T.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_84b18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84b18.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_84b18.dir/SIZEOF_OFF_T.c.o -o cmTC_84b18 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d00e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d00e2.dir/build.make CMakeFiles/cmTC_d00e2.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d00e2.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_d00e2.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_d00e2.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_d00e2.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d00e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d00e2.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_d00e2.dir/CheckIncludeFile.c.o -o cmTC_d00e2 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_384ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_384ac.dir/build.make CMakeFiles/cmTC_384ac.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_384ac.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_384ac.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_384ac.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_384ac.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_384ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_384ac.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_384ac.dir/CheckIncludeFile.c.o -o cmTC_384ac 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file endian.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6b12d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b12d.dir/build.make CMakeFiles/cmTC_6b12d.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b12d.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_6b12d.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_6b12d.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_6b12d.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6b12d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b12d.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_6b12d.dir/CheckIncludeFile.c.o -o cmTC_6b12d 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_000b3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_000b3.dir/build.make CMakeFiles/cmTC_000b3.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_000b3.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_000b3.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_000b3.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_000b3.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_000b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_000b3.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_000b3.dir/CheckIncludeFile.c.o -o cmTC_000b3 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_10271/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_10271.dir/build.make CMakeFiles/cmTC_10271.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10271.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_10271.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_10271.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_10271.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_10271
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10271.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_10271.dir/CheckIncludeFile.c.o -o cmTC_10271 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_783c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_783c1.dir/build.make CMakeFiles/cmTC_783c1.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_783c1.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_783c1.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_783c1.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_783c1.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_783c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_783c1.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_783c1.dir/CheckIncludeFile.c.o -o cmTC_783c1 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7df52/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7df52.dir/build.make CMakeFiles/cmTC_7df52.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7df52.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_7df52.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_7df52.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_7df52.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7df52
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7df52.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_7df52.dir/CheckIncludeFile.c.o -o cmTC_7df52 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4beaa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4beaa.dir/build.make CMakeFiles/cmTC_4beaa.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4beaa.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_4beaa.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_4beaa.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4beaa.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4beaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4beaa.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_4beaa.dir/CheckIncludeFile.c.o -o cmTC_4beaa 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aef05/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aef05.dir/build.make CMakeFiles/cmTC_aef05.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aef05.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_aef05.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_aef05.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_aef05.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_aef05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aef05.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_aef05.dir/CheckIncludeFile.c.o -o cmTC_aef05 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2136/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2136.dir/build.make CMakeFiles/cmTC_e2136.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2136.dir/CheckIncludeFile.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_e2136.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_e2136.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_e2136.dir/CheckIncludeFile.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e2136
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2136.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_e2136.dir/CheckIncludeFile.c.o -o cmTC_e2136 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6711b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6711b.dir/build.make CMakeFiles/cmTC_6711b.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6711b.dir/SIZEOF_INT64_T.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_6711b.dir/SIZEOF_INT64_T.c.o -MF CMakeFiles/cmTC_6711b.dir/SIZEOF_INT64_T.c.o.d -o CMakeFiles/cmTC_6711b.dir/SIZEOF_INT64_T.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
+Linking C executable cmTC_6711b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6711b.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_6711b.dir/SIZEOF_INT64_T.c.o -o cmTC_6711b 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c6cd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6cd4.dir/build.make CMakeFiles/cmTC_c6cd4.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6cd4.dir/SIZEOF_LONG.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_c6cd4.dir/SIZEOF_LONG.c.o -MF CMakeFiles/cmTC_c6cd4.dir/SIZEOF_LONG.c.o.d -o CMakeFiles/cmTC_c6cd4.dir/SIZEOF_LONG.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_c6cd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6cd4.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_c6cd4.dir/SIZEOF_LONG.c.o -o cmTC_c6cd4 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1cd8b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1cd8b.dir/build.make CMakeFiles/cmTC_1cd8b.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cd8b.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_1cd8b.dir/SIZEOF_LONG_LONG.c.o -MF CMakeFiles/cmTC_1cd8b.dir/SIZEOF_LONG_LONG.c.o.d -o CMakeFiles/cmTC_1cd8b.dir/SIZEOF_LONG_LONG.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_1cd8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cd8b.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_1cd8b.dir/SIZEOF_LONG_LONG.c.o -o cmTC_1cd8b 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae3eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae3eb.dir/build.make CMakeFiles/cmTC_ae3eb.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae3eb.dir/SIZEOF_SSIZE_T.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_ae3eb.dir/SIZEOF_SSIZE_T.c.o -MF CMakeFiles/cmTC_ae3eb.dir/SIZEOF_SSIZE_T.c.o.d -o CMakeFiles/cmTC_ae3eb.dir/SIZEOF_SSIZE_T.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
+Linking C executable cmTC_ae3eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae3eb.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_ae3eb.dir/SIZEOF_SSIZE_T.c.o -o cmTC_ae3eb 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of wchar_t passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55305/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55305.dir/build.make CMakeFiles/cmTC_55305.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55305.dir/SIZEOF_WCHAR_T.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_55305.dir/SIZEOF_WCHAR_T.c.o -MF CMakeFiles/cmTC_55305.dir/SIZEOF_WCHAR_T.c.o.d -o CMakeFiles/cmTC_55305.dir/SIZEOF_WCHAR_T.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CheckTypeSize/SIZEOF_WCHAR_T.c
+Linking C executable cmTC_55305
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55305.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_55305.dir/SIZEOF_WCHAR_T.c.o -o cmTC_55305 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function floor exists in the m passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d71ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d71ff.dir/build.make CMakeFiles/cmTC_d71ff.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d71ff.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=floor -std=gnu99 -MD -MT CMakeFiles/cmTC_d71ff.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d71ff.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d71ff.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+Linking C executable cmTC_d71ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d71ff.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=floor CMakeFiles/cmTC_d71ff.dir/CheckFunctionExists.c.o -o cmTC_d71ff  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fstat exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3d64/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3d64.dir/build.make CMakeFiles/cmTC_e3d64.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3d64.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=fstat -std=gnu99 -MD -MT CMakeFiles/cmTC_e3d64.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_e3d64.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_e3d64.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e3d64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3d64.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=fstat CMakeFiles/cmTC_e3d64.dir/CheckFunctionExists.c.o -o cmTC_e3d64  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fstat64 exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6e1e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e1e2.dir/build.make CMakeFiles/cmTC_6e1e2.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e1e2.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=fstat64 -std=gnu99 -MD -MT CMakeFiles/cmTC_6e1e2.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_6e1e2.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_6e1e2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6e1e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e1e2.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=fstat64 CMakeFiles/cmTC_6e1e2.dir/CheckFunctionExists.c.o -o cmTC_6e1e2  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2ddf6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2ddf6.dir/build.make CMakeFiles/cmTC_2ddf6.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ddf6.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=gettimeofday -std=gnu99 -MD -MT CMakeFiles/cmTC_2ddf6.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_2ddf6.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_2ddf6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2ddf6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ddf6.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=gettimeofday CMakeFiles/cmTC_2ddf6.dir/CheckFunctionExists.c.o -o cmTC_2ddf6  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gmtime exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eeab3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eeab3.dir/build.make CMakeFiles/cmTC_eeab3.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eeab3.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=gmtime -std=gnu99 -MD -MT CMakeFiles/cmTC_eeab3.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_eeab3.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_eeab3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eeab3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeab3.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=gmtime CMakeFiles/cmTC_eeab3.dir/CheckFunctionExists.c.o -o cmTC_eeab3  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gmtime_r exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e91a9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e91a9.dir/build.make CMakeFiles/cmTC_e91a9.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e91a9.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=gmtime_r -std=gnu99 -MD -MT CMakeFiles/cmTC_e91a9.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_e91a9.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_e91a9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e91a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e91a9.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=gmtime_r CMakeFiles/cmTC_e91a9.dir/CheckFunctionExists.c.o -o cmTC_e91a9  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function localtime exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d6dd7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d6dd7.dir/build.make CMakeFiles/cmTC_d6dd7.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6dd7.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=localtime -std=gnu99 -MD -MT CMakeFiles/cmTC_d6dd7.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d6dd7.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d6dd7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d6dd7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6dd7.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=localtime CMakeFiles/cmTC_d6dd7.dir/CheckFunctionExists.c.o -o cmTC_d6dd7  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function localtime_r exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74bbd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74bbd.dir/build.make CMakeFiles/cmTC_74bbd.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74bbd.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=localtime_r -std=gnu99 -MD -MT CMakeFiles/cmTC_74bbd.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_74bbd.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_74bbd.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74bbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74bbd.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=localtime_r CMakeFiles/cmTC_74bbd.dir/CheckFunctionExists.c.o -o cmTC_74bbd  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function lseek exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9ad9e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ad9e.dir/build.make CMakeFiles/cmTC_9ad9e.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ad9e.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=lseek -std=gnu99 -MD -MT CMakeFiles/cmTC_9ad9e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_9ad9e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_9ad9e.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9ad9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ad9e.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=lseek CMakeFiles/cmTC_9ad9e.dir/CheckFunctionExists.c.o -o cmTC_9ad9e  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function open exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_989d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_989d3.dir/build.make CMakeFiles/cmTC_989d3.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_989d3.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=open -std=gnu99 -MD -MT CMakeFiles/cmTC_989d3.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_989d3.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_989d3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_989d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_989d3.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=open CMakeFiles/cmTC_989d3.dir/CheckFunctionExists.c.o -o cmTC_989d3  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function read exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74309/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74309.dir/build.make CMakeFiles/cmTC_74309.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74309.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=read -std=gnu99 -MD -MT CMakeFiles/cmTC_74309.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_74309.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_74309.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74309.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=read CMakeFiles/cmTC_74309.dir/CheckFunctionExists.c.o -o cmTC_74309  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function write exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_21ce0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_21ce0.dir/build.make CMakeFiles/cmTC_21ce0.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21ce0.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=write -std=gnu99 -MD -MT CMakeFiles/cmTC_21ce0.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_21ce0.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_21ce0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_21ce0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21ce0.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=write CMakeFiles/cmTC_21ce0.dir/CheckFunctionExists.c.o -o cmTC_21ce0  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function lrint exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77ec7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77ec7.dir/build.make CMakeFiles/cmTC_77ec7.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77ec7.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=lrint -std=gnu99 -MD -MT CMakeFiles/cmTC_77ec7.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_77ec7.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_77ec7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'lrint' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lrint
+                              ^
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: 'lrint' is a builtin with type 'long (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lrint
+                              ^
+1 warning generated.
+Linking C executable cmTC_77ec7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77ec7.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=lrint CMakeFiles/cmTC_77ec7.dir/CheckFunctionExists.c.o -o cmTC_77ec7  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function lrintf exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_25a9e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25a9e.dir/build.make CMakeFiles/cmTC_25a9e.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25a9e.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=lrintf -std=gnu99 -MD -MT CMakeFiles/cmTC_25a9e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_25a9e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_25a9e.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'lrintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lrintf
+                              ^
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: 'lrintf' is a builtin with type 'long (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS lrintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_25a9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25a9e.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=lrintf CMakeFiles/cmTC_25a9e.dir/CheckFunctionExists.c.o -o cmTC_25a9e  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function ftruncate exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_481d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_481d7.dir/build.make CMakeFiles/cmTC_481d7.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_481d7.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=ftruncate -std=gnu99 -MD -MT CMakeFiles/cmTC_481d7.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_481d7.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_481d7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_481d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_481d7.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=ftruncate CMakeFiles/cmTC_481d7.dir/CheckFunctionExists.c.o -o cmTC_481d7  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fsync exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_00b75/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00b75.dir/build.make CMakeFiles/cmTC_00b75.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00b75.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=fsync -std=gnu99 -MD -MT CMakeFiles/cmTC_00b75.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_00b75.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_00b75.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_00b75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00b75.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=fsync CMakeFiles/cmTC_00b75.dir/CheckFunctionExists.c.o -o cmTC_00b75  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pipe exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_38957/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_38957.dir/build.make CMakeFiles/cmTC_38957.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38957.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=pipe -std=gnu99 -MD -MT CMakeFiles/cmTC_38957.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_38957.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_38957.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38957.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=pipe CMakeFiles/cmTC_38957.dir/CheckFunctionExists.c.o -o cmTC_38957  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setlocale exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f4bbf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f4bbf.dir/build.make CMakeFiles/cmTC_f4bbf.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4bbf.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=setlocale -std=gnu99 -MD -MT CMakeFiles/cmTC_f4bbf.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_f4bbf.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_f4bbf.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f4bbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4bbf.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=setlocale CMakeFiles/cmTC_f4bbf.dir/CheckFunctionExists.c.o -o cmTC_f4bbf  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2fd0a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2fd0a.dir/build.make CMakeFiles/cmTC_2fd0a.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fd0a.dir/CheckFunctionExists.c.o
+/usr/bin/clang-14   -DCHECK_FUNCTION_EXISTS=waitpid -std=gnu99 -MD -MT CMakeFiles/cmTC_2fd0a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_2fd0a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_2fd0a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2fd0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fd0a.dir/link.txt --verbose=1
+/usr/bin/clang-14  -DCHECK_FUNCTION_EXISTS=waitpid CMakeFiles/cmTC_2fd0a.dir/CheckFunctionExists.c.o -o cmTC_2fd0a  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the S_IRGRP exist passed with the following output:
+Change Dir: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c1c6b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c1c6b.dir/build.make CMakeFiles/cmTC_c1c6b.dir/build
+gmake[1]: Entering directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1c6b.dir/CheckSymbolExists.c.o
+/usr/bin/clang-14   -std=gnu99 -MD -MT CMakeFiles/cmTC_c1c6b.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c1c6b.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c1c6b.dir/CheckSymbolExists.c.o -c /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c1c6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1c6b.dir/link.txt --verbose=1
+/usr/bin/clang-14 CMakeFiles/cmTC_c1c6b.dir/CheckSymbolExists.c.o -o cmTC_c1c6b  -lm 
+gmake[1]: Leaving directory '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp'
+
+
+File /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef S_IRGRP
+  return ((int*)(&S_IRGRP))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

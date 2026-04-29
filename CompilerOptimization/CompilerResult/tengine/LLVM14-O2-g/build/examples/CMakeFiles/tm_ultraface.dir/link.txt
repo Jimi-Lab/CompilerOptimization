@@ -1,0 +1,1 @@
+/usr/bin/clang++-14 -O2 -g -O2 -g CMakeFiles/tm_ultraface.dir/tm_ultraface.cpp.o CMakeFiles/tm_ultraface.dir/common/tengine_operations.c.o -o tm_ultraface  -Wl,-rpath,/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build/source: ../source/libtengine-lite.so -lm -ldl -lm 

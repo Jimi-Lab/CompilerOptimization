@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/channel_test.dir/tests/channel_test.c.o -o channel_test  libsndfile.a libtest_utils.a -lm libsndfile.a -lm 

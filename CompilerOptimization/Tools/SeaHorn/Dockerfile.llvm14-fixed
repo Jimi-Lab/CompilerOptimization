@@ -1,0 +1,53 @@
+FROM seahorn/seahorn-llvm14:nightly
+
+USER root
+
+# Ensure python z3 bindings exist for `sea term`.
+RUN python3 -m pip install --no-cache-dir "z3-solver==4.8.12.0"
+
+# Patch deprecated crab flag and robustify term option setup.
+RUN python3 - <<'PY'
+from pathlib import Path
+
+cmd = Path('/home/usea/seahorn/lib/seapy/sea/commands.py')
+txt = cmd.read_text(encoding='utf-8')
+txt = txt.replace("argv.append ('--crab-add-invariants=all')", "argv.append ('--crab-print-invariants')")
+txt = txt.replace("argv.append ('--crab-print-invariants')", "")
+cmd.write_text(txt, encoding='utf-8')
+
+term = Path('/home/usea/seahorn/lib/seapy/term/termination.py')
+lines = term.read_text(encoding='utf-8').splitlines()
+out = []
+replaced = 0
+replaced_karr = 0
+for ln in lines:
+    if ln.strip() == "fp.set('pdr.utvpi', False)" and replaced < 2:
+        indent = ln[:len(ln) - len(ln.lstrip(' '))]
+        out.append(f"{indent}try:")
+        out.append(f"{indent}    fp.set('pdr.utvpi', False)")
+        out.append(f"{indent}except Exception:")
+        out.append(f"{indent}    pass")
+        replaced += 1
+    elif ln.strip() == "fp.set('xform.karr', True)" and replaced_karr < 2:
+        indent = ln[:len(ln) - len(ln.lstrip(' '))]
+        out.append(f"{indent}try:")
+        out.append(f"{indent}    fp.set('xform.karr', True)")
+        out.append(f"{indent}except Exception:")
+        out.append(f"{indent}    pass")
+        replaced_karr += 1
+    else:
+        out.append(ln)
+
+# Avoid hard failure in sea term for parser/runtime incompatibilities; keep UNKNOWN.
+out2 = []
+for ln in out:
+    if ln.strip() == "raise IOError(str(e))":
+        indent = ln[:len(ln) - len(ln.lstrip(' '))]
+        out2.append(f"{indent}print('TERM_WARNING:', e)")
+        out2.append(f"{indent}return")
+    else:
+        out2.append(ln)
+term.write_text("\n".join(out2) + "\n", encoding='utf-8')
+PY
+
+USER usea

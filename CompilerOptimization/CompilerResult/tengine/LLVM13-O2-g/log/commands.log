@@ -1,0 +1,16 @@
+[2026-03-25T01:36:46Z] chmod_existing_work_tree
+[2026-03-25T01:36:46Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/install
+[2026-03-25T01:36:46Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src
+[2026-03-25T01:36:46Z] bash -lc cp -a '/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/.' '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/'
+[2026-03-25T01:36:47Z] chmod -R u+w /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src
+[2026-03-25T01:36:47Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/build /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/install
+[2026-03-25T01:36:47Z] cmake -S /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src -B /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/build -G Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang-13 -DCMAKE_CXX_COMPILER=clang++-13 -DCMAKE_C_FLAGS=-O2 -g -DCMAKE_CXX_FLAGS=-O2 -g -DCMAKE_C_FLAGS_DEBUG=-O2 -g -DCMAKE_CXX_FLAGS_DEBUG=-O2 -g -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/install -DTENGINE_BUILD_EXAMPLES=ON -DTENGINE_BUILD_BENCHMARK=ON -DTENGINE_BUILD_TESTS=OFF -DTENGINE_BUILD_DEMO=OFF -DTENGINE_BUILD_CPP_API=OFF -DTENGINE_BUILD_CONVERT_TOOL=OFF -DTENGINE_BUILD_QUANT_TOOL=OFF
+[2026-03-25T01:36:49Z] cmake --build /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/build --target tengine-lite-static tm_classification -j8
+[2026-03-25T01:37:25Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/build/compile_commands.json /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/artifacts/compile_commands.json
+[2026-03-25T01:37:25Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/build/examples/tm_classification /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/artifacts/tm_classification_O2_g
+[2026-03-25T01:37:25Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/build/source/libtengine-lite-static.a /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/artifacts/libtengine-lite-static_O2_g.a
+[2026-03-25T01:37:25Z] python3_recompile_tengine_program_bc
+[2026-03-25T01:38:15Z] llvm-link-13_tengine_program_bc
+[2026-03-25T01:38:17Z] llvm-dis-13_tengine_program_bc
+[2026-03-25T01:38:20Z] llvm-nm-13_symbol_check
+[2026-03-25T01:38:20Z] llvm-nm-13_undefined_check

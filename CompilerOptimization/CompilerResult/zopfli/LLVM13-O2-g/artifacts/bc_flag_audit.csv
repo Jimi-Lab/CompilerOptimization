@@ -1,0 +1,14 @@
+file,has_O2,has_g,has_O3
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/blocksplitter.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/cache.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/deflate.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/gzip_container.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/hash.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/katajainen.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/lz77.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/squeeze.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/tree.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/util.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/zlib_container.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/zopfli_bin.c,1,1,0
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/src/zopfli/zopfli_lib.c,1,1,0

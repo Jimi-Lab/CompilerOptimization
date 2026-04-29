@@ -1,0 +1,60 @@
+FROM ubuntu:22.04 AS builder
+
+ARG DEBIAN_FRONTEND=noninteractive
+ARG RUST_TOOLCHAIN=1.95.0
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        build-essential \
+        ca-certificates \
+        clang-14 \
+        curl \
+        llvm-14 \
+        llvm-14-dev \
+        pkg-config \
+        zlib1g-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV LLVM_CONFIG_PATH=/usr/bin/llvm-config-14
+ENV PATH=/root/.cargo/bin:${PATH}
+
+RUN curl https://sh.rustup.rs -sSf \
+    | sh -s -- -y --profile minimal --default-toolchain "${RUST_TOOLCHAIN}" \
+    && rustc --version \
+    && cargo --version \
+    && llvm-config-14 --version
+
+WORKDIR /src/yapall
+
+COPY yapall/Cargo.toml yapall/Cargo.lock ./
+COPY yapall/src ./src
+COPY yapall/signatures.json ./signatures.json
+COPY yapall/rustc-flags ./rustc-flags
+COPY yapall/examples ./examples
+COPY yapall/tests ./tests
+COPY yapall/benches ./benches
+
+RUN cargo build --release \
+    && install -D -m 0755 target/release/yapall /opt/yapall/bin/yapall \
+    && install -D -m 0644 signatures.json /opt/yapall/signatures.json
+
+FROM ubuntu:22.04 AS runtime
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        ca-certificates \
+        libllvm14 \
+        llvm-14 \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY --from=builder /opt/yapall /opt/yapall
+
+ENV YAPALL_SIGNATURES=/opt/yapall/signatures.json
+ENV PATH=/opt/yapall/bin:${PATH}
+
+WORKDIR /work
+
+ENTRYPOINT ["/opt/yapall/bin/yapall"]
+CMD ["--help"]

@@ -1,0 +1,7 @@
+{
+  "target": "tm_classification",
+  "entries": 2,
+  "out_bc": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build/../artifacts/tengine.bc",
+  "out_ll": "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build/../artifacts/tengine.ll",
+  "main_present": true
+}

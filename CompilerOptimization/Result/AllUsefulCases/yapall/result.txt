@@ -1,0 +1,15 @@
+zopfli:
+/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/yapall/LLVM14-O2-g/run_20260427_yapall_docker_smoke/
+
+libsndfile:
+/home/jimi/PaperExperiment/CompilerOptimization/Result/libsndfile/yapall/LLVM14-O2-g/run_20260427_yapall_docker_sndfile_convert_linked/
+
+masscan:
+/home/jimi/PaperExperiment/CompilerOptimization/Result/masscan/yapall/LLVM14-O2-g/run_20260427_yapall_docker_masscan_linked/
+
+tengine:
+/home/jimi/PaperExperiment/CompilerOptimization/Result/tengine/yapall/LLVM14-O2-g/run_20260427_yapall_docker_tengine_linked
+
+lepton:
+/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/yapall/LLVM14-O2-g/run_20260427_yapall_docker_lepton_linked/
+

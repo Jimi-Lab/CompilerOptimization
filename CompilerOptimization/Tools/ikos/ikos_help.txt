@@ -1,0 +1,207 @@
+ikos --help:
+
+
+usage: ikos [options] file[.c|.cpp|.bc|.ll]
+
+ikos static analyzer
+
+positional arguments:
+  file[.c|.cpp|.bc|.ll]
+                        File to analyze
+
+options:
+  -h, --help            show this help message and exit
+  -o <file>, --output-db <file>
+                        Output database file (default: output.db)
+  -v                    Increase verbosity
+  -q                    Be quiet
+  --version             Show ikos version
+
+Analysis Options:
+  -a , --analyses       Available analyses:
+                          boa      - Buffer Overflow Analysis
+                          dbz      - Division by Zero Analysis
+                          nullity  - Null Pointer Dereference Analysis
+                          prover   - Assertion Prover
+                          upa      - Unaligned Pointer Analysis
+                          uva      - Uninitialized Variables Analysis
+                          sio      - Signed Integer Overflow Analysis
+                          uio      - Unsigned Integer Overflow Analysis
+                          shc      - Shift Count Analysis
+                          poa      - Pointer Overflow Analysis
+                          pcmp     - Pointer Comparison Analysis
+                          sound    - Soundness Analysis
+                          fca      - Function Call Analysis
+                          dca      - Dead Code Analysis
+                          dfa      - Double Free Analysis
+                          dbg      - Debugger
+                          watch    - Memory Watcher
+                        (default: boa, dbz, nullity, prover, uva, sio, shc, pcmp, sound, fca, dca, dfa, dbg)
+  -d , --domain         Available abstract domains:
+                          interval                                  - Interval domain (default)
+                          congruence                                - Congruence domain
+                          interval-congruence                       - Reduced product of Interval and Congruence
+                          dbm                                       - Difference-Bound Matrices domain
+                          var-pack-dbm                              - Difference-Bound Matrices domain with variable packing
+                          var-pack-dbm-congruence                   - Reduced product of DBM with variable packing and Congruence
+                          gauge                                     - Gauge domain
+                          gauge-interval-congruence                 - Reduced product of Gauge, Interval and Congruence
+                          apron-interval                            - APRON Interval domain
+                          apron-octagon                             - APRON Octagon domain
+                          apron-polka-polyhedra                     - APRON Polka Polyhedra domain
+                          apron-polka-linear-equalities             - APRON Polka Linear Equalities domain
+                          apron-ppl-polyhedra                       - APRON PPL Polyhedra domain
+                          apron-ppl-linear-congruences              - APRON PPL Linear Congruences domain
+                          apron-pkgrid-polyhedra-lin-cong           - APRON Pkgrid Polyhedra and Linear Congruences domain
+                          var-pack-apron-octagon                    - APRON Octagon domain with variable packing
+                          var-pack-apron-polka-polyhedra            - APRON Polka Polyhedra domain with variable packing
+                          var-pack-apron-polka-linear-equalities    - APRON Polka Linear Equalities domain with variable packing
+                          var-pack-apron-ppl-polyhedra              - APRON PPL Polyhedra domain with variable packing
+                          var-pack-apron-ppl-linear-congruences     - APRON PPL Linear Congruences domain with variable packing
+                          var-pack-apron-pkgrid-polyhedra-lin-cong  - APRON Pkgrid Polyhedra and Linear Congruences domain with variable packing
+  -e <function>, --entry-points <function>
+                        List of program entry points (default: main)
+  --globals-init        Policy of initialization for global variables:
+                          all              - Initialize all global variables
+                          skip-big-arrays  - Initialize all global variables except big arrays (default)
+                          skip-strings     - Initialize all global variables except strings
+                          none             - Do not initialize any global variable
+  --no-init-globals <function>
+                        Do not initialize global variables for the given entry points
+  --no-liveness         Disable the liveness analysis
+  --no-pointer          Disable the pointer analysis
+  --no-widening-hints   Disable the widening hint analysis
+  --no-fixpoint-cache   Disable the cache of fixpoints
+  --no-checks           Disable all the checks
+  --proc                Procedural:
+                          inter  - Interprocedural analysis (default)
+                          intra  - Intraprocedural analysis
+  -j [], --jobs []      Number of threads
+  --widening-strategy   Strategy for increasing iterations:
+                          widen  - Widening operator (default)
+                          join   - Join operator
+  --narrowing-strategy 
+                        Strategy for decreasing iterations:
+                          narrow  - Narrowing operator
+                          meet    - Meet operator
+                          auto    - Narrowing if available, otherwise meet (default)
+  --widening-delay      Number of loop iterations before using the widening strategy (default: 1)
+  --widening-delay-functions <function:int>
+                        Widening delay for specific functions
+  --widening-period     Number of loop iterations between each widening (default: 1)
+  --narrowing-iterations 
+                        Perform a fixed number of narrowing iterations
+  --partitioning        Partitioning strategy:
+                          return  - Partition the states on function return values
+                          manual  - Partition the states manually
+                          no      - Disable partitioning (default)
+  --hardware-addresses 
+                        Specify ranges (x-y) of hardware addresses, separated by a comma
+  --hardware-addresses-file 
+                        Specify ranges (x-y) of hardware addresses from a file (one range per line)
+  --argc                Specify a value for argc
+
+Compile Options:
+  -I                    Add the specified directory to the search path for include files
+  -D                    Add an implicit #define into the source file
+  -W                    Use the specified warning options
+  -w                    Suppress all compiler warnings
+  -m                    Use the specified machine options
+
+Preprocessing Options:
+  --opt                 Optimization level:
+                          none        - Disable all optimizations
+                          basic       - Basic set of optimizations (default)
+                          aggressive  - Aggressive optimizations (not recommended)
+  --inline-all          Front-end inline all functions
+  --no-bc-verify        Do not run the LLVM bitcode verifier
+
+Import Options:
+  --no-libc             Do not use libc intrinsics (malloc, free, etc.)
+  --no-libcpp           Do not use libcpp intrinsics (__cxa_throw, etc.)
+  --no-libikos          Do not use ikos intrinsics (__ikos_assert, etc.)
+
+AR Passes Options:
+  --no-type-check       Do not run the AR type checker
+  --no-simplify-cfg     Do not run the simplify-cfg pass
+  --no-simplify-upcast-comparison
+                        Do not run the simplify-upcast-comparison pass
+
+Debug Options:
+  --display-llvm        Display the LLVM bitcode as text
+  --display-ar          Display the Abstract Representation as text
+  --trace-ar-stmts      Trace analysis of ar statements
+  --display-liveness    Display liveness analysis results
+  --display-function-pointer
+                        Display function pointer analysis results
+  --display-pointer     Display pointer analysis results
+  --display-fixpoint-parameters
+                        Display fixpoint parameters
+  --display-checks      Display checks:
+                          all   - Display all checks
+                          fail  - Display only failed checks
+                          no    - Do not display checks (default)
+  --display-inv         Display computed invariants:
+                          all   - Display all invariants
+                          fail  - Display invariants for failed checks
+                          no    - Do not display invariants (default)
+  --display-raw-checks  Display analysis raw checks
+  --generate-dot        Generate a .dot file for each function
+  --generate-dot-dir <directory>
+                        Output directory for .dot files
+  --save-temps          Do not delete temporary files
+  --temp-dir <directory>
+                        Temporary directory
+
+Miscellaneous:
+  --rm-db               Remove the output database file after use
+  --color               Enable terminal colors:
+                          yes   - Enable colors
+                          auto  - Enable colors if the output is a terminal (default)
+                          no    - Disable colors
+  --log                 Log level:
+                          none      - Disable logging
+                          critical  - Critical level
+                          error     - Error level
+                          warning   - Warning level
+                          info      - Informative level (default)
+                          debug     - Debug level
+                          all       - Show all messages
+  --progress            Progress report:
+                          auto         - Interactive if the output is a terminal (default)
+                          interactive  - Interactive
+                          linear       - Linear
+                          no           - Disable progress report
+
+Report Options:
+  --display-times       Display timing results
+                          full   - Display all timing results
+                          short  - Display most meaningful timing results (default)
+                          no     - Do not display any timing results
+  --display-summary     Display the analysis summary
+                          full   - Display the complete analysis summary (default)
+                          short  - Display a shorter analysis summary
+                          no     - Do not display the analysis summary
+  -f , --format         Available report formats:
+                          auto   - Generate a text report, if less than 15 entries (default)
+                          text   - Generate a text report
+                          json   - Generate a json report
+                          sarif  - Generate a sarif report
+                          junit  - Generate a JUnit.xml report
+                          csv    - Generate a csv report
+                          web    - Generate a web report (ikos-view)
+                          no     - Do not generate a report
+  --report-file <file>  Write the report into a file (default: stdout)
+  --status-filter       Available status filters:
+                          *            - All
+                          error        - Error
+                          warning      - Warning
+                          safe         - Safe
+                          unreachable  - Unreachable
+                        (default: error, warning, unreachable)
+  --report-verbosity [1-4]
+                        Report verbosity (default: 1)
+
+Resources Options:
+  --cpu CPU             CPU time limit (seconds)
+  --mem MEM             MEM limit (MB)

@@ -1,0 +1,11 @@
+[2026-03-25T00:56:20Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/build
+[2026-03-25T00:56:20Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/build
+[2026-03-25T00:56:20Z] bash -lc cd '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/build' && cmake '/home/jimi/PaperExperiment/CompilerOptimization/Target/lepton' -DCMAKE_C_COMPILER=clang-13 -DCMAKE_CXX_COMPILER=clang++-13 -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS_RELEASE='-O2 -g' -DCMAKE_CXX_FLAGS_RELEASE='-O2 -g' -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+[2026-03-25T00:56:21Z] bash -lc cd '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/build' && make -j8
+[2026-03-25T00:57:02Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/build/compile_commands.json /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/artifacts/compile_commands.json
+[2026-03-25T00:57:02Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/build/lepton /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/artifacts/lepton_O2_g
+[2026-03-25T00:57:02Z] python3_recompile_lepton_and_local_libs_to_program_bc
+[2026-03-25T00:57:59Z] llvm-link-13_lepton_program_bc
+[2026-03-25T00:58:01Z] llvm-dis-13_lepton_program_bc
+[2026-03-25T00:58:04Z] llvm-nm-13_symbol_check
+[2026-03-25T00:58:04Z] llvm-nm-13_undefined_check

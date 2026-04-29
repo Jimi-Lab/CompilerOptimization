@@ -1,0 +1,19 @@
+project,status,has_bc,bc_size,bc_path,reason
+curl,failed,0,0,/work/PaperExperiment/CompilerOptimization/Result/curl/seahorn/seahorn-O2-g/artifacts/curl_O2_g.bc,cmake configure failed
+duckdb,failed,0,0,/work/PaperExperiment/CompilerOptimization/Result/duckdb/seahorn/seahorn-O2-g/artifacts/duckdb_O2_g.bc,cmake build failed
+flatbuffers,success,1,78089068,/work/PaperExperiment/CompilerOptimization/Result/flatbuffers/seahorn/seahorn-O2-g/artifacts/flatbuffers_O2_g.bc,
+flite,failed,0,0,/work/PaperExperiment/CompilerOptimization/Result/flite/seahorn/seahorn-O2-g/artifacts/flite_O2_g.bc,make dry-run failed
+grpc,failed,0,0,/work/PaperExperiment/CompilerOptimization/Result/grpc/seahorn/seahorn-O2-g/artifacts/grpc_O2_g.bc,cmake configure failed
+lepton,success,1,5880860,/work/PaperExperiment/CompilerOptimization/Result/lepton/seahorn/seahorn-O2-g/artifacts/lepton_O2_g.bc,
+leveldb,failed,0,0,/work/PaperExperiment/CompilerOptimization/Result/leveldb/seahorn/seahorn-O2-g/artifacts/leveldb_O2_g.bc,cmake build failed
+libco,failed,0,0,/work/PaperExperiment/CompilerOptimization/Result/libco/seahorn/seahorn-O2-g/artifacts/libco_O2_g.bc,cmake build failed
+libsndfile,success,1,3250212,/work/PaperExperiment/CompilerOptimization/Result/libsndfile/seahorn/seahorn-O2-g/artifacts/libsndfile_O2_g.bc,
+masscan,success,1,2910336,/work/PaperExperiment/CompilerOptimization/Result/masscan/seahorn/seahorn-O2-g/artifacts/masscan_O2_g.bc,
+opencv,failed,0,0,/work/PaperExperiment/CompilerOptimization/Result/opencv/seahorn/seahorn-O2-g/artifacts/opencv_O2_g.bc,cmake configure failed
+rapidjson,failed,0,0,/work/PaperExperiment/CompilerOptimization/Result/rapidjson/seahorn/seahorn-O2-g/artifacts/rapidjson_O2_g.bc,llvm-link failed
+redis,success,1,12767144,/work/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/artifacts/redis_O2_g.bc,
+rethinkdb,failed,0,0,/work/PaperExperiment/CompilerOptimization/Result/rethinkdb/seahorn/seahorn-O2-g/artifacts/rethinkdb_O2_g.bc,make dry-run failed
+tengine,success,1,6031192,/work/PaperExperiment/CompilerOptimization/Result/tengine/seahorn/seahorn-O2-g/artifacts/tengine_O2_g.bc,
+wasmedge,failed,0,0,/work/PaperExperiment/CompilerOptimization/Result/wasmedge/seahorn/seahorn-O2-g/artifacts/wasmedge_O2_g.bc,cmake build failed
+zfp,success,1,2798612,/work/PaperExperiment/CompilerOptimization/Result/zfp/seahorn/seahorn-O2-g/artifacts/zfp_O2_g.bc,
+zopfli,success,1,319264,/work/PaperExperiment/CompilerOptimization/Result/zopfli/seahorn/seahorn-O2-g/artifacts/zopfli_O2_g.bc,

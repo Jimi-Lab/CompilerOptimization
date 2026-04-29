@@ -1,0 +1,184 @@
+# Local/editor state
+.codex
+.codex/
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python/cache/build noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Temporary root artifacts
+/tmp_cclyzerpp/
+/output.db
+/error.bpl
+
+# Large/generated binary artifacts
+*.bc
+*.ll
+*.bpl
+*.o
+*.so
+*.a
+*.dylib
+*.exe
+*.zip
+*.tar
+*.tar.*
+*.tgz
+*.xz
+*.gz
+*.7z
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw logs can be huge; keep curated summaries/reports instead.
+*.stdout.log
+*.stderr.log
+*.log
+
+# Do not vendor target source trees in the paper repository.
+/CompilerOptimization/Target/**
+!/CompilerOptimization/Target/
+!/CompilerOptimization/Target/README.md
+!/CompilerOptimization/Target/TARGETS_MANIFEST.md
+
+# CompilerResult policy:
+# - excluded repos stay fully out of Git;
+# - selected repos below are intentionally re-included in full.
+/CompilerOptimization/CompilerResult/**
+!/CompilerOptimization/CompilerResult/
+!/CompilerOptimization/CompilerResult/README.md
+!/CompilerOptimization/CompilerResult/flatbuffers/
+!/CompilerOptimization/CompilerResult/flatbuffers/**
+!/CompilerOptimization/CompilerResult/lepton/
+!/CompilerOptimization/CompilerResult/lepton/**
+!/CompilerOptimization/CompilerResult/curl/
+!/CompilerOptimization/CompilerResult/curl/**
+!/CompilerOptimization/CompilerResult/libsndfile/
+!/CompilerOptimization/CompilerResult/libsndfile/**
+!/CompilerOptimization/CompilerResult/masscan/
+!/CompilerOptimization/CompilerResult/masscan/**
+!/CompilerOptimization/CompilerResult/redis/
+!/CompilerOptimization/CompilerResult/redis/**
+!/CompilerOptimization/CompilerResult/tengine/
+!/CompilerOptimization/CompilerResult/tengine/**
+!/CompilerOptimization/CompilerResult/zfp/
+!/CompilerOptimization/CompilerResult/zfp/**
+!/CompilerOptimization/CompilerResult/zopfli/
+!/CompilerOptimization/CompilerResult/zopfli/**
+
+/CompilerOptimization/CompilerResult/cJSON/**
+/CompilerOptimization/CompilerResult/cjson/**
+/CompilerOptimization/CompilerResult/duckdb/**
+/CompilerOptimization/CompilerResult/flite/**
+/CompilerOptimization/CompilerResult/grpc/**
+/CompilerOptimization/CompilerResult/leveldb/**
+/CompilerOptimization/CompilerResult/libco/**
+/CompilerOptimization/CompilerResult/libexpat/**
+/CompilerOptimization/CompilerResult/Expat/**
+/CompilerOptimization/CompilerResult/miniz/**
+/CompilerOptimization/CompilerResult/opencv/**
+/CompilerOptimization/CompilerResult/rapidjson/**
+/CompilerOptimization/CompilerResult/rethinkdb/**
+/CompilerOptimization/CompilerResult/tiny-AES-c/**
+/CompilerOptimization/CompilerResult/zlib/**
+
+# Rebuild work directories can contain nested upstream Git checkouts. If these
+# are added to the outer repository, Git records only a gitlink and clones of
+# this paper repository will not contain the source contents.
+/CompilerOptimization/CompilerResult/**/work/*-src/
+/CompilerOptimization/CompilerResult/**/work/*_src/
+/CompilerOptimization/CompilerResult/**/work/Tengine-src/
+
+# Analyzer Result contains raw runs. Keep curated reports, manifests, summaries,
+# and scripts; exclude raw runs, build trees, logs, giant case tables, and relations.
+/CompilerOptimization/Result/**
+!/CompilerOptimization/Result/
+!/CompilerOptimization/Result/README.md
+!/CompilerOptimization/Result/*.md
+!/CompilerOptimization/Result/*.txt
+!/CompilerOptimization/Result/*.py
+!/CompilerOptimization/Result/*.sh
+!/CompilerOptimization/Result/*summary*.csv
+!/CompilerOptimization/Result/*summary*.json
+!/CompilerOptimization/Result/*status*.csv
+!/CompilerOptimization/Result/AllUsefulCases/
+!/CompilerOptimization/Result/AllUsefulCases/**
+
+# Guardrails for known huge analyzer tables/raw outputs.
+/CompilerOptimization/Result/**/tool_cases.csv
+/CompilerOptimization/Result/**/psr-raw-results.txt
+/CompilerOptimization/Result/**/raw_issues.csv
+/CompilerOptimization/Result/**/relations/**
+/CompilerOptimization/Result/**/ValueCases/map/**
+/CompilerOptimization/Result/**/ValueCases/index/**
+/CompilerOptimization/Result/**/runs/**
+/CompilerOptimization/Result/**/logs/**
+/CompilerOptimization/Result/**/build/**
+/CompilerOptimization/Result/**/run_*/**
+/CompilerOptimization/Result/**/__pycache__/**
+/CompilerOptimization/Result/**/*.pyc
+
+# User-selected evidence set: track the whole directory.
+!/CompilerOptimization/Result/AllUsefulCases/**
+
+# Rebuildable oversized standardized case tables. Keep their collectors and
+# REBUILD docs in Git instead.
+/CompilerOptimization/Result/AllUsefulCases/yapall/O2-g/tool_cases.csv
+/CompilerOptimization/Result/AllUsefulCases/dg/O2-g/tool_cases.csv
+
+# Tool directories: keep local wrappers, Dockerfiles, and notes; do not vendor
+# upstream tool source trees, prebuilt archives, databases, or analysis outputs.
+/CompilerOptimization/Tools/**
+!/CompilerOptimization/Tools/
+!/CompilerOptimization/Tools/README.md
+!/CompilerOptimization/Tools/TOOLS_MANIFEST.md
+!/CompilerOptimization/Tools/**/
+!/CompilerOptimization/Tools/**/*.md
+!/CompilerOptimization/Tools/**/*.txt
+!/CompilerOptimization/Tools/**/*.sh
+!/CompilerOptimization/Tools/**/*.py
+!/CompilerOptimization/Tools/**/Dockerfile*
+!/CompilerOptimization/Tools/**/.dockerignore
+
+/CompilerOptimization/Tools/**/source/**
+/CompilerOptimization/Tools/**/src/**
+/CompilerOptimization/Tools/**/repo/**
+/CompilerOptimization/Tools/cclyzerpp/cclyzerpp/**
+/CompilerOptimization/Tools/yapall/yapall/**
+/CompilerOptimization/Tools/clam/clam-src/**
+/CompilerOptimization/Tools/codeql/codeql/**
+/CompilerOptimization/Tools/codeql/codeql-repo/**
+/CompilerOptimization/Tools/codeql/report/**
+/CompilerOptimization/Tools/**/databases/**
+/CompilerOptimization/Tools/**/AnalysisResult/**
+/CompilerOptimization/Tools/BinAbsInspector/BinAbsInspector/
+/CompilerOptimization/Tools/BinAbsInspector/BinAbsInspector/**
+/CompilerOptimization/Tools/SMACK/docs/**
+/CompilerOptimization/Tools/SMACK/smack/
+/CompilerOptimization/Tools/SMACK/smack/**
+!/CompilerOptimization/Tools/SMACK/smack/prompts/**
+/CompilerOptimization/Tools/dg/docker-src/
+/CompilerOptimization/Tools/dg/docker-src/**
+/CompilerOptimization/Tools/dg/validation/**
+/CompilerOptimization/Tools/ikos/ikos/
+/CompilerOptimization/Tools/ikos/ikos/**
+/CompilerOptimization/Tools/ikos/test_repo/
+/CompilerOptimization/Tools/ikos/test_repo/**
+/CompilerOptimization/Tools/infer/infer-linux-x86_64-v1.2.0/
+/CompilerOptimization/Tools/infer/infer-linux-x86_64-v1.2.0/**
+/CompilerOptimization/Tools/phasar/Document/**
+/CompilerOptimization/Tools/cclyzerpp/cclyzerpp/
+/CompilerOptimization/Tools/codeql/codeql-repo/
+/CompilerOptimization/Tools/yapall/yapall/
+
+# If tool source was locally modified, save a small patch under a tracked docs
+# directory instead of committing the whole upstream source tree.
+!/CompilerOptimization/Tools/**/patches/**

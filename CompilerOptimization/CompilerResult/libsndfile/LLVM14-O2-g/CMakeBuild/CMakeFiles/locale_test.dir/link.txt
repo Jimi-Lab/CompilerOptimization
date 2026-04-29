@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/locale_test.dir/tests/locale_test.c.o -o locale_test  libsndfile.a libtest_utils.a -lm libsndfile.a -lm 

@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/make_sine.dir/examples/make_sine.c.o -o make_sine  libsndfile.a -lm 

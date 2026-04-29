@@ -1,0 +1,18 @@
+[2026-03-22T03:56:18Z] apt-get update
+[2026-03-22T03:56:25Z] apt-get install -y --no-install-recommends ca-certificates wget dpkg-dev gcc g++ libc6-dev libssl-dev make git python3 python3-pip python3-venv python3-dev unzip rsync clang automake autoconf gcc-10 g++-10 libtool libblocksruntime-dev pkg-config
+[2026-03-22T03:57:08Z] pip3 install cmake==3.31.6
+[2026-03-22T03:57:14Z] ln -sf /usr/local/bin/cmake /usr/bin/cmake
+[2026-03-22T03:57:14Z] cmake --version
+[2026-03-22T03:57:14Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/work/redis-src
+[2026-03-22T03:57:19Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/work/redis-src
+[2026-03-22T03:57:20Z] rsync -a --delete /home/jimi/PaperExperiment/CompilerOptimization/Target/redis/ /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/work/redis-src/
+[2026-03-22T03:57:21Z] chmod +x /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/work/redis-src/src/mkreleasehdr.sh
+[2026-03-22T03:57:21Z] chmod_optional_jemalloc_configure
+[2026-03-22T03:57:21Z] patch_threads_mngr_for_clang14
+[2026-03-22T03:57:21Z] bash -lc cd '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/work/redis-src' && make distclean
+[2026-03-22T03:57:23Z] attempt_full_build_with_modules
+[2026-03-22T04:04:17Z] bash -lc cd '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/work/redis-src' && make distclean
+[2026-03-22T04:04:20Z] bash -lc cd '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/work/redis-src' && export BUILD_TLS=yes DISABLE_WERRORS=yes && make -j "$(nproc)" all CC=clang-14 CXX=clang++-14 OPT='-O2' DEBUG='-g' REDIS_CFLAGS='-DNULL=0' MALLOC=libc V=1
+[2026-03-22T04:04:39Z] copy_main_binaries
+[2026-03-22T04:04:39Z] verify_compiler_flags_from_verbose_log
+[2026-03-22T04:04:39Z] write_artifact_manifest

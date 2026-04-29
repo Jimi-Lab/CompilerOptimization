@@ -1,0 +1,1036 @@
+project=tengine
+source=/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine
+start_utc=2026-03-22T07:21:16Z
+policy=official README cmake flow; CMAKE_BUILD_TYPE=Debug; clang-14; O2 and g requested
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang-14 - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++-14 - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is Clang with GNU-like command-line
+-- Found assembler: /usr/bin/clang-14
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES) 
+-- Could NOT find OpenMP_CXX (missing: OpenMP_CXX_FLAGS OpenMP_CXX_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND OpenMP_CXX_FOUND) 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+CMake Warning at examples/CMakeLists.txt:110 (FIND_PACKAGE):
+  By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "OpenCV", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "OpenCV" with any
+  of the following names:
+
+    OpenCVConfig.cmake
+    opencv-config.cmake
+
+  Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set
+  "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+CMake Warning at examples/CMakeLists.txt:192 (MESSAGE):
+  OpenCV not found, some examples won't be built
+
+
+-- 
+-- 
+-- Infomation Summary:
+-- 
+-- CMake infomation:
+--   - CMake version:              3.22.1
+--   - CMake generator:            Unix Makefiles
+--   - CMake building tools:       /usr/bin/gmake
+--   - Target System:              Linux
+--   - Target CPU arch:            X86
+--   - Target building type:       Debug
+--   - Target CPU bus width:       64 Bit
+-- 
+-- tengine-lite toolchain infomation:
+--   Cross compiling: FALSE
+--   C/C++ compilier:
+--     - C   standard version:     C99
+--     - C   standard required:    TRUE
+--     - C   standard extensions:  ON
+--     - C   compilier version:    14.0.0
+--     - C   compilier:            /usr/bin/clang-14
+--     - C++ standard version:     C++11
+--     - C++ standard required:    TRUE
+--     - C++ standard extensions:  OFF
+--     - C++ compilier version:    14.0.0
+--     - C++ compilier:            /usr/bin/clang++-14
+--   C/C++ compilier flags:
+--     - C   compilier flags:      -O2 -g
+--     - C++ compilier flags:      -O2 -g
+--   OpenMP:
+--     - OpenMP was found:         NO
+-- 
+-- tengine-lite building infomation:
+--   - Project source path is:     /home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine
+--   - Project building path is:   /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build
+-- 
+-- tengine-lite other infomation:
+--   Package install path:         /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install
+-- 
+CMake Warning at cmake/summary.cmake:64 (MESSAGE):
+    - Tengine Online Report is : ON
+Call Stack (most recent call first):
+  CMakeLists.txt:167 (INCLUDE)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build
+[  0%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/cpu_graph.c.o
+[  0%] Building C object source/CMakeFiles/tengine-lite.dir/api/c_api.c.o
+[  0%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/cpu_device.c.o
+[  0%] Building C object source/CMakeFiles/tengine-lite-static.dir/api/c_api.c.o
+[  0%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/cpu_module.c.o
+[  0%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/cpu_node.c.o
+[  0%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/cpu_dump.c.o
+[  0%] Building C object source/CMakeFiles/tengine-lite-static.dir/api/plugin.c.o
+[  0%] Building C object source/CMakeFiles/tengine-lite.dir/device/device.c.o
+[  0%] Building C object source/CMakeFiles/tengine-lite.dir/api/plugin.c.o
+[  1%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/cpu_pool.c.o
+[  1%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/absval/absval_ref.c.o
+[  1%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/device.c.o
+[  1%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/cpu_device.c.o
+[  1%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/cpu_dump.c.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/api/c_api.c:306:17: warning: assigning to 'char *' from 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    hcl_version = get_tengine_version();
+                ^ ~~~~~~~~~~~~~~~~~~~~~
+[  1%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/add_n/add_n_ref.c.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/api/c_api.c:306:17: warning: assigning to 'char *' from 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    hcl_version = get_tengine_version();
+                ^ ~~~~~~~~~~~~~~~~~~~~~
+[  1%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/cpu_graph.c.o
+[  1%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/argmax/argmax_ref.c.o
+[  1%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/cpu_module.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/cpu_node.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/argmin/argmin_ref.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/cpu_pool.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/batchnorm/batchnorm_kernel_ref_fp32.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/absval/absval_ref.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/add_n/add_n_ref.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/argmax/argmax_ref.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/argmin/argmin_ref.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/batchnorm/batchnorm_kernel_ref_uint8.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/batchnorm/batchnorm_kernel_ref_fp32.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/batchnorm/batchnorm_ref.c.o
+[  2%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/batchnorm/batchnorm_kernel_ref_uint8.c.o
+[  3%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/batchtospacend/batchtospacend_ref.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/batchnorm/batchnorm_ref.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/bias/bias_ref.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/broadmul/broadmul_ref.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/cast/cast_ref.c.o
+1 warning generated.
+[  4%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/ceil/ceil_ref.c.o
+1 warning generated.
+[  4%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/clip/clip_kernel_ref_fp32.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/batchtospacend/batchtospacend_ref.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/clip/clip_kernel_ref_int8.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/broadmul/broadmul_ref.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/clip/clip_kernel_ref_uint8.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/bias/bias_ref.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/cast/cast_ref.c.o
+[  4%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/ceil/ceil_ref.c.o
+[  5%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/clip/clip_ref.c.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/device/cpu/op/clip/clip_kernel_ref_int8.c:73:46: warning: implicit conversion from 'int' to 'int8_t' (aka 'signed char') changes value from 255 to -1 [-Wconstant-conversion]
+        output_int8[i] = output_data > 255 ? 255 : output_data;
+                       ~                     ^~~
+[  5%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/clip/clip_kernel_ref_fp32.c.o
+1 warning generated.
+[  5%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/clip/clip_kernel_ref_int8.c.o
+[  5%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/comparison/comparison_kernel_ref_fp32.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/clip/clip_kernel_ref_uint8.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/comparison/comparison_ref.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/clip/clip_ref.c.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/device/cpu/op/clip/clip_kernel_ref_int8.c:73:46: warning: implicit conversion from 'int' to 'int8_t' (aka 'signed char') changes value from 255 to -1 [-Wconstant-conversion]
+        output_int8[i] = output_data > 255 ? 255 : output_data;
+                       ~                     ^~~
+[  6%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/concat/concat_kernel_ref_fp32.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/comparison/comparison_kernel_ref_fp32.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/comparison/comparison_ref.c.o
+1 warning generated.
+[  6%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/concat/concat_kernel_ref_fp32.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/concat/concat_kernel_ref_int8.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/concat/concat_kernel_ref_int8.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/concat/concat_kernel_ref_uint8.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/concat/concat_ref.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/concat/concat_kernel_ref_uint8.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/conv_kernel_ref_fp16.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/concat/concat_ref.c.o
+[  6%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/conv_kernel_ref_fp16.c.o
+[  7%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/conv_kernel_ref_fp32.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/conv_kernel_ref_fp32.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/conv_kernel_ref_int8.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/conv_kernel_ref_int8.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/conv_kernel_ref_uint8.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/conv_kernel_ref_uint8.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/conv_ref.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/crop/crop_ref.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/deconv/deconv_ref.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/conv_ref.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/depthtospace/depthtospace_ref.c.o
+[  8%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/crop/crop_ref.c.o
+[  9%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/detection_postprocess/detection_postprocess_ref.c.o
+[  9%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/detection_output/detection_output_ref.c.o
+[  9%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/dropout/dropout_ref.c.o
+[  9%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/deconv/deconv_ref.c.o
+[  9%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/depthtospace/depthtospace_ref.c.o
+[  9%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/detection_output/detection_output_ref.c.o
+[  9%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/eltwise/eltwise_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/detection_postprocess/detection_postprocess_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/elu/elu_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/dropout/dropout_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/embedding/embedding_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/eltwise/eltwise_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/elu/elu_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/embedding/embedding_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/expanddims/expanddims_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/expand/expand_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/expand/expand_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/expanddims/expanddims_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/fc/fc_ref.c.o
+[ 10%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/fc/fc_ref.c.o
+[ 11%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/flatten/flatten_ref.c.o
+[ 11%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/gather/gather_ref.c.o
+[ 11%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/gather/gather_ref.c.o
+[ 11%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/gelu/gelu_ref.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/flatten/flatten_ref.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/gelu/gelu_ref.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/gru/gru_ref.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/gru/gru_ref.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/hardsigmoid/hardsigmoid_ref.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/hardsigmoid/hardsigmoid_ref.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/hardswish/hardswish_kernel_ref_fp32.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/hardswish/hardswish_kernel_ref_fp32.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/hardswish/hardswish_kernel_ref_uint8.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/hardswish/hardswish_kernel_ref_uint8.c.o
+[ 12%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/hardswish/hardswish_ref.c.o
+[ 13%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/input/input_ref.c.o
+[ 13%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/hardswish/hardswish_ref.c.o
+[ 13%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/instancenorm/instancenorm_ref.c.o
+[ 13%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/interp/interp_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/input/input_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/instancenorm/instancenorm_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/l2normalization/l2normalization_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/interp/interp_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/l2normalization/l2normalization_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/l2pool/l2pool_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/l2pool/l2pool_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/logical/logical_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/layernorm/layernorm_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/logistic/logistic_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/logical/logical_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/layernorm/layernorm_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/logistic/logistic_ref.c.o
+[ 14%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/logsoftmax/logsoftmax_ref.c.o
+[ 15%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/lrn/lrn_ref.c.o
+[ 15%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/lstm/lstm_ref.c.o
+[ 15%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/lrn/lrn_ref.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/logsoftmax/logsoftmax_ref.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/lstm/lstm_ref.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/matmul/matmul_ref.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/matmul/matmul_ref.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/maximum/maximum_ref.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/mean/mean_ref.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/maximum/maximum_ref.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/mish/mish_kernel_ref_fp32.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/minimum/minimum_ref.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/mish/mish_kernel_ref_uint8.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/mvn/mvn_ref.c.o
+[ 16%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/noop/noop_ref.c.o
+[ 17%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/mish/mish_ref.c.o
+[ 17%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/mean/mean_ref.c.o
+[ 17%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/normalize/normalize_ref.c.o
+[ 17%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/pad/pad_ref.c.o
+[ 17%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/permute/permute_ref.c.o
+[ 17%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/pooling/pooling_kernel_ref_fp16.c.o
+[ 17%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/pooling/pooling_kernel_ref_fp32.c.o
+[ 17%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/mish/mish_kernel_ref_fp32.c.o
+[ 17%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/minimum/minimum_ref.c.o
+[ 18%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/mish/mish_kernel_ref_uint8.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/pooling/pooling_kernel_ref_int8.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/pooling/pooling_kernel_ref_uint8.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/mish/mish_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/pooling/pooling_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/mvn/mvn_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/noop/noop_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/normalize/normalize_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/priorbox/priorbox_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/prelu/prelu_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/reciprocal/reciprocal_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/psroipooling/psroipooling_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/pad/pad_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/reducel2/reducel2_ref.c.o
+[ 19%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/permute/permute_ref.c.o
+[ 20%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/reduction/reduction_ref.c.o
+[ 20%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/pooling/pooling_kernel_ref_fp16.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/pooling/pooling_kernel_ref_fp32.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/pooling/pooling_kernel_ref_int8.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/pooling/pooling_kernel_ref_uint8.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/pooling/pooling_ref.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/region/region_ref.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/relu/relu_kernel_ref_fp16.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/relu/relu_kernel_ref_int8.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/relu/relu_kernel_ref_fp32.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/priorbox/priorbox_ref.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/relu/relu_kernel_ref_uint8.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/prelu/prelu_ref.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/relu/relu_ref.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/relu1/relu1_ref.c.o
+[ 21%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/psroipooling/psroipooling_ref.c.o
+[ 22%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/relu6/relu6_ref.c.o
+[ 22%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/reciprocal/reciprocal_ref.c.o
+[ 22%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/reorg/reorg_ref.c.o
+[ 22%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/reducel2/reducel2_ref.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/reduction/reduction_ref.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/reshape/reshape_ref.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/region/region_ref.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/relu/relu_kernel_ref_fp16.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/resize/resize_ref.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/relu/relu_kernel_ref_fp32.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/relu/relu_kernel_ref_int8.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/relu/relu_kernel_ref_uint8.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/reverse/reverse_ref.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/relu1/relu1_ref.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/relu/relu_ref.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/rnn/rnn_ref.c.o
+[ 23%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/roialign/roialign_ref.c.o
+[ 24%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/relu6/relu6_ref.c.o
+[ 24%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/reorg/reorg_ref.c.o
+[ 24%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/roipooling/roipooling_ref.c.o
+[ 24%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/reshape/reshape_ref.c.o
+[ 24%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/resize/resize_ref.c.o
+[ 25%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/round/round_ref.c.o
+[ 25%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/reverse/reverse_ref.c.o
+[ 25%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/rnn/rnn_ref.c.o
+[ 25%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/roialign/roialign_ref.c.o
+[ 25%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/roipooling/roipooling_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/round/round_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/rpn/rpn_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/rpn/rpn_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/scale/scale_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/scatter/scatter_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/scale/scale_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/scatter/scatter_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/selu/selu_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/shape/shape_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/shuffle_channel/shuffle_channel_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/selu/selu_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/sigmoid/sigmoid_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/shape/shape_ref.c.o
+[ 26%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/shuffle_channel/shuffle_channel_ref.c.o
+[ 27%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/slice/slice_ref.c.o
+[ 27%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/sigmoid/sigmoid_ref.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/slice/slice_ref.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/softmax/softmax_kernel_ref_fp32.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/softmax/softmax_kernel_ref_fp32.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/softmax/softmax_kernel_ref_int8.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/softmax/softmax_kernel_ref_uint8.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/softmax/softmax_kernel_ref_int8.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/softmax/softmax_ref.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/softplus/softplus_ref.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/softmax/softmax_kernel_ref_uint8.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/softmax/softmax_ref.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/softplus/softplus_ref.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/spacetobatchnd/spacetobatchnd_ref.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/spacetobatchnd/spacetobatchnd_ref.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/sparsetodense/sparsetodense_ref.c.o
+[ 28%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/spacetodepth/spacetodepth_ref.c.o
+[ 29%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/sparsetodense/sparsetodense_ref.c.o
+[ 29%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/spacetodepth/spacetodepth_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/spatialtransformer/spatialtransformer_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/split/split_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/squeeze/squeeze_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/squareddifference/squareddifference_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/spatialtransformer/spatialtransformer_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/strided_slice/strided_slice_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/split/split_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/squareddifference/squareddifference_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/squeeze/squeeze_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/strided_slice/strided_slice_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/swap_axis/swap_axis_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/tanh/tanh_ref.c.o
+[ 30%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/swap_axis/swap_axis_ref.c.o
+[ 31%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/tile/tile_ref.c.o
+[ 31%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/threshold/threshold_ref.c.o
+[ 31%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/topkv2/topkv2_ref.c.o
+[ 31%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/transpose/transpose_ref.c.o
+[ 31%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/tanh/tanh_ref.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/threshold/threshold_ref.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/tile/tile_ref.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/unary/unary_kernel_ref_fp32.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/unary/unary_kernel_ref_uint8.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/unary/unary_ref.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/unary/unary_kernel_ref_fp32.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/topkv2/topkv2_ref.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/transpose/transpose_ref.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/unsqueeze/unsqueeze_ref.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/unary/unary_kernel_ref_uint8.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/upsample/upsample_ref.c.o
+[ 32%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/unary/unary_ref.c.o
+[ 33%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/where/where_ref.c.o
+[ 33%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/unsqueeze/unsqueeze_ref.c.o
+[ 33%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/zeroslike/zeroslike_ref.c.o
+[ 33%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/x86/conv_direct_hcl_int8_x86.c.o
+[ 34%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/upsample/upsample_ref.c.o
+[ 34%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/x86/conv_dw_hcl_x86.c.o
+[ 34%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/where/where_ref.c.o
+[ 34%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/x86/conv_dw_kernel_x86.c.o
+[ 34%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/zeroslike/zeroslike_ref.c.o
+[ 34%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/x86/conv_kernel_x86.c.o
+[ 34%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/x86/conv_hcl_x86.c.o
+[ 34%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/x86/conv_direct_hcl_int8_x86.c.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/device/cpu/op/conv/x86/conv_hcl_x86.c:58:13: warning: address of function 'conv_hcl_set_shared_mem' will always evaluate to 'true' [-Wpointer-bool-conversion]
+        if (conv_hcl_set_shared_mem && exec_node->shared_mem_size < exec_graph->shared_mem_size)
+            ^~~~~~~~~~~~~~~~~~~~~~~ ~~
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/device/cpu/op/conv/x86/conv_hcl_x86.c:58:13: note: prefix with the address-of operator to silence this warning
+        if (conv_hcl_set_shared_mem && exec_node->shared_mem_size < exec_graph->shared_mem_size)
+            ^
+            &
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/device/cpu/op/conv/x86/conv_hcl_x86.c:66:13: warning: address of function 'conv_hcl_set_shared_pack4_mem' will always evaluate to 'true' [-Wpointer-bool-conversion]
+        if (conv_hcl_set_shared_pack4_mem && exec_node->shared_pack4_mem_size < exec_graph->shared_pack4_mem_size)
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/device/cpu/op/conv/x86/conv_hcl_x86.c:66:13: note: prefix with the address-of operator to silence this warning
+        if (conv_hcl_set_shared_pack4_mem && exec_node->shared_pack4_mem_size < exec_graph->shared_pack4_mem_size)
+            ^
+            &
+[ 34%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/conv/x86/wino_conv_kernel_x86.c.o
+2 warnings generated.
+[ 35%] Building C object source/CMakeFiles/tengine-lite.dir/device/cpu/op/fc/x86/fc_hcl_x86.c.o
+[ 35%] Building C object source/CMakeFiles/tengine-lite.dir/operator/op.c.o
+[ 35%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/absval.c.o
+[ 35%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/x86/conv_dw_hcl_x86.c.o
+[ 35%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/add_n.c.o
+[ 35%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/x86/conv_dw_kernel_x86.c.o
+[ 35%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/argmax.c.o
+[ 35%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/argmin.c.o
+[ 35%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/x86/conv_hcl_x86.c.o
+[ 35%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/batchnorm.c.o
+[ 35%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/x86/conv_kernel_x86.c.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/device/cpu/op/conv/x86/conv_hcl_x86.c:58:13: warning: address of function 'conv_hcl_set_shared_mem' will always evaluate to 'true' [-Wpointer-bool-conversion]
+[ 35%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/conv/x86/wino_conv_kernel_x86.c.o
+        if (conv_hcl_set_shared_mem && exec_node->shared_mem_size < exec_graph->shared_mem_size)
+            ^~~~~~~~~~~~~~~~~~~~~~~ ~~
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/device/cpu/op/conv/x86/conv_hcl_x86.c:58:13: note: prefix with the address-of operator to silence this warning
+        if (conv_hcl_set_shared_mem && exec_node->shared_mem_size < exec_graph->shared_mem_size)
+            ^
+            &
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/device/cpu/op/conv/x86/conv_hcl_x86.c:66:13: warning: address of function 'conv_hcl_set_shared_pack4_mem' will always evaluate to 'true' [-Wpointer-bool-conversion]
+        if (conv_hcl_set_shared_pack4_mem && exec_node->shared_pack4_mem_size < exec_graph->shared_pack4_mem_size)
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/device/cpu/op/conv/x86/conv_hcl_x86.c:66:13: note: prefix with the address-of operator to silence this warning
+        if (conv_hcl_set_shared_pack4_mem && exec_node->shared_pack4_mem_size < exec_graph->shared_pack4_mem_size)
+            ^
+            &
+2 warnings generated.
+[ 35%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/batchtospacend.c.o
+[ 36%] Building C object source/CMakeFiles/tengine-lite-static.dir/device/cpu/op/fc/x86/fc_hcl_x86.c.o
+[ 36%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/op.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/bias.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/broadmul.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/cast.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/absval.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/add_n.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/ceil.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/argmin.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/argmax.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/batchnorm.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/clip.c.o
+[ 37%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/batchtospacend.c.o
+[ 38%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/bias.c.o
+[ 38%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/comparison.c.o
+[ 38%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/const.c.o
+[ 39%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/concat.c.o
+[ 39%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/convolution.c.o
+[ 39%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/broadmul.c.o
+[ 39%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/cast.c.o
+[ 39%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/crop.c.o
+[ 39%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/ceil.c.o
+[ 39%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/clip.c.o
+[ 39%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/deconvolution.c.o
+[ 39%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/comparison.c.o
+[ 39%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/concat.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/convolution.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/const.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/crop.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/depthtospace.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/detection_output.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/detection_postprocess.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/deconvolution.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/dropout.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/depthtospace.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/detection_output.c.o
+[ 40%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/eltwise.c.o
+[ 41%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/elu.c.o
+[ 41%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/embedding.c.o
+[ 41%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/eltwise.c.o
+[ 41%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/detection_postprocess.c.o
+[ 41%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/dropout.c.o
+[ 41%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/expand.c.o
+[ 42%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/elu.c.o
+[ 42%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/expanddims.c.o
+[ 42%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/flatten.c.o
+[ 42%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/embedding.c.o
+[ 42%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/fc.c.o
+[ 42%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/expand.c.o
+[ 42%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/gather.c.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/operator/prototype/expand.c:95:20: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+        int diff = fabs(input1_dim_size - input2_dim_size);
+                   ^
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/operator/prototype/expand.c:95:20: note: use function 'abs' instead
+        int diff = fabs(input1_dim_size - input2_dim_size);
+                   ^~~~
+                   abs
+[ 42%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/gelu.c.o
+[ 42%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/expanddims.c.o
+1 warning generated.
+[ 42%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/gemm.c.o
+[ 42%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/flatten.c.o
+[ 43%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/generic.c.o
+[ 43%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/fc.c.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/operator/prototype/expand.c:95:20: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+        int diff = fabs(input1_dim_size - input2_dim_size);
+                   ^
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/source/operator/prototype/expand.c:95:20: note: use function 'abs' instead
+[ 43%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/hardsigmoid.c.o
+        int diff = fabs(input1_dim_size - input2_dim_size);
+                   ^~~~
+                   abs
+[ 43%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/gru.c.o
+[ 43%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/gather.c.o
+1 warning generated.
+[ 43%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/gelu.c.o
+[ 43%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/hardswish.c.o
+[ 44%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/gemm.c.o
+[ 44%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/generic.c.o
+[ 44%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/input.c.o
+[ 44%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/instancenorm.c.o
+[ 44%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/gru.c.o
+[ 44%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/interp.c.o
+[ 44%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/l2normalization.c.o
+[ 44%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/hardsigmoid.c.o
+[ 45%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/l2pool.c.o
+[ 45%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/hardswish.c.o
+[ 45%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/input.c.o
+[ 45%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/instancenorm.c.o
+[ 45%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/interp.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/l2normalization.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/l2pool.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/layernorm.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/layernorm.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/logical.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/logical.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/logsoftmax.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/logsoftmax.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/lrn.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/lrn.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/lstm.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/lstm.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/matmul.c.o
+[ 46%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/matmul.c.o
+[ 47%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/maximum.c.o
+[ 47%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/maximum.c.o
+[ 47%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/mish.c.o
+[ 47%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/mean.c.o
+[ 47%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/minimum.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/mean.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/mish.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/minimum.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/mvn.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/mvn.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/normalize.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/noop.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/noop.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/pad.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/normalize.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/pad.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/permute.c.o
+[ 48%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/permute.c.o
+[ 49%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/pooling.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/prelu.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/pooling.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/prelu.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/priorbox.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/psroipooling.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/priorbox.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/reciprocal.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/psroipooling.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/reciprocal.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/reducel2.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/region.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/region.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/reduction.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/reducel2.c.o
+[ 50%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/reduction.c.o
+[ 51%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/relu.c.o
+[ 51%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/relu1.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/relu.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/relu1.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/relu6.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/relu6.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/reorg.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/reshape.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/resize.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/reshape.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/reorg.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/reverse.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/resize.c.o
+[ 52%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/rnn.c.o
+[ 53%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/roialign.c.o
+[ 53%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/roipooling.c.o
+[ 53%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/round.c.o
+[ 53%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/rpn.c.o
+[ 53%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/reverse.c.o
+[ 53%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/scale.c.o
+[ 53%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/rnn.c.o
+[ 54%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/roialign.c.o
+[ 54%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/scatter.c.o
+[ 54%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/roipooling.c.o
+[ 54%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/selu.c.o
+[ 54%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/rpn.c.o
+[ 54%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/round.c.o
+[ 54%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/shape.c.o
+[ 54%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/scale.c.o
+[ 54%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/selu.c.o
+[ 55%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/shuffle_channel.c.o
+[ 55%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/sigmoid.c.o
+[ 55%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/scatter.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/shuffle_channel.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/shape.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/slice.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/sigmoid.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/slice.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/softmax.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/softmax.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/spacetobatchnd.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/spacetodepth.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/softplus.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/softplus.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/spacetobatchnd.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/sparsetodense.c.o
+[ 56%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/spacetodepth.c.o
+[ 57%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/spatialtransformer.c.o
+[ 57%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/spatialtransformer.c.o
+[ 57%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/sparsetodense.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/split.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/split.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/squareddifference.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/squeeze.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/squeeze.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/squareddifference.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/strided_slice.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/swap_axis.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/tanh.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/threshold.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/strided_slice.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/tile.c.o
+[ 58%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/swap_axis.c.o
+[ 59%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/topkv2.c.o
+[ 59%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/transpose.c.o
+[ 59%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/tanh.c.o
+[ 59%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/threshold.c.o
+[ 59%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/topkv2.c.o
+[ 59%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/transpose.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/tile.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/unary.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/unsqueeze.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/upsample.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/unsqueeze.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/unary.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/where.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/upsample.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite.dir/operator/prototype/zeroslike.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite.dir/scheduler/scheduler.c.o
+[ 61%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/serializer.c.o
+[ 60%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/where.c.o
+[ 61%] Building C object source/CMakeFiles/tengine-lite-static.dir/operator/prototype/zeroslike.c.o
+[ 61%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/tm2_serializer.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite-static.dir/scheduler/scheduler.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/serializer.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_add_n.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/tm2_serializer.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_add_n.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_argmax.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_argmin.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_argmin.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_argmax.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_batchnorm.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_batchtospacend.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_bias.c.o
+[ 63%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_broadmul.c.o
+[ 62%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_batchnorm.c.o
+[ 63%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_batchtospacend.c.o
+[ 63%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_bias.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_broadmul.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_cast.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_ceil.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_comparison.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_clip.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_concat.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_cast.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_ceil.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_comparison.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_clip.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_conv.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_concat.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_conv.c.o
+[ 64%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_crop.c.o
+[ 65%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_deconv.c.o
+[ 65%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_crop.c.o
+[ 65%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_depthtospace.c.o
+[ 65%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_detection_output.c.o
+[ 65%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_detection_postprocess.c.o
+[ 66%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_deconv.c.o
+[ 66%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_detection_output.c.o
+[ 66%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_dropout.c.o
+[ 66%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_depthtospace.c.o
+[ 66%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_detection_postprocess.c.o
+[ 66%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_dropout.c.o
+[ 66%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_eltwise.c.o
+[ 66%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_embedding.c.o
+[ 66%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_elu.c.o
+[ 67%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_expand.c.o
+[ 67%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_expanddims.c.o
+[ 67%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_fc.c.o
+[ 67%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_flatten.c.o
+[ 67%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_eltwise.c.o
+[ 67%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_gather.c.o
+[ 67%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_elu.c.o
+[ 67%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_gelu.c.o
+[ 67%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_gemm.c.o
+[ 67%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_embedding.c.o
+[ 68%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_expand.c.o
+[ 68%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_generic.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_gru.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_expanddims.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_instancenorm.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_hardsigmoid.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_hardswish.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_interp.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_fc.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_flatten.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_l2normalization.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_l2pool.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_layernorm.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_gather.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_gelu.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_gemm.c.o
+[ 69%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_generic.c.o
+[ 70%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_logical.c.o
+[ 70%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_logistic.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_gru.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_hardsigmoid.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_logsoftmax.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_lrn.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_hardswish.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_instancenorm.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_lstm.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_interp.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_l2normalization.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_matmul.c.o
+[ 71%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_l2pool.c.o
+[ 72%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_mish.c.o
+[ 72%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_maximum.c.o
+[ 72%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_layernorm.c.o
+[ 72%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_mean.c.o
+[ 72%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_logical.c.o
+[ 72%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_mvn.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_logistic.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_noop.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_logsoftmax.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_normalize.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_pad.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_lrn.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_lstm.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_permute.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_matmul.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_maximum.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_pool.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_mean.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_prelu.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_mish.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_noop.c.o
+[ 73%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_pad.c.o
+[ 74%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_priorbox.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_mvn.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_normalize.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_psroipooling.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_reciprocal.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_reducel2.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_permute.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_reduction.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_pool.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_relu.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_region.c.o
+[ 75%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_prelu.c.o
+[ 76%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_psroipooling.c.o
+[ 76%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_relu1.c.o
+[ 76%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_priorbox.c.o
+[ 76%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_relu6.c.o
+[ 76%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_reducel2.c.o
+[ 76%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_reduction.c.o
+[ 76%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_reciprocal.c.o
+[ 76%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_region.c.o
+[ 77%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_reorg.c.o
+[ 77%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_relu1.c.o
+[ 77%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_reshape.c.o
+[ 77%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_relu.c.o
+[ 77%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_relu6.c.o
+[ 78%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_reorg.c.o
+[ 78%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_reshape.c.o
+[ 78%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_reverse.c.o
+[ 78%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_resize.c.o
+[ 78%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_rnn.c.o
+[ 78%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_resize.c.o
+[ 78%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_roipooling.c.o
+[ 78%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_reverse.c.o
+[ 78%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_roialign.c.o
+[ 78%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_round.c.o
+[ 79%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_rpn.c.o
+[ 79%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_roialign.c.o
+[ 79%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_rnn.c.o
+[ 79%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_scatter.c.o
+[ 79%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_roipooling.c.o
+[ 79%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_scale.c.o
+[ 79%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_round.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_rpn.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_selu.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_shape.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_scale.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_scatter.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_shuffle_channel.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_sigmoid.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_selu.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_shape.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_shuffle_channel.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_slice.c.o
+[ 80%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_sigmoid.c.o
+[ 81%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_softmax.c.o
+[ 81%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_slice.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_softmax.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_softplus.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_softplus.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_spacetobatchnd.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_spacetodepth.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_sparsetodense.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_spacetobatchnd.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_spacetodepth.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_spatialtransformer.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_sparsetodense.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_split.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_spatialtransformer.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_split.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_squareddifference.c.o
+[ 82%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_squareddifference.c.o
+[ 83%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_squeeze.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_squeeze.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_strided_slice.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_strided_slice.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_swap_axis.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_tanh.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_swap_axis.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_tanh.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_threshold.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_threshold.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_tile.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_topkv2.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_tile.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_transpose.c.o
+[ 84%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_topkv2.c.o
+[ 85%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_unsqueeze.c.o
+[ 85%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_unary.c.o
+[ 85%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_transpose.c.o
+[ 85%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_upsample.c.o
+[ 86%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_unary.c.o
+[ 86%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_where.c.o
+[ 86%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_unsqueeze.c.o
+[ 86%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_upsample.c.o
+[ 86%] Building C object source/CMakeFiles/tengine-lite.dir/serializer/tmfile/op/tm2_zeroslike.c.o
+[ 86%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_where.c.o
+[ 86%] Building C object source/CMakeFiles/tengine-lite.dir/graph/graph.c.o
+[ 86%] Building C object source/CMakeFiles/tengine-lite.dir/executer/executer.c.o
+[ 86%] Building C object source/CMakeFiles/tengine-lite-static.dir/serializer/tmfile/op/tm2_zeroslike.c.o
+[ 87%] Building C object source/CMakeFiles/tengine-lite.dir/graph/tensor.c.o
+[ 87%] Building C object source/CMakeFiles/tengine-lite.dir/graph/node.c.o
+[ 87%] Building C object source/CMakeFiles/tengine-lite-static.dir/executer/executer.c.o
+[ 87%] Building C object source/CMakeFiles/tengine-lite.dir/graph/subgraph.c.o
+[ 87%] Building C object source/CMakeFiles/tengine-lite.dir/module/module.c.o
+[ 87%] Building C object source/CMakeFiles/tengine-lite-static.dir/graph/graph.c.o
+[ 87%] Building C object source/CMakeFiles/tengine-lite-static.dir/graph/node.c.o
+[ 87%] Building C object source/CMakeFiles/tengine-lite.dir/optimizer/helper.c.o
+[ 87%] Building C object source/CMakeFiles/tengine-lite.dir/optimizer/estimation.c.o
+[ 87%] Building C object source/CMakeFiles/tengine-lite.dir/optimizer/split.c.o
+[ 88%] Building C object source/CMakeFiles/tengine-lite-static.dir/graph/subgraph.c.o
+[ 88%] Building C object source/CMakeFiles/tengine-lite.dir/system/cpu.c.o
+[ 88%] Building C object source/CMakeFiles/tengine-lite-static.dir/graph/tensor.c.o
+[ 88%] Building C object source/CMakeFiles/tengine-lite.dir/utility/float.c.o
+[ 88%] Building C object source/CMakeFiles/tengine-lite-static.dir/module/module.c.o
+[ 88%] Building C object source/CMakeFiles/tengine-lite.dir/utility/lock.c.o
+[ 88%] Building C object source/CMakeFiles/tengine-lite-static.dir/optimizer/estimation.c.o
+[ 89%] Building C object source/CMakeFiles/tengine-lite.dir/utility/log.c.o
+[ 89%] Building C object source/CMakeFiles/tengine-lite.dir/utility/sys_port.c.o
+[ 89%] Building C object source/CMakeFiles/tengine-lite.dir/utility/mem_stat.c.o
+[ 89%] Building C object source/CMakeFiles/tengine-lite.dir/utility/math.c.o
+[ 89%] Building C object source/CMakeFiles/tengine-lite.dir/utility/utils.c.o
+[ 89%] Building C object source/CMakeFiles/tengine-lite.dir/utility/vector.c.o
+[ 89%] Building C object source/CMakeFiles/tengine-lite.dir/olreport/basesocket.c.o
+[ 89%] Building C object source/CMakeFiles/tengine-lite.dir/olreport/clientsocket.c.o
+[ 89%] Building C object source/CMakeFiles/tengine-lite-static.dir/optimizer/helper.c.o
+[ 90%] Building C object source/CMakeFiles/tengine-lite.dir/olreport/md5.c.o
+[ 90%] Building C object source/CMakeFiles/tengine-lite.dir/olreport/onlinereportmgr.c.o
+[ 90%] Building C object source/CMakeFiles/tengine-lite.dir/olreport/onlinereportutil.c.o
+[ 90%] Building C object source/CMakeFiles/tengine-lite.dir/olreport/onlinereportfmtdat.c.o
+[ 90%] Building C object source/CMakeFiles/tengine-lite-static.dir/optimizer/split.c.o
+[ 90%] Building C object source/CMakeFiles/tengine-lite-static.dir/system/cpu.c.o
+[ 90%] Building C object source/CMakeFiles/tengine-lite.dir/olreport/reportbasedata.c.o
+[ 90%] Building C object source/CMakeFiles/tengine-lite.dir/olreport/reportdata.c.o
+[ 90%] Building C object source/CMakeFiles/tengine-lite.dir/olreport/tenginereportmgr.c.o
+[ 90%] Building C object source/CMakeFiles/tengine-lite-static.dir/utility/float.c.o
+[ 91%] Building C object source/CMakeFiles/tengine-lite-static.dir/utility/lock.c.o
+[ 91%] Building C object source/CMakeFiles/tengine-lite-static.dir/utility/log.c.o
+[ 91%] Building C object source/CMakeFiles/tengine-lite.dir/olreport/thread.c.o
+[ 91%] Building C object source/CMakeFiles/tengine-lite-static.dir/utility/sys_port.c.o
+[ 91%] Building C object source/CMakeFiles/tengine-lite-static.dir/utility/math.c.o
+[ 91%] Building C object source/CMakeFiles/tengine-lite-static.dir/utility/mem_stat.c.o
+[ 91%] Building C object source/CMakeFiles/tengine-lite-static.dir/utility/vector.c.o
+[ 91%] Building C object source/CMakeFiles/tengine-lite-static.dir/olreport/basesocket.c.o
+[ 91%] Building C object source/CMakeFiles/tengine-lite-static.dir/utility/utils.c.o
+[ 91%] Building C object source/CMakeFiles/tengine-lite-static.dir/olreport/clientsocket.c.o
+[ 92%] Building C object source/CMakeFiles/tengine-lite-static.dir/olreport/md5.c.o
+[ 92%] Building C object source/CMakeFiles/tengine-lite-static.dir/olreport/onlinereportfmtdat.c.o
+[ 92%] Building C object source/CMakeFiles/tengine-lite-static.dir/olreport/onlinereportutil.c.o
+[ 92%] Building C object source/CMakeFiles/tengine-lite-static.dir/olreport/onlinereportmgr.c.o
+[ 92%] Building C object source/CMakeFiles/tengine-lite-static.dir/olreport/reportbasedata.c.o
+[ 92%] Building C object source/CMakeFiles/tengine-lite-static.dir/olreport/reportdata.c.o
+[ 92%] Building C object source/CMakeFiles/tengine-lite-static.dir/olreport/thread.c.o
+[ 92%] Building C object source/CMakeFiles/tengine-lite-static.dir/olreport/tenginereportmgr.c.o
+[ 93%] Linking C shared library libtengine-lite.so
+[ 94%] Linking C static library libtengine-lite-static.a
+[ 94%] Built target tengine-lite-static
+[ 94%] Built target tengine-lite
+[ 94%] Building C object examples/CMakeFiles/tm_classification_int8.dir/tm_classification_int8.c.o
+[ 94%] Building C object examples/CMakeFiles/tm_mobilenet_ssd.dir/tm_mobilenet_ssd.c.o
+[ 94%] Building C object examples/CMakeFiles/tm_classification.dir/tm_classification.c.o
+[ 94%] Building CXX object benchmark/CMakeFiles/tm_benchmark.dir/common/timer.cc.o
+[ 94%] Building CXX object examples/CMakeFiles/tm_mobilenet_ssd_uint8.dir/tm_mobilenet_ssd_uint8.cpp.o
+[ 95%] Building C object examples/CMakeFiles/tm_efficientdet_uint8.dir/tm_efficientdet_uint8.c.o
+[ 95%] Building C object examples/CMakeFiles/tm_efficientdet.dir/tm_efficientdet.c.o
+[ 95%] Building C object examples/CMakeFiles/tm_classification_uint8.dir/tm_classification_uint8.c.o
+[ 95%] Building CXX object examples/CMakeFiles/tm_retinaface.dir/tm_retinaface.cpp.o
+[ 95%] Building CXX object examples/CMakeFiles/tm_landmark.dir/tm_landmark.cpp.o
+[ 95%] Building CXX object benchmark/CMakeFiles/tm_benchmark.dir/tm_benchmark.cc.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/examples/tm_classification.c:65:19: warning: 'add_context_device' is deprecated [-Wdeprecated-declarations]
+        int rtt = add_context_device(ocl_context, "OCL");
+                  ^
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build/examples/tengine/c_api.h:1149:93: note: 'add_context_device' has been explicitly marked deprecated here
+DLLEXPORT DEPRECATED_BEFORE int add_context_device(context_t context, const char* dev_name) DEPRECATED_AFTER;
+                                                                                            ^
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build/examples/tengine/c_api.h:41:41: note: expanded from macro 'DEPRECATED_AFTER'
+#define DEPRECATED_AFTER __attribute__((deprecated))
+                                        ^
+1 warning generated.
+[ 96%] Building C object examples/CMakeFiles/tm_mobilenet_ssd.dir/common/tengine_operations.c.o
+[ 97%] Building C object examples/CMakeFiles/tm_classification_int8.dir/common/tengine_operations.c.o
+[ 97%] Building C object examples/CMakeFiles/tm_classification.dir/common/tengine_operations.c.o
+[ 97%] Building C object examples/CMakeFiles/tm_classification_uint8.dir/common/tengine_operations.c.o
+[ 97%] Building C object examples/CMakeFiles/tm_efficientdet_uint8.dir/common/tengine_operations.c.o
+[ 97%] Building C object examples/CMakeFiles/tm_efficientdet.dir/common/tengine_operations.c.o
+[ 97%] Building C object examples/CMakeFiles/tm_landmark.dir/common/tengine_operations.c.o
+[ 97%] Building C object examples/CMakeFiles/tm_mobilenet_ssd_uint8.dir/common/tengine_operations.c.o
+/home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine/benchmark/tm_benchmark.cc:219:13: warning: bool literal returned from 'main' [-Wmain]
+            return false;
+            ^      ~~~~~
+[ 97%] Building C object examples/CMakeFiles/tm_retinaface.dir/common/tengine_operations.c.o
+1 warning generated.
+[ 97%] Linking CXX executable tm_benchmark
+[ 97%] Built target tm_benchmark
+[ 97%] Building CXX object examples/CMakeFiles/tm_landmark_uint8.dir/tm_landmark_uint8.cpp.o
+[ 97%] Building C object examples/CMakeFiles/tm_landmark_uint8.dir/common/tengine_operations.c.o
+[ 97%] Linking C executable tm_mobilenet_ssd
+[ 97%] Built target tm_mobilenet_ssd
+[ 97%] Building CXX object examples/CMakeFiles/tm_mobilefacenet.dir/tm_mobilefacenet.cpp.o
+[ 97%] Linking C executable tm_classification_uint8
+[ 97%] Linking C executable tm_classification_int8
+[ 97%] Linking C executable tm_classification
+[ 97%] Built target tm_classification_uint8
+[ 97%] Building C object examples/CMakeFiles/tm_mobilefacenet.dir/common/tengine_operations.c.o
+[ 97%] Built target tm_classification_int8
+[ 97%] Linking C executable tm_efficientdet_uint8
+[ 97%] Building CXX object examples/CMakeFiles/tm_mobilefacenet_uint8.dir/tm_mobilefacenet_uint8.cpp.o
+[ 97%] Built target tm_classification
+[ 97%] Building CXX object examples/CMakeFiles/tm_yolov5.dir/tm_yolov5.cpp.o
+[ 97%] Building CXX object examples/CMakeFiles/tm_yolofastest.dir/tm_yolofastest.cpp.o
+[ 97%] Linking C executable tm_efficientdet
+[ 97%] Built target tm_efficientdet_uint8
+[ 97%] Building C object examples/CMakeFiles/tm_mobilefacenet_uint8.dir/common/tengine_operations.c.o
+[ 97%] Built target tm_efficientdet
+[ 98%] Building CXX object examples/CMakeFiles/tm_ultraface.dir/tm_ultraface.cpp.o
+[ 98%] Building C object examples/CMakeFiles/tm_yolov5.dir/common/tengine_operations.c.o
+[ 98%] Linking CXX executable tm_landmark
+[ 98%] Built target tm_landmark
+[ 98%] Building C object examples/CMakeFiles/tm_ultraface.dir/common/tengine_operations.c.o
+[ 98%] Building C object examples/CMakeFiles/tm_yolofastest.dir/common/tengine_operations.c.o
+[ 98%] Linking CXX executable tm_mobilenet_ssd_uint8
+[ 98%] Linking CXX executable tm_retinaface
+[ 98%] Built target tm_mobilenet_ssd_uint8
+[ 98%] Built target tm_retinaface
+[ 99%] Linking CXX executable tm_landmark_uint8
+[ 99%] Built target tm_landmark_uint8
+[ 99%] Linking CXX executable tm_mobilefacenet_uint8
+[ 99%] Linking CXX executable tm_mobilefacenet
+[100%] Linking CXX executable tm_yolov5
+[100%] Built target tm_mobilefacenet_uint8
+[100%] Built target tm_mobilefacenet
+[100%] Built target tm_yolov5
+[100%] Linking CXX executable tm_ultraface
+[100%] Built target tm_ultraface
+[100%] Linking CXX executable tm_yolofastest
+[100%] Built target tm_yolofastest
+-- Install configuration: "Debug"
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/lib/libtengine-lite-static.a
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/lib/libtengine-lite.so
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/include/tengine/c_api.h
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/include/tengine/defines.h
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_classification
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_classification" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_classification_int8
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_classification_int8" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_classification_uint8
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_classification_uint8" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_efficientdet
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_efficientdet" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_efficientdet_uint8
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_efficientdet_uint8" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_mobilenet_ssd
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_mobilenet_ssd" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_mobilenet_ssd_uint8
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_mobilenet_ssd_uint8" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_retinaface
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_retinaface" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_landmark
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_landmark" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_landmark_uint8
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_landmark_uint8" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_mobilefacenet
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_mobilefacenet" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_mobilefacenet_uint8
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_mobilefacenet_uint8" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_yolov5
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_yolov5" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_yolofastest
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_yolofastest" to ""
+-- Installing: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_ultraface
+-- Set runtime path of "/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install/bin/tm_ultraface" to ""
+done_utc=2026-03-22T07:22:02Z

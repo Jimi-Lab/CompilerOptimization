@@ -1,0 +1,9 @@
+[2026-03-25T01:49:38Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build
+[2026-03-25T01:49:38Z] cmake -S /home/jimi/PaperExperiment/CompilerOptimization/Target/zfp -B /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build -G Unix Makefiles -DCMAKE_C_COMPILER=clang-13 -DCMAKE_CXX_COMPILER=clang++-13 -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS_RELEASE=-O2 -g -DCMAKE_CXX_FLAGS_RELEASE=-O2 -g -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DBUILD_UTILITIES=ON
+[2026-03-25T01:49:41Z] cmake --build /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM13-O2-g/build -j10
+[2026-03-25T01:49:50Z] copy_artifacts
+[2026-03-25T01:49:50Z] python3_recompile_program_level_bc
+[2026-03-25T01:50:02Z] llvm-link-13_program_bc
+[2026-03-25T01:50:02Z] llvm-dis-13_program_bc
+[2026-03-25T01:50:03Z] llvm-nm-13_main_check
+[2026-03-25T01:50:03Z] llvm-nm-13_undefined_check

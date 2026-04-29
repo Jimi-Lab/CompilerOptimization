@@ -1,0 +1,8 @@
+binary=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/artifacts/lepton_O2_g
+artifact_bc=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/artifacts/lepton_O2_g.bc
+artifact_ll=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/artifacts/lepton_O2_g.ll
+bc_list=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/artifacts/bc_files_lepton_program.list
+flag_audit=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/lepton/LLVM13-O2-g/artifacts/bc_flag_audit.csv
+main_symbol=present
+undefined_symbol_count=118
+done_utc=2026-03-25T00:58:04Z

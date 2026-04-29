@@ -1,0 +1,17 @@
+[2026-03-25T01:10:33Z] chmod_existing_work_tree
+[2026-03-25T01:10:33Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src
+[2026-03-25T01:10:33Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src
+[2026-03-25T01:10:33Z] bash -lc cp -a '/home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile/.' '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src/'
+[2026-03-25T01:10:33Z] chmod -R u+w /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src
+[2026-03-25T01:10:33Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src/CMakeBuild
+[2026-03-25T01:10:33Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src/CMakeBuild
+[2026-03-25T01:10:33Z] bash -lc cd '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src/CMakeBuild' && cmake .. -G 'Unix Makefiles' -DCMAKE_C_COMPILER=clang-13 -DCMAKE_CXX_COMPILER=clang++-13 -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS_RELEASE='-O2 -g' -DCMAKE_CXX_FLAGS_RELEASE='-O2 -g' -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DBUILD_PROGRAMS=ON -DBUILD_EXAMPLES=OFF -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=OFF
+[2026-03-25T01:10:42Z] bash -lc cd '/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src/CMakeBuild' && cmake --build . -j8
+[2026-03-25T01:10:52Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src/CMakeBuild/compile_commands.json /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/artifacts/compile_commands.json
+[2026-03-25T01:10:52Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src/CMakeBuild/sndfile-convert /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/artifacts/sndfile-convert_O2_g
+[2026-03-25T01:10:52Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/work/libsndfile-src/CMakeBuild/libsndfile.a /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/artifacts/libsndfile_O2_g.a
+[2026-03-25T01:10:52Z] python3_recompile_sndfile_and_convert_to_program_bc
+[2026-03-25T01:11:30Z] llvm-link-13_sndfile_program_bc
+[2026-03-25T01:11:31Z] llvm-dis-13_sndfile_program_bc
+[2026-03-25T01:11:32Z] llvm-nm-13_symbol_check
+[2026-03-25T01:11:32Z] llvm-nm-13_undefined_check

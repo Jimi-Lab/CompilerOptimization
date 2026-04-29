@@ -1,0 +1,8 @@
+binary=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/artifacts/flatc_O2_g
+artifact_bc=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/artifacts/flatbuffers_flatc_O2_g.bc
+artifact_ll=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/artifacts/flatbuffers_flatc_O2_g.ll
+bc_list=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/artifacts/bc_files_flatc.list
+flag_audit=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/artifacts/bc_flag_audit.csv
+main_symbol=present
+undefined_symbol_count=159
+done_utc=2026-03-25T00:48:48Z

@@ -1,0 +1,1 @@
+/usr/bin/clang++-14 -O2 -g CMakeFiles/testzfp.dir/testzfp.cpp.o -o ../bin/testzfp  -Wl,-rpath,/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM14-O2-g/build/lib ../lib/libzfp.so.1.0.1 

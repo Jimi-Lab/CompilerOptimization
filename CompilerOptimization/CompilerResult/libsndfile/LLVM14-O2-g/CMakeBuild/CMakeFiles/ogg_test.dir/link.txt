@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/ogg_test.dir/tests/ogg_test.c.o -o ogg_test  libsndfile.a libtest_utils.a -lm libsndfile.a -lm 

@@ -1,0 +1,13 @@
+project=flatbuffers
+start_utc=2026-03-20T09:23:27Z
+policy=official_cmake_target_flatc; clang-14 only; flags O2 and g only
+-- Proceeding with version: 25.12.19.2026
+-- CMAKE_CXX_FLAGS: -O2 -g
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM14-O2-g/build
+Consolidate compiler generated dependencies of target flatc
+[100%] Built target flatc
+flatc_compile_entries 37
+generated_bc 37
+done_utc=2026-03-20T09:26:50Z

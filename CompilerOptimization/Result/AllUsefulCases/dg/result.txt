@@ -1,0 +1,47 @@
+## flatbuffers
+
+主结果目录。相较 `cda_timeout_retry_20260331_074712`，这个目录包含完整 high_precision 扫描输出，包括 `summary/line_hits.csv`、`summary/warnings.csv`、`summary/failures.csv`、`report.md`、`commands.log`、`dot/` 和 `work/flatbuffers_flatc.ll`。
+
+/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/dg/dg-LLVM14-O2-g/high_precision_20260326_164052
+
+## lepton
+
+主结果目录，包含完整 high_precision 扫描输出。
+
+/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/dg/dg-LLVM14-O2-g/high_precision_20260402_153121
+
+## libsndfile
+
+主结果目录，包含完整 high_precision 扫描输出。
+
+/home/jimi/PaperExperiment/CompilerOptimization/Result/libsndfile/dg/dg-LLVM14-O2-g/high_precision_20260402_153719
+
+## masscan
+
+主结果目录。相较 `repair_20260331_103410`，这个目录包含完整 high_precision 扫描输出和 `summary/line_hits.csv`。
+
+/home/jimi/PaperExperiment/CompilerOptimization/Result/masscan/dg/dg-LLVM14-O2-g/high_precision_20260326_165024
+
+## redis
+
+主结果目录。相较 `runs/run_20260402_234150` 和 `runs/run_20260403_094503`，这个目录包含完整 high_precision 扫描输出和大量 `summary/line_hits.csv` 结果。
+
+/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/dg/dg-LLVM14-O2-g/high_precision_20260409_123302
+
+## tengine
+
+主结果目录。相较 `repair_20260326_142020`，这个目录包含完整 high_precision 扫描输出和 `summary/line_hits.csv`。
+
+/home/jimi/PaperExperiment/CompilerOptimization/Result/tengine/dg/dg-LLVM14-O2-g/high_precision_20260325_125828
+
+## zfp
+
+主结果目录，包含完整 high_precision 扫描输出。
+
+/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/dg/dg-LLVM14-O2-g/high_precision_20260402_154412
+
+## zopfli
+
+主结果目录，包含完整 high_precision 扫描输出。
+
+/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/dg/dg-LLVM14-O2-g/high_precision_20260403_041913

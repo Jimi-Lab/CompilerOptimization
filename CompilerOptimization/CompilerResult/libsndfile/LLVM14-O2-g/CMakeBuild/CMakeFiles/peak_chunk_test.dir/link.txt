@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/peak_chunk_test.dir/tests/peak_chunk_test.c.o -o peak_chunk_test  libsndfile.a libtest_utils.a -lm libsndfile.a -lm 

@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g -O2 -g CMakeFiles/tm_efficientdet_uint8.dir/tm_efficientdet_uint8.c.o CMakeFiles/tm_efficientdet_uint8.dir/common/tengine_operations.c.o -o tm_efficientdet_uint8  -Wl,-rpath,/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build/source: ../source/libtengine-lite.so -lm -ldl -lm 

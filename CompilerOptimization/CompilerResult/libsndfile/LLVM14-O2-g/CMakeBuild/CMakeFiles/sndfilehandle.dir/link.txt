@@ -1,0 +1,1 @@
+/usr/bin/clang++-14 -O2 -g CMakeFiles/sndfilehandle.dir/examples/sndfilehandle.cc.o -o sndfilehandle  libsndfile.a -lm 

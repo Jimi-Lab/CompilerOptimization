@@ -1,0 +1,6 @@
+[2026-03-20T12:17:36Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild
+[2026-03-20T12:17:36Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild
+[2026-03-20T12:17:36Z] cmake -S /home/jimi/PaperExperiment/CompilerOptimization/Target/libsndfile -B /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild -G Unix Makefiles -DCMAKE_C_COMPILER=clang-14 -DCMAKE_CXX_COMPILER=clang++-14 -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_FLAGS_DEBUG=-O2 -g -DCMAKE_CXX_FLAGS_DEBUG=-O2 -g -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+[2026-03-20T12:17:48Z] cmake --build /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild -j10
+[2026-03-20T12:18:03Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/CMakeBuild/compile_commands.json /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM14-O2-g/artifacts/compile_commands.json
+[2026-03-20T12:18:03Z] python3_verify_flags_and_collect_outputs

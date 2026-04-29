@@ -1,0 +1,10 @@
+[2026-03-25T00:44:26Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/build
+[2026-03-25T00:44:26Z] cmake -S /home/jimi/PaperExperiment/CompilerOptimization/Target/flatbuffers -B /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/build -G Unix Makefiles -DCMAKE_C_COMPILER=clang-13 -DCMAKE_CXX_COMPILER=clang++-13 -DCMAKE_C_FLAGS=-O2 -g -DCMAKE_CXX_FLAGS=-O2 -g -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+[2026-03-25T00:44:28Z] cmake --build /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/build --target flatc -j10
+[2026-03-25T00:45:17Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/build/compile_commands.json /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/artifacts/compile_commands.json
+[2026-03-25T00:45:17Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/build/flatc /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/artifacts/flatc_O2_g
+[2026-03-25T00:45:17Z] python3_recompile_flatc_objects_to_program_bc
+[2026-03-25T00:48:11Z] llvm-link-13_flatc_objects
+[2026-03-25T00:48:29Z] llvm-dis-13_flatc_bc
+[2026-03-25T00:48:48Z] llvm-nm-13_symbol_check
+[2026-03-25T00:48:48Z] llvm-nm-13_undefined_check

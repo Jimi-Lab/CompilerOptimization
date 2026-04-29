@@ -1,0 +1,4 @@
+yapall/.git
+yapall/target
+yapall/doc/book
+*.log

@@ -1,0 +1,5 @@
+redis_server_bc=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/artifacts/redis-server_O2_g.bc
+redis_server_ll=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/artifacts/redis-server_O2_g.ll
+bc_list=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/artifacts/bc_files_redis_server.list
+main_symbol=present
+done_utc=2026-03-22T06:18:14Z

@@ -1,0 +1,8 @@
+clang14_command_lines=636
+command_lines_with_O2=417
+command_lines_with_g=358
+command_lines_with_O3=16
+core_redis_clang14_lines=238
+core_redis_lines_with_O2=238
+core_redis_lines_with_g=238
+core_redis_lines_with_O3=0

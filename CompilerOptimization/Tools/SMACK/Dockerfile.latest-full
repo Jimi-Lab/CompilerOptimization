@@ -1,0 +1,23 @@
+FROM smackers/smack:latest
+
+USER root
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends z3 ca-certificates curl \
+    && curl -fsSL https://dot.net/v1/dotnet-install.sh -o /tmp/dotnet-install.sh \
+    && bash /tmp/dotnet-install.sh --runtime dotnet --version 5.0.17 --install-dir /usr/lib/dotnet \
+    && rm -f /tmp/dotnet-install.sh \
+    && rm -rf /var/lib/apt/lists/*
+
+USER user
+
+ENV PATH="/home/user/.dotnet/tools:${PATH}"
+
+# Pin verifier tool versions to keep reproducibility and reduce compatibility drift.
+# boogie 3.2.5 is compatible with dotnet 6 in the base image.
+# corral 1.1.8 requires .NET 5 runtime, installed above.
+RUN dotnet tool install --global boogie --version 3.2.5 \
+    && dotnet tool install --global corral --version 1.1.8 \
+    && boogie /version \
+    && (corral /help > /dev/null || true) \
+    && z3 --version

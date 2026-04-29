@@ -1,0 +1,7 @@
+[2026-03-22T07:21:16Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install
+[2026-03-22T07:21:16Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install
+[2026-03-22T07:21:17Z] cmake -S /home/jimi/PaperExperiment/CompilerOptimization/Target/Tengine -B /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build -G Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang-14 -DCMAKE_CXX_COMPILER=clang++-14 -DCMAKE_C_FLAGS=-O2 -g -DCMAKE_CXX_FLAGS=-O2 -g -DCMAKE_C_FLAGS_DEBUG=-O2 -g -DCMAKE_CXX_FLAGS_DEBUG=-O2 -g -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/install
+[2026-03-22T07:21:19Z] cmake --build /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build -j10
+[2026-03-22T07:22:02Z] cmake --install /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build
+[2026-03-22T07:22:02Z] cp -f /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build/compile_commands.json /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/artifacts/compile_commands.json
+[2026-03-22T07:22:02Z] python3_check_compile_flags

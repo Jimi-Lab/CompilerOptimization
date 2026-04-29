@@ -1,0 +1,19 @@
+project,status,ifds_status,ifds_exit,has_report,reason
+curl,success,ok,0,1,
+tengine,success,ok,0,1,
+wasmedge,failed,,,0,cmake build failed
+duckdb,failed,,,0,cmake build failed
+flatbuffers,failed,oom_or_killed,137,0,failed_utc=2026-03-12T17:59:23Z | exit_code=137 | status=oom_or_killed
+flite,failed,,,0,make dry-run failed
+grpc,failed,,,0,cmake configure failed
+lepton,success,ok,0,1,
+leveldb,success,ok,0,1,
+libco,failed,,,0,cmake build failed
+libsndfile,success,ok,0,1,
+masscan,success,ok,0,1,
+opencv,failed,,,0,cmake configure failed
+rapidjson,failed,,,0,llvm-link failed
+redis,failed,timeout,124,1,failed_utc=2026-03-12T18:15:56Z | exit_code=124 | status=timeout
+rethinkdb,failed,,,0,make dry-run failed
+zfp,success,ok,0,1,
+zopfli,success,ok,0,1,

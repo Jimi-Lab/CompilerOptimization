@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/stdio_test.dir/tests/stdio_test.c.o -o stdio_test  libsndfile.a libtest_utils.a -lm libsndfile.a -lm 

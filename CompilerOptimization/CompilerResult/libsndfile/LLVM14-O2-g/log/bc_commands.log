@@ -1,0 +1,6 @@
+[2026-03-21T08:33:47Z] python3 recompile selected targets to bitcode
+[2026-03-21T08:34:28Z] llvm-link-14 library bitcode
+[2026-03-21T08:34:29Z] llvm-dis-14 library bitcode
+[2026-03-21T08:34:30Z] llvm-link-14 merged scan bitcode
+[2026-03-21T08:34:32Z] llvm-dis-14 merged scan bitcode
+[2026-03-21T08:34:33Z] llvm-nm-14 main symbol check

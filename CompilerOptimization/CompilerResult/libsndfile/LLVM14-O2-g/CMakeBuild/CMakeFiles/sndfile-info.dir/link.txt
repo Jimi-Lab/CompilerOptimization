@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/sndfile-info.dir/programs/sndfile-info.c.o CMakeFiles/sndfile-info.dir/programs/common.c.o -o sndfile-info  libsndfile.a -lm 

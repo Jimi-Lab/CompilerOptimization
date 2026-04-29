@@ -1,0 +1,10 @@
+[2026-03-25T01:54:31Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src
+[2026-03-25T01:54:31Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src
+[2026-03-25T01:54:31Z] cp -a /home/jimi/PaperExperiment/CompilerOptimization/Target/zopfli/. /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src/
+[2026-03-25T01:54:31Z] chmod -R u+w /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/work/zopfli-src
+[2026-03-25T01:54:31Z] clang13_build_zopfli_binary
+[2026-03-25T01:54:34Z] python3_generate_program_bc
+[2026-03-25T01:54:36Z] llvm-link-13_program_bc
+[2026-03-25T01:54:36Z] llvm-dis-13_program_bc
+[2026-03-25T01:54:36Z] llvm-nm-13_main_check
+[2026-03-25T01:54:36Z] llvm-nm-13_undefined_check

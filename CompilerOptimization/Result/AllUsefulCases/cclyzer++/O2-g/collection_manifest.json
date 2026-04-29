@@ -1,0 +1,68 @@
+{
+  "case_counts_by_target": {
+    "flatbuffers": 118945,
+    "libsndfile": 15570,
+    "tengine": 10164,
+    "zopfli": 4218
+  },
+  "generated_at": "2026-04-28T16:15:46.569856+00:00",
+  "input_case_files": [
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/cclyzerpp/LLVM14-O2-g/run_20260427_132609_flatbuffers_flatc_O2_g/ValueCases/all_cases.csv",
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/libsndfile/cclyzerpp/LLVM14-O2-g/run_20260427_132609_libsndfile_sndfile_convert_O2_g/ValueCases/all_cases.csv",
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/tengine/cclyzerpp/LLVM14-O2-g/run_20260427_132038_tengine/ValueCases/all_cases.csv",
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/cclyzerpp/LLVM14-O2-g/run_20260427_132038_zopfli_O2_g_zopfli_only/ValueCases/all_cases.csv"
+  ],
+  "mapping_status_counts": {
+    "ColumnOutOfRange": 213,
+    "LineOutOfRange": 8018,
+    "NoDebugLoc": 122812,
+    "SourceExistsCodeMismatch": 7474,
+    "SourceFileMissing": 10380
+  },
+  "notes": [
+    "Selected only completed LLVM14-O2-g ValueCases for flatbuffers, libsndfile, tengine, and zopfli.",
+    "Existing per-run ValueCases/all_cases.csv were reclassified to the useful_cases_matrix_plan.md schema.",
+    "P0 is restricted to objective invalid source locations in project source/header files.",
+    "Semantic source/IR mismatch candidates are P1 for project code and P2 for external/unresolved code.",
+    "NoDebugLoc without an objective project source line/column failure is not promoted to P0."
+  ],
+  "phenomenon_counts": {
+    "Wanted-AliasCollapseWithBadLocation": 5444,
+    "Wanted-AllocationSiteDrift": 2111,
+    "Wanted-CodeMismatch": 3699,
+    "Wanted-LineColumnMissing": 119574,
+    "Wanted-PhiMergeLocationDrift": 18069
+  },
+  "priority_counts": {
+    "P0": 27932,
+    "P1": 15542,
+    "P2": 105423
+  },
+  "priority_reason_counts": {
+    "ColumnOutOfRange": 56,
+    "ExternalOrUnresolvedColumnOutOfRange": 157,
+    "ExternalOrUnresolvedLineZero": 66489,
+    "ExternalOrUnresolvedNoDebugLoc": 24410,
+    "ExternalOrUnresolvedSourceIRMismatch": 3987,
+    "LineOutOfRange": 7,
+    "LineZero": 27869,
+    "NoDebugLocNeedsIRReview": 12055,
+    "NoSourceFileInFact": 10380,
+    "SourceIRMismatchNeedsSemanticReview": 3487
+  },
+  "selected_runs": [
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/cclyzerpp/LLVM14-O2-g/run_20260427_132609_flatbuffers_flatc_O2_g",
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/libsndfile/cclyzerpp/LLVM14-O2-g/run_20260427_132609_libsndfile_sndfile_convert_O2_g",
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/tengine/cclyzerpp/LLVM14-O2-g/run_20260427_132038_tengine",
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/cclyzerpp/LLVM14-O2-g/run_20260427_132038_zopfli_O2_g_zopfli_only"
+  ],
+  "source_region_counts": {
+    "llvm_ir_only": 14785,
+    "project_header": 18899,
+    "project_source": 24575,
+    "system_header": 82310,
+    "third_party_header": 8328
+  },
+  "tool": "cclyzer++",
+  "universe": "LLVM14-O2-g"
+}

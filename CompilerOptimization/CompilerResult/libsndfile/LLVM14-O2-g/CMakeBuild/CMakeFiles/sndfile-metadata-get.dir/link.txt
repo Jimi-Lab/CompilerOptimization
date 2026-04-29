@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/sndfile-metadata-get.dir/programs/sndfile-metadata-get.c.o CMakeFiles/sndfile-metadata-get.dir/programs/common.c.o -o sndfile-metadata-get  libsndfile.a -lm 

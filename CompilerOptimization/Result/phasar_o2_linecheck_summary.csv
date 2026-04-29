@@ -1,0 +1,11 @@
+project,total_uses,match,mismatch,line_oob,oob_rate
+curl,498,243,0,255,51.20
+flatbuffers,0,0,0,0,0.00
+lepton,3956,2683,34,1239,31.32
+leveldb,2713,664,19,2030,74.82
+libsndfile,558,176,2,380,68.10
+masscan,0,0,0,0,0.00
+redis,0,0,0,0,0.00
+tengine,1277,480,0,797,62.41
+zfp,784,500,72,212,27.04
+zopfli,68,46,0,22,32.35

@@ -1,0 +1,9 @@
+binary=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/artifacts/sndfile-convert_O2_g
+static_lib=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/artifacts/libsndfile_O2_g.a
+artifact_bc=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/artifacts/libsndfile_sndfile_convert_O2_g.bc
+artifact_ll=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/artifacts/libsndfile_sndfile_convert_O2_g.ll
+bc_list=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/artifacts/bc_files_sndfile_program.list
+flag_audit=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/libsndfile/LLVM13-O2-g/artifacts/bc_flag_audit.csv
+main_symbol=present
+undefined_symbol_count=55
+done_utc=2026-03-25T01:11:32Z

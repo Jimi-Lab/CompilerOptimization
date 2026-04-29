@@ -1,0 +1,43 @@
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/source/api/c_api.c:306:17: warning: assigning to 'char *' from 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    hcl_version = get_tengine_version();
+                ^ ~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/source/device/cpu/op/clip/clip_kernel_ref_int8.c:73:46: warning: implicit conversion from 'int' to 'int8_t' (aka 'signed char') changes value from 255 to -1 [-Wconstant-conversion]
+        output_int8[i] = output_data > 255 ? 255 : output_data;
+                       ~                     ^~~
+1 warning generated.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/source/device/cpu/op/conv/x86/conv_hcl_x86.c:58:13: warning: address of function 'conv_hcl_set_shared_mem' will always evaluate to 'true' [-Wpointer-bool-conversion]
+        if (conv_hcl_set_shared_mem && exec_node->shared_mem_size < exec_graph->shared_mem_size)
+            ^~~~~~~~~~~~~~~~~~~~~~~ ~~
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/source/device/cpu/op/conv/x86/conv_hcl_x86.c:58:13: note: prefix with the address-of operator to silence this warning
+        if (conv_hcl_set_shared_mem && exec_node->shared_mem_size < exec_graph->shared_mem_size)
+            ^
+            &
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/source/device/cpu/op/conv/x86/conv_hcl_x86.c:66:13: warning: address of function 'conv_hcl_set_shared_pack4_mem' will always evaluate to 'true' [-Wpointer-bool-conversion]
+        if (conv_hcl_set_shared_pack4_mem && exec_node->shared_pack4_mem_size < exec_graph->shared_pack4_mem_size)
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/source/device/cpu/op/conv/x86/conv_hcl_x86.c:66:13: note: prefix with the address-of operator to silence this warning
+        if (conv_hcl_set_shared_pack4_mem && exec_node->shared_pack4_mem_size < exec_graph->shared_pack4_mem_size)
+            ^
+            &
+2 warnings generated.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/source/operator/prototype/expand.c:95:20: warning: using floating point absolute value function 'fabs' when argument is of integer type [-Wabsolute-value]
+        int diff = fabs(input1_dim_size - input2_dim_size);
+                   ^
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/source/operator/prototype/expand.c:95:20: note: use function 'abs' instead
+        int diff = fabs(input1_dim_size - input2_dim_size);
+                   ^~~~
+                   abs
+1 warning generated.
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/examples/tm_classification.c:65:19: warning: 'add_context_device' is deprecated [-Wdeprecated-declarations]
+        int rtt = add_context_device(ocl_context, "OCL");
+                  ^
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/build/examples/tengine/c_api.h:1149:93: note: 'add_context_device' has been explicitly marked deprecated here
+DLLEXPORT DEPRECATED_BEFORE int add_context_device(context_t context, const char* dev_name) DEPRECATED_AFTER;
+                                                                                            ^
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM13-O2-g/work/Tengine-src/build/examples/tengine/c_api.h:41:41: note: expanded from macro 'DEPRECATED_AFTER'
+#define DEPRECATED_AFTER __attribute__((deprecated))
+                                        ^
+1 warning generated.
+selected_compile_entries 384
+generated_bc_files 384

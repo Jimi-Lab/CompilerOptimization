@@ -1,0 +1,127 @@
+diff --git a/src/analysis/pointer.rs b/src/analysis/pointer.rs
+index 1f6b90a..5a0b2ce 100644
+--- a/src/analysis/pointer.rs
++++ b/src/analysis/pointer.rs
+@@ -40,6 +40,13 @@ pub struct OutputRelations {
+     pub calls:
+         HashMap<(Arc<KLimited<UArc<InstructionName>>>, UArc<InstructionName>), UArc<FunctionName>>,
+     pub needs_signature: Vec<UArc<FunctionName>>,
++    pub free_non_heap: Vec<Arc<Alloc>>,
++    pub invalid_calls: Vec<(Arc<Operand>, Arc<Alloc>)>,
++    pub invalid_loads: Vec<(Arc<Operand>, Arc<Alloc>)>,
++    pub invalid_memcpy_dsts: Vec<(Arc<Operand>, Arc<Alloc>)>,
++    pub invalid_memcpy_srcs: Vec<(Arc<Operand>, Arc<Alloc>)>,
++    pub invalid_stores: Vec<(Arc<Operand>, Arc<Alloc>)>,
++    pub points_to_top: Vec<Arc<Operand>>,
+     pub metrics: Option<Metrics>,
+ }
+ 
+@@ -1110,6 +1117,15 @@ pub fn analysis<'module>(
+         eprintln!("{}", outs.scc_times_summary());
+     }
+ 
++    let callgraph_size = outs.callgraph.len();
++    let free_non_heap_count = outs.free_non_heap.len();
++    let invalid_calls_count = outs.invalid_call.len();
++    let invalid_loads_count = outs.invalid_load.len();
++    let invalid_memcpy_dsts_count = outs.invalid_memcpy_dst.len();
++    let invalid_memcpy_srcs_count = outs.invalid_memcpy_src.len();
++    let invalid_stores_count = outs.invalid_store.len();
++    let points_to_top_count = outs.points_to_top.len();
++
+     OutputRelations {
+         alloc_points_to: outs
+             .alloc_points_to
+@@ -1128,16 +1144,47 @@ pub fn analysis<'module>(
+             .map(|tup| ((tup.0, tup.1.instruction_name()), tup.2))
+             .collect(),
+         needs_signature: outs.needs_signature.into_iter().map(|tup| tup.0).collect(),
++        free_non_heap: outs
++            .free_non_heap
++            .into_iter()
++            .map(|tup| Alloc::lookup(&tup.0))
++            .collect(),
++        invalid_calls: outs
++            .invalid_call
++            .into_iter()
++            .map(|(op, a)| (op, Alloc::lookup(&a)))
++            .collect(),
++        invalid_loads: outs
++            .invalid_load
++            .into_iter()
++            .map(|(op, a)| (op, Alloc::lookup(&a)))
++            .collect(),
++        invalid_memcpy_dsts: outs
++            .invalid_memcpy_dst
++            .into_iter()
++            .map(|(op, a)| (op, Alloc::lookup(&a)))
++            .collect(),
++        invalid_memcpy_srcs: outs
++            .invalid_memcpy_src
++            .into_iter()
++            .map(|(op, a)| (op, Alloc::lookup(&a)))
++            .collect(),
++        invalid_stores: outs
++            .invalid_store
++            .into_iter()
++            .map(|(op, a)| (op, Alloc::lookup(&a)))
++            .collect(),
++        points_to_top: outs.points_to_top.into_iter().map(|tup| tup.0).collect(),
+         metrics: if opts.metrics {
+             Some(Metrics {
+-                callgraph_size: outs.callgraph.len(),
+-                free_non_heap: outs.free_non_heap.len(),
+-                invalid_calls: outs.invalid_call.len(),
+-                invalid_loads: outs.invalid_load.len(),
+-                invalid_memcpy_dsts: outs.invalid_memcpy_src.len(),
+-                invalid_memcpy_srcs: outs.invalid_memcpy_dst.len(),
+-                invalid_stores: outs.invalid_store.len(),
+-                points_to_top: outs.points_to_top.len(),
++                callgraph_size,
++                free_non_heap: free_non_heap_count,
++                invalid_calls: invalid_calls_count,
++                invalid_loads: invalid_loads_count,
++                invalid_memcpy_dsts: invalid_memcpy_dsts_count,
++                invalid_memcpy_srcs: invalid_memcpy_srcs_count,
++                invalid_stores: invalid_stores_count,
++                points_to_top: points_to_top_count,
+             })
+         } else {
+             None
+diff --git a/src/main.rs b/src/main.rs
+index c464985..e9f1c83 100644
+--- a/src/main.rs
++++ b/src/main.rs
+@@ -135,6 +135,32 @@ fn main() -> Result<()> {
+             writeln!(stdout, "invalid stores: {}", m.invalid_stores)?;
+             writeln!(stdout, "points-to top: {}", m.points_to_top)?;
+         }
++
++        writeln!(stdout)?;
++        writeln!(stdout, "issues")?;
++        writeln!(stdout, "------")?;
++        writeln!(stdout, "kind\toperand\tallocation")?;
++        for alloc in &outs.free_non_heap {
++            writeln!(stdout, "free_non_heap\t\t{}", *alloc)?;
++        }
++        for (operand, alloc) in &outs.invalid_calls {
++            writeln!(stdout, "invalid_call\t{}\t{}", *operand, *alloc)?;
++        }
++        for (operand, alloc) in &outs.invalid_loads {
++            writeln!(stdout, "invalid_load\t{}\t{}", *operand, *alloc)?;
++        }
++        for (operand, alloc) in &outs.invalid_memcpy_dsts {
++            writeln!(stdout, "invalid_memcpy_dst\t{}\t{}", *operand, *alloc)?;
++        }
++        for (operand, alloc) in &outs.invalid_memcpy_srcs {
++            writeln!(stdout, "invalid_memcpy_src\t{}\t{}", *operand, *alloc)?;
++        }
++        for (operand, alloc) in &outs.invalid_stores {
++            writeln!(stdout, "invalid_store\t{}\t{}", *operand, *alloc)?;
++        }
++        for operand in &outs.points_to_top {
++            writeln!(stdout, "points_to_top\t{}\t", *operand)?;
++        }
+     }
+ 
+     if let cli::Check::Strict = args.check {

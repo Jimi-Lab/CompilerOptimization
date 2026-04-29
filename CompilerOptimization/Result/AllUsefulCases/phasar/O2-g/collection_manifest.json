@@ -1,0 +1,139 @@
+{
+  "targets": {
+    "curl": {
+      "parsed_uses": 145,
+      "useful": {},
+      "validity": {
+        "valid": 145,
+        "match_or_not_useful": 145
+      },
+      "source_resolution": {
+        "direct_or_container_remap": 145
+      },
+      "run_status": "ok",
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/Result/curl/phasar/phasar-O2-g/artifacts/curl_O2_g.bc",
+      "report": "/home/jimi/PaperExperiment/CompilerOptimization/Result/curl/phasar/phasar-O2-g/runs/ifds-uninit/curl_O2_g-Mon-Mar-16-06:16:53-2026/psr-report.txt"
+    },
+    "lepton": {
+      "parsed_uses": 935,
+      "useful": {
+        "P2": 257
+      },
+      "validity": {
+        "missing_file": 257,
+        "valid": 678,
+        "match_or_not_useful": 678
+      },
+      "source_resolution": {
+        "direct_or_container_remap": 935
+      },
+      "run_status": "ok",
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/phasar/phasar-O2-g/artifacts/lepton_O2_g.bc",
+      "report": "/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/phasar/phasar-O2-g/runs/ifds-uninit/lepton_O2_g-Mon-Mar-16-10:10:01-2026/psr-report.txt"
+    },
+    "libsndfile": {
+      "parsed_uses": 565,
+      "useful": {
+        "P0": 3
+      },
+      "validity": {
+        "valid": 564,
+        "match_or_not_useful": 562,
+        "line_out_of_range": 1
+      },
+      "source_resolution": {
+        "direct_or_container_remap": 565
+      },
+      "run_status": "ok",
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/Result/libsndfile/phasar/phasar-O2-g/artifacts/libsndfile_O2_g.bc",
+      "report": "/home/jimi/PaperExperiment/CompilerOptimization/Result/libsndfile/phasar/phasar-O2-g/runs/ifds-uninit/libsndfile_O2_g-Mon-Mar-16-07:39:03-2026/psr-report.txt"
+    },
+    "masscan": {
+      "parsed_uses": 599,
+      "useful": {
+        "P0": 3,
+        "P2": 1
+      },
+      "validity": {
+        "valid": 595,
+        "match_or_not_useful": 595,
+        "line_out_of_range": 4
+      },
+      "source_resolution": {
+        "result_worktree_to_target": 598,
+        "direct_or_container_remap": 1
+      },
+      "run_status": "ok",
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/Result/masscan/phasar/phasar-O2-g/artifacts/masscan_O2_g.bc",
+      "report": "/home/jimi/PaperExperiment/CompilerOptimization/Result/masscan/phasar/phasar-O2-g/runs/ifds-uninit/masscan_O2_g-Wed-Mar-18-07:13:52-2026/psr-report.txt"
+    },
+    "redis": {
+      "parsed_uses": 26170,
+      "useful": {
+        "P0": 258,
+        "P2": 12
+      },
+      "validity": {
+        "valid": 25957,
+        "match_or_not_useful": 25900,
+        "empty_or_comment_line": 9,
+        "line_out_of_range": 198,
+        "preprocessor_only": 6
+      },
+      "source_resolution": {
+        "result_worktree_to_target": 26157,
+        "direct_or_container_remap": 13
+      },
+      "run_status": "ok",
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/phasar/phasar-O2-g/artifacts/redis_O2_g.bc",
+      "report": "/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/phasar/phasar-O2-g/runs/ifds-uninit/redis_O2_g-Wed-Mar-18-09:36:32-2026/psr-report.txt"
+    },
+    "tengine": {
+      "parsed_uses": 672,
+      "useful": {},
+      "validity": {
+        "valid": 672,
+        "match_or_not_useful": 672
+      },
+      "source_resolution": {
+        "direct_or_container_remap": 672
+      },
+      "run_status": "ok",
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/Result/tengine/phasar/phasar-O2-g/artifacts/tengine_O2_g.bc",
+      "report": "/home/jimi/PaperExperiment/CompilerOptimization/Result/tengine/phasar/phasar-O2-g/runs/ifds-uninit/tengine_O2_g-Mon-Mar-16-09:59:08-2026/psr-report.txt"
+    },
+    "zfp": {
+      "parsed_uses": 786,
+      "useful": {
+        "P0": 90
+      },
+      "validity": {
+        "valid": 761,
+        "match_or_not_useful": 696,
+        "empty_or_comment_line": 4,
+        "line_out_of_range": 18,
+        "preprocessor_only": 3
+      },
+      "source_resolution": {
+        "direct_or_container_remap": 786
+      },
+      "run_status": "ok",
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/phasar/phasar-O2-g/artifacts/zfp_O2_g.bc",
+      "report": "/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/phasar/phasar-O2-g/runs/ifds-uninit/zfp_O2_g-Mon-Mar-16-07:42:15-2026/psr-report.txt"
+    },
+    "zopfli": {
+      "parsed_uses": 71,
+      "useful": {},
+      "validity": {
+        "valid": 71,
+        "match_or_not_useful": 71
+      },
+      "source_resolution": {
+        "direct_or_container_remap": 71
+      },
+      "run_status": "ok",
+      "input_bc": "/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/phasar/phasar-O2-g/artifacts/zopfli_O2_g.bc",
+      "report": "/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/phasar/phasar-O2-g/runs/ifds-uninit/zopfli_O2_g-Mon-Mar-16-07:42:45-2026/psr-report.txt"
+    }
+  }
+}

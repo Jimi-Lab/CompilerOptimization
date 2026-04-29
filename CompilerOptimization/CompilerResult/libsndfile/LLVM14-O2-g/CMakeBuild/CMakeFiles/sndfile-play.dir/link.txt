@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/sndfile-play.dir/programs/sndfile-play.c.o CMakeFiles/sndfile-play.dir/programs/common.c.o -o sndfile-play  -lm libsndfile.a -lm 

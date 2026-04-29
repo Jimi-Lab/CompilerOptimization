@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-13 qc liblocalmd5.a CMakeFiles/localmd5.dir/dependencies/md5/md5.c.o
+/usr/bin/llvm-ranlib-13 liblocalmd5.a

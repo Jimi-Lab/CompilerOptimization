@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/external_libs_test.dir/tests/external_libs_test.c.o -o external_libs_test  libsndfile.a libtest_utils.a -lm libsndfile.a -lm 

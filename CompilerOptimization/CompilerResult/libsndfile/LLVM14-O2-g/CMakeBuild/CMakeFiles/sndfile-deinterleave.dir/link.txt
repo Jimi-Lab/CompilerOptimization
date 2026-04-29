@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/sndfile-deinterleave.dir/programs/sndfile-deinterleave.c.o CMakeFiles/sndfile-deinterleave.dir/programs/common.c.o -o sndfile-deinterleave  libsndfile.a -lm 

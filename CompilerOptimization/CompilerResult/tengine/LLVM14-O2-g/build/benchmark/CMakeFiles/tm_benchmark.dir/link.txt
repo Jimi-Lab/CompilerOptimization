@@ -1,0 +1,1 @@
+/usr/bin/clang++-14 -O2 -g -O2 -g CMakeFiles/tm_benchmark.dir/common/timer.cc.o CMakeFiles/tm_benchmark.dir/tm_benchmark.cc.o -o tm_benchmark  -Wl,-rpath,/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/tengine/LLVM14-O2-g/build/source ../source/libtengine-lite.so -ldl -lm 

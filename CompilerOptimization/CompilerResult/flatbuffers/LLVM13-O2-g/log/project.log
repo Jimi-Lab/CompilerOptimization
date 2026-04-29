@@ -1,0 +1,68 @@
+project=flatbuffers
+source=/home/jimi/PaperExperiment/CompilerOptimization/Target/flatbuffers
+start_utc=2026-03-25T00:44:26Z
+policy=official cmake flow for flatc in SMACK llvm13; flags -O2 -g only; program-level bc
+-- Proceeding with version: 25.12.19.2026
+-- The CXX compiler identification is Clang 13.0.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++-13 - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for strtof_l
+-- Looking for strtof_l - found
+-- Looking for strtoull_l
+-- Looking for strtoull_l - found
+-- Looking for realpath
+-- Looking for realpath - found
+-- CMAKE_CXX_FLAGS: -O2 -g
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_C_COMPILER
+    CMAKE_C_FLAGS
+
+
+-- Build files have been written to: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/build
+[  2%] Building CXX object CMakeFiles/flatc.dir/src/idl_parser.cpp.o
+[  5%] Building CXX object CMakeFiles/flatc.dir/src/file_manager.cpp.o
+[  7%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_text.cpp.o
+[ 10%] Building CXX object CMakeFiles/flatc.dir/src/reflection.cpp.o
+[ 13%] Building CXX object CMakeFiles/flatc.dir/src/file_name_manager.cpp.o
+[ 15%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_binary.cpp.o
+[ 18%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_dart.cpp.o
+[ 21%] Building CXX object CMakeFiles/flatc.dir/src/util.cpp.o
+[ 26%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_csharp.cpp.o
+[ 26%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_cpp.cpp.o
+[ 28%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_kotlin.cpp.o
+[ 31%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_kotlin_kmp.cpp.o
+[ 34%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_go.cpp.o
+[ 36%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_java.cpp.o
+[ 39%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_ts.cpp.o
+[ 42%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_php.cpp.o
+[ 44%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_python.cpp.o
+[ 47%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_lobster.cpp.o
+[ 50%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_rust.cpp.o
+[ 52%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_fbs.cpp.o
+[ 55%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_grpc.cpp.o
+[ 57%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_json_schema.cpp.o
+[ 60%] Building CXX object CMakeFiles/flatc.dir/src/idl_gen_swift.cpp.o
+[ 63%] Building CXX object CMakeFiles/flatc.dir/src/flatc.cpp.o
+[ 65%] Building CXX object CMakeFiles/flatc.dir/src/flatc_main.cpp.o
+[ 68%] Building CXX object CMakeFiles/flatc.dir/include/codegen/python.cc.o
+[ 71%] Building CXX object CMakeFiles/flatc.dir/src/binary_annotator.cpp.o
+[ 73%] Building CXX object CMakeFiles/flatc.dir/src/annotated_binary_text_gen.cpp.o
+[ 76%] Building CXX object CMakeFiles/flatc.dir/src/bfbs_gen_lua.cpp.o
+[ 78%] Building CXX object CMakeFiles/flatc.dir/src/bfbs_gen_nim.cpp.o
+[ 81%] Building CXX object CMakeFiles/flatc.dir/src/code_generators.cpp.o
+[ 84%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/cpp_generator.cc.o
+[ 86%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/go_generator.cc.o
+[ 89%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/java_generator.cc.o
+[ 92%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/python_generator.cc.o
+[ 94%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/swift_generator.cc.o
+[ 97%] Building CXX object CMakeFiles/flatc.dir/grpc/src/compiler/ts_generator.cc.o
+[100%] Linking CXX executable flatc
+[100%] Built target flatc
+done_utc=2026-03-25T00:48:48Z

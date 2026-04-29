@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-14 qc libtest_utils.a CMakeFiles/test_utils.dir/tests/utils.c.o
+/usr/bin/llvm-ranlib-14 libtest_utils.a

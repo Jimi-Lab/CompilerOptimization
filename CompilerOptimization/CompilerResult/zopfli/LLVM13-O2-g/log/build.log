@@ -1,0 +1,7 @@
+project=zopfli
+source=/home/jimi/PaperExperiment/CompilerOptimization/Target/zopfli
+start_utc=2026-03-25T01:54:31Z
+policy=README direct compile of src/zopfli/*.c with clang-13; -O2 -g; program-level bc
+source_count 13
+binary /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/artifacts/zopfli_O2_g
+done_utc=2026-03-25T01:54:36Z

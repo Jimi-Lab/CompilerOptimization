@@ -1,0 +1,9 @@
+project,total_uses,match,mismatch,line_oob,oob_rate
+curl,145,145,0,0,0.00
+lepton,676,676,0,0,0.00
+libsndfile,565,562,2,1,0.18
+masscan,598,595,0,3,0.50
+redis,26157,25899,72,186,0.71
+tengine,672,672,0,0,0.00
+zfp,786,696,72,18,2.29
+zopfli,71,71,0,0,0.00

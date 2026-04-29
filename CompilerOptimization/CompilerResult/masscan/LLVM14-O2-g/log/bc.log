@@ -1,0 +1,9 @@
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/masscan/LLVM14-O2-g/work/masscan-src/src/massip-addr.c:292:19: warning: excess elements in union initializer [-Wexcess-initializers]
+      {NULL, {{0, 0}, 0}}
+                  ^
+/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/masscan/LLVM14-O2-g/work/masscan-src/src/massip-addr.c:296:13: warning: unused variable 'ip' [-Wunused-variable]
+  ipaddress ip;
+            ^
+2 warnings generated.
+src_count 115
+bc_count 115

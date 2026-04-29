@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/sndfile-salvage.dir/programs/sndfile-salvage.c.o CMakeFiles/sndfile-salvage.dir/programs/common.c.o -o sndfile-salvage  libsndfile.a -lm 

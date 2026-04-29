@@ -1,0 +1,12 @@
+[2026-03-22T02:28:26Z] chmod_existing_work_uplusw
+[2026-03-22T02:28:26Z] rm -rf /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/masscan/LLVM14-O2-g/work/masscan-src
+[2026-03-22T02:28:26Z] mkdir -p /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/masscan/LLVM14-O2-g/work/masscan-src
+[2026-03-22T02:28:26Z] cp -a /home/jimi/PaperExperiment/CompilerOptimization/Target/masscan/. /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/masscan/LLVM14-O2-g/work/masscan-src/
+[2026-03-22T02:28:26Z] chmod -R u+w /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/masscan/LLVM14-O2-g/work/masscan-src
+[2026-03-22T02:28:26Z] make -C /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/masscan/LLVM14-O2-g/work/masscan-src clean
+[2026-03-22T02:28:26Z] make -C /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/masscan/LLVM14-O2-g/work/masscan-src CC=clang-14 CFLAGS=-g -ggdb -Wall -O2 -j10
+[2026-03-22T02:28:29Z] cp_masscan_binary
+[2026-03-22T02:28:29Z] python3_generate_bc_objs
+[2026-03-22T02:28:44Z] llvm-link-14_masscan_bc
+[2026-03-22T02:28:45Z] llvm-dis-14_masscan_bc
+[2026-03-22T02:28:46Z] llvm-nm-14_main_check

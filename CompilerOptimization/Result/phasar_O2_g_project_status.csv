@@ -1,0 +1,19 @@
+project,status,ifds_status,ifds_exit,has_report,reason
+curl,success,ok,0,1,
+tengine,success,ok,0,1,
+wasmedge,failed,,,0,cmake build failed
+duckdb,failed,,,0,llvm-link failed
+flatbuffers,failed,oom_or_killed,137,0,failed_utc=2026-03-16T07:28:49Z | exit_code=137 | status=oom_or_killed
+flite,failed,,,0,make dry-run failed
+grpc,failed,oom_or_killed,137,0,failed_utc=2026-03-16T14:58:14Z | exit_code=137 | status=oom_or_killed | note=ifds-uninit failed without timeout due process killed (likely OOM)
+lepton,success,ok,0,1,
+leveldb,failed,,,0,cmake build failed
+libco,failed,,,0,cmake build failed
+libsndfile,success,ok,0,1,
+masscan,success,ok,0,1,
+opencv,failed,,,0,cmake configure failed
+rapidjson,failed,,,0,llvm-link failed
+redis,success,ok,0,1,
+rethinkdb,failed,,,0,make dry-run failed
+zfp,success,ok,0,1,
+zopfli,success,ok,0,1,

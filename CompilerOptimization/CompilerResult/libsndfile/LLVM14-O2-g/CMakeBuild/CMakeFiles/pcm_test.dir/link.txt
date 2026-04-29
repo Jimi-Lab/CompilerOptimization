@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/pcm_test.dir/tests/pcm_test.c.o -o pcm_test  libsndfile.a libtest_utils.a -lm libsndfile.a -lm 

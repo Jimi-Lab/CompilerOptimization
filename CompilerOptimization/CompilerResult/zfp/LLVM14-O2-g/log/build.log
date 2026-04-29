@@ -1,0 +1,73 @@
+project=zfp
+source=/home/jimi/PaperExperiment/CompilerOptimization/Target/zfp
+start_utc=2026-03-22T11:20:45Z
+policy=README cmake build; clang-14; -O2 -g; program-level bc
+-- The C compiler identification is Clang 14.0.0
+-- The CXX compiler identification is Clang 14.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang-14 - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++-14 - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Compiling with C standard: 99
+-- Compiling with C++ standard: 98
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND C) 
+-- Performing Test HAVE_MATH
+-- Performing Test HAVE_MATH - Failed
+-- Performing Test HAVE_LIBM_MATH
+-- Performing Test HAVE_LIBM_MATH - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zfp/LLVM14-O2-g/build
+[  2%] Building C object src/CMakeFiles/zfp.dir/encode1d.c.o
+[  4%] Building C object src/CMakeFiles/zfp.dir/zfp.c.o
+[  7%] Building C object src/CMakeFiles/zfp.dir/bitstream.c.o
+[  9%] Building C object src/CMakeFiles/zfp.dir/encode1l.c.o
+[ 12%] Building C object src/CMakeFiles/zfp.dir/decode1f.c.o
+[ 14%] Building C object src/CMakeFiles/zfp.dir/encode1f.c.o
+[ 17%] Building C object src/CMakeFiles/zfp.dir/encode1i.c.o
+[ 19%] Building C object src/CMakeFiles/zfp.dir/decode1i.c.o
+[ 21%] Building C object src/CMakeFiles/zfp.dir/decode1d.c.o
+[ 24%] Building C object src/CMakeFiles/zfp.dir/decode1l.c.o
+[ 26%] Building C object src/CMakeFiles/zfp.dir/encode2f.c.o
+[ 29%] Building C object src/CMakeFiles/zfp.dir/encode2d.c.o
+[ 31%] Building C object src/CMakeFiles/zfp.dir/encode2l.c.o
+[ 34%] Building C object src/CMakeFiles/zfp.dir/encode2i.c.o
+[ 36%] Building C object src/CMakeFiles/zfp.dir/decode2i.c.o
+[ 39%] Building C object src/CMakeFiles/zfp.dir/decode2d.c.o
+[ 41%] Building C object src/CMakeFiles/zfp.dir/decode2f.c.o
+[ 43%] Building C object src/CMakeFiles/zfp.dir/decode2l.c.o
+[ 46%] Building C object src/CMakeFiles/zfp.dir/encode3f.c.o
+[ 48%] Building C object src/CMakeFiles/zfp.dir/encode3d.c.o
+[ 51%] Building C object src/CMakeFiles/zfp.dir/encode3i.c.o
+[ 53%] Building C object src/CMakeFiles/zfp.dir/encode3l.c.o
+[ 56%] Building C object src/CMakeFiles/zfp.dir/decode3i.c.o
+[ 58%] Building C object src/CMakeFiles/zfp.dir/decode3f.c.o
+[ 60%] Building C object src/CMakeFiles/zfp.dir/decode3d.c.o
+[ 63%] Building C object src/CMakeFiles/zfp.dir/decode3l.c.o
+[ 65%] Building C object src/CMakeFiles/zfp.dir/encode4f.c.o
+[ 68%] Building C object src/CMakeFiles/zfp.dir/encode4d.c.o
+[ 70%] Building C object src/CMakeFiles/zfp.dir/encode4i.c.o
+[ 73%] Building C object src/CMakeFiles/zfp.dir/encode4l.c.o
+[ 75%] Building C object src/CMakeFiles/zfp.dir/decode4f.c.o
+[ 78%] Building C object src/CMakeFiles/zfp.dir/decode4d.c.o
+[ 80%] Building C object src/CMakeFiles/zfp.dir/decode4i.c.o
+[ 82%] Building C object src/CMakeFiles/zfp.dir/decode4l.c.o
+[ 85%] Linking C shared library ../lib/libzfp.so
+[ 85%] Built target zfp
+[ 92%] Building CXX object tests/CMakeFiles/testviews.dir/testviews.cpp.o
+[ 92%] Building CXX object tests/CMakeFiles/testzfp.dir/testzfp.cpp.o
+[ 92%] Building C object utils/CMakeFiles/zfpcmd.dir/zfp.c.o
+[ 95%] Linking C executable ../bin/zfp
+[ 95%] Built target zfpcmd
+[ 97%] Linking CXX executable ../bin/testviews
+[ 97%] Built target testviews
+[100%] Linking CXX executable ../bin/testzfp
+[100%] Built target testzfp
+done_utc=2026-03-22T11:21:09Z

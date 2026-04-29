@@ -1,0 +1,1 @@
+/usr/bin/clang-14 -O2 -g CMakeFiles/sfprocess.dir/examples/sfprocess.c.o -o sfprocess  libsndfile.a -lm 
