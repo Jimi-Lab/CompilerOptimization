@@ -1,0 +1,13 @@
+metric,value
+verified,0
+error,0
+timeout,0
+tool failure,0
+backend failure,0
+unsupported / translation failure,0
+translation failure,8
+translation_stage_status,unsupported / translation failure
+translation_stage_reason,llvm2bpl assertion crash during translation
+requested_out_dir,/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/smack/smack-O2-g
+actual_out_dir,/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/smack/smack-O2-g
+out_dir_fallback_reason,none

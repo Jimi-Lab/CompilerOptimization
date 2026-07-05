@@ -1,0 +1,4 @@
+artifact,exists,main_present,decision
+/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/seahorn/seahorn-O2-g/result/run_20260322_223731_fixed_fullmatrix/artifact/zfp_O2_g.smc.bc,1,1,run
+/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/seahorn/seahorn-O2-g/result/run_20260322_223731_fixed_fullmatrix/artifact/zfp_O2_g.ndc.bc,1,0,invalid_input
+/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/seahorn/seahorn-O2-g/result/run_20260322_223731_fixed_fullmatrix/artifact/zfp_O2_g.crab.bc,1,0,invalid_input

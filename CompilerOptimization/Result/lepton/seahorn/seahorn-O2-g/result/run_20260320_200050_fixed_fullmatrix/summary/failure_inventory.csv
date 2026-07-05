@@ -1,0 +1,17 @@
+step,name,exit_code,produced_output,key_error
+01,inspect_profiler,0,,
+02,inspect_mem_stats,0,,
+03,inspect_callgraph_stats,0,,
+04,smc_typeoff,0,,
+05,smc_typeon,0,,
+06,smc_instrument,245,/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/seahorn/seahorn-O2-g/result/run_20260320_200050_fixed_fullmatrix/artifact/lepton_O2_g.smc.bc,
+07,horn_smc_reg,3,horn_status.csv entry,error: Bitcode was not properly read; Could not open input file: No such file or directory
+08,horn_smc_ptr,3,horn_status.csv entry,error: Bitcode was not properly read; Could not open input file: No such file or directory
+09,horn_smc_mem,3,horn_status.csv entry,error: Bitcode was not properly read; Could not open input file: No such file or directory
+10,ndc_instrument,0,/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/seahorn/seahorn-O2-g/result/run_20260320_200050_fixed_fullmatrix/artifact/lepton_O2_g.ndc.bc,
+11,horn_ndc_reg,0,horn_status.csv entry,Warning: not lowering an initializer for a global struct:  _Z12errormessageB5cxx11
+12,horn_ndc_ptr,247,horn_status.csv entry,Warning: not lowering an initializer for a global struct:  _Z12errormessageB5cxx11
+13,horn_ndc_mem,247,horn_status.csv entry,Warning: not lowering an initializer for a global struct:  _Z12errormessageB5cxx11
+14,crab_instrument,0,/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/seahorn/seahorn-O2-g/result/run_20260320_200050_fixed_fullmatrix/artifact/lepton_O2_g.crab.bc,Warning: not lowering an initializer for a global struct:  _Z12errormessageB5cxx11
+15,horn_crab_ptr,0,horn_status.csv entry,Warning: not lowering an initializer for a global struct:  _Z12errormessageB5cxx11
+16,term,250,sea.term.log,Warning: not lowering an initializer for a global struct:  _Z12errormessageB5cxx11

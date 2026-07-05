@@ -1,0 +1,8 @@
+failed_utc=2026-05-06T03:03:59Z
+exit_code=137
+status=oom_or_killed
+run_dir=/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/phasar/phasar-O2-g/runs/ifds-uninit/flatbuffers_O2_g-Wed-May--6-02:58:16-2026
+profile=phasar-O2-g
+compiler=clang-16/clang++-16
+flags=-O2 -g
+linecheck=no psr-report; linecheck unavailable

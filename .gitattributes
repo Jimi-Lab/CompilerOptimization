@@ -1,3 +1,10 @@
 CompilerOptimization/Result/AllUsefulCases/cclyzer++/O2-g/tool_cases.csv filter=lfs diff=lfs merge=lfs -text
 CompilerOptimization/CompilerResult/flatbuffers/LLVM14-O2-g/artifacts/flatbuffers_flatc_O2_g.ll filter=lfs diff=lfs merge=lfs -text
 CompilerOptimization/CompilerResult/flatbuffers/LLVM13-O2-g/artifacts/flatbuffers_flatc_O2_g.ll filter=lfs diff=lfs merge=lfs -text
+CompilerOptimization/Result/**/ValueCases/*.csv filter=lfs diff=lfs merge=lfs -text
+CompilerOptimization/Result/**/summary/line_hits*.csv filter=lfs diff=lfs merge=lfs -text
+CompilerOptimization/Result/**/psr-report.txt filter=lfs diff=lfs merge=lfs -text
+CompilerOptimization/Result/**/summary/*enriched*.csv filter=lfs diff=lfs merge=lfs -text
+CompilerOptimization/Result/**/summary/*manual_labels* filter=lfs diff=lfs merge=lfs -text
+CompilerOptimization/Result/**/summary/all_cases.csv filter=lfs diff=lfs merge=lfs -text
+CompilerOptimization/Result/**/target_linecheck.csv filter=lfs diff=lfs merge=lfs -text

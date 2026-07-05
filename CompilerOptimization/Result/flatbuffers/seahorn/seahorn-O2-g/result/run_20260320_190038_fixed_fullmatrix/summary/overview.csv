@@ -1,0 +1,13 @@
+metric,value
+smc_case_total,0
+smc_typeoff_cases,0
+smc_typeon_cases,0
+unique_files,0
+unique_lines,0
+horn_sat_count,0
+horn_unsat_count,7
+horn_unknown_or_timeout_count,0
+image,seahorn/seahorn-llvm14:fixed
+smc_bc,1
+ndc_bc,1
+crab_bc,1

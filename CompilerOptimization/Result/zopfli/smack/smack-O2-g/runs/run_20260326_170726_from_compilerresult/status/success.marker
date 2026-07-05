@@ -1,0 +1,5 @@
+success_utc=2026-03-26T10:16:52Z
+image=smackers/smack:latest-full
+bc=/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/zopfli/LLVM13-O2-g/artifacts/zopfli_O2_g.bc
+overview=/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/smack/smack-O2-g/runs/run_20260326_170726_from_compilerresult/summary/overview.csv
+note=8_case_matrix_completed_from_compilerresult

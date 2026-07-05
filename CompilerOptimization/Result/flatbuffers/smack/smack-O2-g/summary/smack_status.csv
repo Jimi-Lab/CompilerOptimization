@@ -1,0 +1,9 @@
+case_id,check,integer_encoding,verifier,unroll,time_limit,status,exit_code,stdout_log,stderr_log,key_line
+A1,assertions,unbounded-integer,corral,10,1800,translation failure,NA,log/scan_A1.stdout.log,log/scan_A1.stderr.log,scan skipped: translation failure in translate_probe
+A2,memory-safety,unbounded-integer,corral,10,1800,translation failure,NA,log/scan_A2.stdout.log,log/scan_A2.stderr.log,scan skipped: translation failure in translate_probe
+A3,integer-overflow,unbounded-integer,corral,10,1800,translation failure,NA,log/scan_A3.stdout.log,log/scan_A3.stderr.log,scan skipped: translation failure in translate_probe
+A4,memory-safety,unbounded-integer,corral,16,1800,translation failure,NA,log/scan_A4.stdout.log,log/scan_A4.stderr.log,scan skipped: translation failure in translate_probe
+A5,assertions,bit-vector,corral,10,1800,translation failure,NA,log/scan_A5.stdout.log,log/scan_A5.stderr.log,scan skipped: translation failure in translate_probe
+A6,memory-safety,bit-vector,corral,10,1800,translation failure,NA,log/scan_A6.stdout.log,log/scan_A6.stderr.log,scan skipped: translation failure in translate_probe
+A7,integer-overflow,bit-vector,corral,10,1800,translation failure,NA,log/scan_A7.stdout.log,log/scan_A7.stderr.log,scan skipped: translation failure in translate_probe
+A8,memory-safety,unbounded-integer,svcomp,10,1800,translation failure,NA,log/scan_A8.stdout.log,log/scan_A8.stderr.log,scan skipped: translation failure in translate_probe

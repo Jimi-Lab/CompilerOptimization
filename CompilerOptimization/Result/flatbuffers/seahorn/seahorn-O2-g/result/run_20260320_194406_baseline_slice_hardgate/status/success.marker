@@ -1,0 +1,3 @@
+success_utc=2026-03-20T11:52:55Z
+run=/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/seahorn/seahorn-O2-g/result/run_20260320_194406_baseline_slice_hardgate
+policy=baseline_original_plus_main_slice_plus_hard_gate

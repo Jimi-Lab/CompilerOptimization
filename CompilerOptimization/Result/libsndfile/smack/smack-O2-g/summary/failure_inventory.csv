@@ -1,0 +1,2 @@
+case_id,category,detail,stdout_log,stderr_log
+"translate_only","translation failure","/home/jimi/PaperExperiment/CompilerOptimization/Result/libsndfile/smack/smack-O2-g/log/stderr/translate_only.err:Traceback (most recent call last): ","log/stdout/translate_only.out","log/stderr/translate_only.err"

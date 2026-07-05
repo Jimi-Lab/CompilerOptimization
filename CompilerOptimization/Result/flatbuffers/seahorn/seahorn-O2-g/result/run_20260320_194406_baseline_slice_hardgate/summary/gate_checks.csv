@@ -1,0 +1,5 @@
+artifact,exists,main_present,decision
+/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/seahorn/seahorn-O2-g/result/run_20260320_194406_baseline_slice_hardgate/artifact/flatbuffers_flatc_O2_g.main_slice.bc,1,1,run
+/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/seahorn/seahorn-O2-g/result/run_20260320_194406_baseline_slice_hardgate/artifact/flatbuffers_flatc_O2_g.smc.bc,1,0,invalid_input
+/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/seahorn/seahorn-O2-g/result/run_20260320_194406_baseline_slice_hardgate/artifact/flatbuffers_flatc_O2_g.ndc.bc,1,0,invalid_input
+/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/seahorn/seahorn-O2-g/result/run_20260320_194406_baseline_slice_hardgate/artifact/flatbuffers_flatc_O2_g.crab.bc,1,0,invalid_input

@@ -1,0 +1,6 @@
+matrix_failures=1
+count=4
+assertions_bitvector=backend failure
+memory_safety_bitvector=backend failure
+integer_overflow_bitvector=backend failure
+memory_safety_unbounded_svcomp=timeout

@@ -1,0 +1,11 @@
+mode,input_bc,track,step,dsa,result,exit_code,elapsed_sec,log_file
+horn_orig_reg,/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/artifacts/redis-server_O2_g.bc,reg,large,,error,247,139,/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/result/run_20260322_150324_fixed_fullmatrix/log/sea.horn.orig.reg.log
+horn_orig_ptr,/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/artifacts/redis-server_O2_g.bc,ptr,large,sea-cs,error,247,49,/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/result/run_20260322_150324_fixed_fullmatrix/log/sea.horn.orig.ptr.log
+horn_orig_mem,/home/jimi/PaperExperiment/CompilerOptimization/CompilerResult/redis/LLVM14-O2-g/artifacts/redis-server_O2_g.bc,mem,small,sea-cs,error,247,46,/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/result/run_20260322_150324_fixed_fullmatrix/log/sea.horn.orig.mem.log
+horn_smc_reg,,,,,invalid_input,SKIP,0,/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/result/run_20260322_150324_fixed_fullmatrix/log/horn_smc_reg.log
+horn_smc_ptr,,,,,invalid_input,SKIP,0,/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/result/run_20260322_150324_fixed_fullmatrix/log/horn_smc_ptr.log
+horn_smc_mem,,,,,invalid_input,SKIP,0,/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/result/run_20260322_150324_fixed_fullmatrix/log/horn_smc_mem.log
+horn_ndc_reg,,,,,invalid_input,SKIP,0,/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/result/run_20260322_150324_fixed_fullmatrix/log/horn_ndc_reg.log
+horn_ndc_ptr,,,,,invalid_input,SKIP,0,/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/result/run_20260322_150324_fixed_fullmatrix/log/horn_ndc_ptr.log
+horn_ndc_mem,,,,,invalid_input,SKIP,0,/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/result/run_20260322_150324_fixed_fullmatrix/log/horn_ndc_mem.log
+horn_crab_ptr,,,,,invalid_input,SKIP,0,/home/jimi/PaperExperiment/CompilerOptimization/Result/redis/seahorn/seahorn-O2-g/result/run_20260322_150324_fixed_fullmatrix/log/horn_crab_ptr.log

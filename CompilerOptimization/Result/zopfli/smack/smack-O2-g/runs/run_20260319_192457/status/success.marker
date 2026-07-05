@@ -1,0 +1,5 @@
+success_utc=2026-03-19T13:07:32Z
+image=smackers/smack:latest-full
+bc=/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/smack/smack-O2-g/runs/run_20260319_192457/artifacts/zopfli_O2_g.bc
+overview=/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/smack/smack-O2-g/runs/run_20260319_192457/summary/overview.csv
+note=matrix_completed;see_smack_status_csv

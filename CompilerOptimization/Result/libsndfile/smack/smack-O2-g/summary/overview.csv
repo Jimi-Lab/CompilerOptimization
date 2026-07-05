@@ -1,0 +1,12 @@
+item,status,detail
+output_dir_writable,yes,"requested OUT_DIR was writable and used directly"
+env_check,passed,"clang-13/llvm-link-13/llvm-dis-13/smack/boogie/corral/z3 all available in container"
+bc_check,passed,"bitcode disassembly succeeded; main symbol exists; undefined symbols listed"
+translation,failed,"unsupported / translation failure (llvm2bpl assertion crash)"
+matrix_execution,not_started,"stopped as required after translation failure"
+verified,0,"verification matrix did not run"
+error,0,"verification matrix did not run"
+timeout,0,"verification matrix did not run"
+tool failure,0,"verification matrix did not run"
+backend failure,0,"verification matrix did not run"
+unsupported / translation failure,1,"translate_only"

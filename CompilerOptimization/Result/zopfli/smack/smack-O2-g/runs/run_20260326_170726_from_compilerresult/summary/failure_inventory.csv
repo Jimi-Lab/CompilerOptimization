@@ -1,0 +1,8 @@
+check,encoding,unroll,verifier,exit_code,result,key_message
+memory-safety,na,8,default,0,unknown,no-key-message
+memory-safety,unbounded-integer,8,default,2,error,SMACK found an error: invalid pointer dereference.
+memory-safety,unbounded-integer,16,default,2,error,SMACK found an error: invalid pointer dereference.
+assertions,bit-vector,8,default,1,error,Traceback (most recent call last):
+memory-safety,bit-vector,8,default,1,error,Traceback (most recent call last):
+integer-overflow,bit-vector,8,default,1,error,Traceback (most recent call last):
+memory-safety,unbounded-integer,8,svcomp,126,error,Timed out during normal inlining.

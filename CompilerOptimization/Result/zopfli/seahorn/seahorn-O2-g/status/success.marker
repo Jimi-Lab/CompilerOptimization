@@ -1,0 +1,6 @@
+success_utc=2026-03-19T05:05:23Z
+mode=recompile_official_makefile_o2g
+bc_path=/work/PaperExperiment/CompilerOptimization/Result/zopfli/seahorn/seahorn-O2-g/artifacts/zopfli_O2_g_zopfli_only.bc
+ll_path=/work/PaperExperiment/CompilerOptimization/Result/zopfli/seahorn/seahorn-O2-g/artifacts/zopfli_O2_g_zopfli_only.ll
+bc_list=/work/PaperExperiment/CompilerOptimization/Result/zopfli/seahorn/seahorn-O2-g/artifacts/bc_files_zopfli_only.list
+note=official_readme_scope_src_zopfli_only

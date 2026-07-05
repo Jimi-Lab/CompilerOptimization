@@ -1,0 +1,20 @@
+step,name,exit_code,produced_output,key_error
+01,inspect_profiler,0,,
+02,inspect_mem_stats,0,,
+03,inspect_callgraph_stats,0,,
+04,horn_orig_reg,247,horn_status.csv entry,
+05,horn_orig_ptr,247,horn_status.csv entry,
+06,horn_orig_mem,247,horn_status.csv entry,
+07,smc_typeoff,0,,
+08,smc_typeon,0,,
+09,smc_instrument,0,/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/seahorn/seahorn-O2-g/result/run_20260322_194123_fixed_fullmatrix/artifact/zfp_O2_g.smc.bc,
+10,ndc_instrument,247,/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/seahorn/seahorn-O2-g/result/run_20260322_194123_fixed_fullmatrix/artifact/zfp_O2_g.ndc.bc,
+11,crab_instrument,247,/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/seahorn/seahorn-O2-g/result/run_20260322_194123_fixed_fullmatrix/artifact/zfp_O2_g.crab.bc,
+12,horn_smc_reg,247,horn_status.csv entry,
+13,horn_smc_ptr,247,horn_status.csv entry,
+14,horn_smc_mem,247,horn_status.csv entry,
+15,horn_ndc_reg,SKIP,horn_status.csv entry,ndc artifact missing main
+16,horn_ndc_ptr,SKIP,horn_status.csv entry,ndc artifact missing main
+17,horn_ndc_mem,SKIP,horn_status.csv entry,ndc artifact missing main
+18,horn_crab_ptr,SKIP,horn_status.csv entry,crab artifact missing main
+19,term,247,sea.term.log,

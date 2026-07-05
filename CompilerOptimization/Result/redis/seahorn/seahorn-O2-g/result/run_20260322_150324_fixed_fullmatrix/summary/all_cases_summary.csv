@@ -1,0 +1,6 @@
+category,key,count
+case_kind,broken_module,1
+case_kind,undefined_read_block,350
+case_kind,undefined_read_summary,1
+case_kind,warning_line,21
+step_name,19:term,373

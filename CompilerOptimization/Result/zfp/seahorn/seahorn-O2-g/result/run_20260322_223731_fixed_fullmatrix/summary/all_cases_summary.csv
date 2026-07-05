@@ -1,0 +1,14 @@
+category,key,count
+case_kind,trivial_safe_warning,4
+case_kind,undefined_read_block,778
+case_kind,undefined_read_summary,5
+case_kind,warning_line,4
+step_name,02:inspect_mem_stats,1
+step_name,07:smc_typeoff,158
+step_name,08:smc_typeon,158
+step_name,09:smc_instrument,158
+step_name,15:horn_ndc_reg,1
+step_name,16:horn_ndc_ptr,1
+step_name,17:horn_ndc_mem,1
+step_name,18:horn_crab_ptr,1
+step_name,19:term,312

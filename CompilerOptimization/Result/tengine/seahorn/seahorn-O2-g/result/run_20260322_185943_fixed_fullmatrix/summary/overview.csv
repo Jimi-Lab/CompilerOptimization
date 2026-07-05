@@ -1,0 +1,10 @@
+metric,value
+main_present,1
+smc_case_total,270
+horn_sat_count,1
+horn_unsat_count,1
+horn_unknown_or_timeout_count,0
+image,seahorn/seahorn-llvm14:fixed
+smc_bc,0
+ndc_bc,1
+crab_bc,1
