@@ -1,27 +1,27 @@
-# yapall 原生输出画像
+# yapall Native Output Profile
 
-## Run 选择边界
-- run 选择文件：/home/jimi/PaperExperiment/CompilerOptimization/Result/AllUsefulCases/yapall/result.txt
-- 本画像和下游 CSV 只纳入该文件列出的五个 run 目录
+## Run Selection Boundary
+- run selection file: /home/jimi/PaperExperiment/CompilerOptimization/Result/AllUsefulCases/yapall/result.txt
+- only the run directories listed there are included in this profile and downstream CSVs
 
-## 使用的原生输入
+## Native Inputs Used
 - ValueCases/*_yapall_value_cases.csv
-- ValueCases/raw_issues.csv，以及每行引用的原始 log 路径
-- ValueCases/ll_provenance.csv，通过每行复制出的列使用
-- report/final_report.md、commands/commands.log、status/run_status.tsv 作为 run 证据
+- ValueCases/raw_issues.csv and raw log paths referenced by each row
+- ValueCases/ll_provenance.csv via columns copied into each row
+- report/final_report.md, commands/commands.log, status/run_status.tsv as run evidence
 
-## 原生分类统计
-- unlocatable_operand: 902450
-- InlineAttributionDrift: 624327
-- Useless-CodeConsistent: 585664
+## Native Classification Counts
+- unlocatable_operand: 902700
+- InlineAttributionDrift: 624599
+- Useless-CodeConsistent: 585666
 - WrongFunctionAttribution: 209060
-- Wanted-LineColumnMissing: 97204
+- Wanted-LineColumnMissing: 97312
 - missing_debug_location: 76534
 - ColumnPointsToWrongToken: 29460
-- tool_output_insufficient: 1726
+- tool_output_insufficient: 1728
 
-## 规范化策略
-- 原始 yapall issue 行是 IR 层 pointer-analysis 报告，不是 source-level 已确认漏洞。
-- 当本地源码文件可用时，重新计算 source file/line/column 的有效性。
-- 报告位置在头文件中并不会自动成为 P0；必须存在客观无效证据。
-- 除非存在客观的 project location 无效证据，否则 tool-output-insufficient 行保留为 P2。
+## Normalization Policy
+- Raw yapall issue rows are IR-level pointer-analysis reports, not source-level confirmed vulnerabilities.
+- Source file/line/column validity is recomputed against local source files when available.
+- Header locations are not automatically P0; they require objective invalidity.
+- Tool-output-insufficient rows are retained as P2 unless an objective project location invalidity is present.

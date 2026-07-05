@@ -1,5 +1,6 @@
 project,total_uses,match,mismatch,line_oob,oob_rate
 curl,145,145,0,0,0.00
+flatbuffers,0,0,0,0,0.00
 lepton,676,676,0,0,0.00
 libsndfile,565,562,2,1,0.18
 masscan,598,595,0,3,0.50

@@ -3,7 +3,7 @@ curl,success,ok,0,1,
 tengine,success,ok,0,1,
 wasmedge,failed,,,0,cmake build failed
 duckdb,failed,,,0,llvm-link failed
-flatbuffers,failed,oom_or_killed,137,0,failed_utc=2026-03-16T07:28:49Z | exit_code=137 | status=oom_or_killed
+flatbuffers,failed,oom_or_killed,137,0,failed_utc=2026-05-06T03:03:59Z | exit_code=137 | status=oom_or_killed | run_dir=/home/jimi/PaperExperiment/CompilerOptimization/Result/flatbuffers/phasar/phasar-O2-g/runs/ifds-uninit/flatbuffers_O2_g-Wed-May--6-02:58:16-2026 | profile=phasar-O2-g | compiler=clang-16/clang++-16 | flags=-O2 -g | linecheck=no psr-report; linecheck unavailable
 flite,failed,,,0,make dry-run failed
 grpc,failed,oom_or_killed,137,0,failed_utc=2026-03-16T14:58:14Z | exit_code=137 | status=oom_or_killed | note=ifds-uninit failed without timeout due process killed (likely OOM)
 lepton,success,ok,0,1,

@@ -2,38 +2,39 @@
   "allowed_run_dirs": [
     "/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/yapall/LLVM14-O2-g/run_20260427_yapall_docker_smoke",
     "/home/jimi/PaperExperiment/CompilerOptimization/Result/libsndfile/yapall/LLVM14-O2-g/run_20260427_yapall_docker_sndfile_convert_linked",
-    "/home/jimi/PaperExperiment/CompilerOptimization/Result/masscan/yapall/LLVM14-O2-g/run_20260427_yapall_docker_masscan_linked",
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/masscan/yapall/LLVM14-O2-g/run_20260506_yapall_docker_masscan_linked_rescan",
     "/home/jimi/PaperExperiment/CompilerOptimization/Result/tengine/yapall/LLVM14-O2-g/run_20260427_yapall_docker_tengine_linked",
-    "/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/yapall/LLVM14-O2-g/run_20260427_yapall_docker_lepton_linked"
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/yapall/LLVM14-O2-g/run_20260427_yapall_docker_lepton_linked",
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/yapall/LLVM14-O2-g/run_20260426_yapall_zfp_k0"
   ],
   "allowed_runs_without_valuecases": [],
   "case_kind_counts": {
-    "LocationDrift": 654972,
-    "LocationInvalid": 69526,
+    "LocationDrift": 655244,
+    "LocationInvalid": 69634,
     "NoDebugLoc": 76534,
-    "RunOrLocationWeakEvidence": 1110269,
+    "RunOrLocationWeakEvidence": 1110521,
     "WarningKindMismatch": 29460
   },
   "classification_counts": {
     "ColumnPointsToWrongToken": 29460,
-    "InlineAttributionDrift": 624327,
-    "Useless-CodeConsistent": 585664,
-    "Wanted-LineColumnMissing": 97204,
+    "InlineAttributionDrift": 624599,
+    "Useless-CodeConsistent": 585666,
+    "Wanted-LineColumnMissing": 97312,
     "WrongFunctionAttribution": 209060,
     "missing_debug_location": 76534,
-    "tool_output_insufficient": 1726,
-    "unlocatable_operand": 902450
+    "tool_output_insufficient": 1728,
+    "unlocatable_operand": 902700
   },
   "excluded_counts": {
-    "Useless-CodeConsistent": 585664
+    "Useless-CodeConsistent": 585666
   },
-  "generated_at": "2026-04-29T08:03:30.087781+00:00",
+  "generated_at": "2026-05-07T03:40:31.591676+00:00",
   "location_validity_counts": {
     "column_out_of_range": 14992,
-    "line_zero": 82212,
+    "line_zero": 82320,
     "no_debug_loc": 76534,
-    "unknown": 904176,
-    "valid": 862847
+    "unknown": 904428,
+    "valid": 863119
   },
   "notes": [
     "Existing yapall ValueCases were read; yapall analyzer was not rerun.",
@@ -44,18 +45,18 @@
   ],
   "output_dir": "/home/jimi/PaperExperiment/CompilerOptimization/Result/AllUsefulCases/yapall/O2-g",
   "priority_counts": {
-    "P0": 69526,
-    "P1": 760966,
-    "P2": 1110269
+    "P0": 69634,
+    "P1": 761238,
+    "P2": 1110521
   },
   "reason_counts": {
     "ColumnPointsToWrongToken": 29460,
     "ExternalOrUnresolvedCandidate": 206093,
-    "InlineAttributionDrift": 452594,
-    "LineZero": 69526,
+    "InlineAttributionDrift": 452866,
+    "LineZero": 69634,
     "NoDebugLoc": 76534,
-    "ToolOutputInsufficient": 1726,
-    "UnlocatableOperand": 902450,
+    "ToolOutputInsufficient": 1728,
+    "UnlocatableOperand": 902700,
     "WrongFunctionAttribution": 202378
   },
   "run_selection_file": "/home/jimi/PaperExperiment/CompilerOptimization/Result/AllUsefulCases/yapall/result.txt",
@@ -64,26 +65,28 @@
     "libsndfile",
     "masscan",
     "tengine",
+    "zfp",
     "zopfli"
   ],
   "selected_valuecase_csvs": [
     "/home/jimi/PaperExperiment/CompilerOptimization/Result/zopfli/yapall/LLVM14-O2-g/run_20260427_yapall_docker_smoke/ValueCases/zopfli_yapall_value_cases.csv",
     "/home/jimi/PaperExperiment/CompilerOptimization/Result/libsndfile/yapall/LLVM14-O2-g/run_20260427_yapall_docker_sndfile_convert_linked/ValueCases/libsndfile_yapall_value_cases.csv",
-    "/home/jimi/PaperExperiment/CompilerOptimization/Result/masscan/yapall/LLVM14-O2-g/run_20260427_yapall_docker_masscan_linked/ValueCases/masscan_yapall_value_cases.csv",
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/masscan/yapall/LLVM14-O2-g/run_20260506_yapall_docker_masscan_linked_rescan/ValueCases/masscan_yapall_value_cases.csv",
     "/home/jimi/PaperExperiment/CompilerOptimization/Result/tengine/yapall/LLVM14-O2-g/run_20260427_yapall_docker_tengine_linked/ValueCases/tengine_yapall_value_cases.csv",
-    "/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/yapall/LLVM14-O2-g/run_20260427_yapall_docker_lepton_linked/ValueCases/lepton_yapall_value_cases.csv"
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/lepton/yapall/LLVM14-O2-g/run_20260427_yapall_docker_lepton_linked/ValueCases/lepton_yapall_value_cases.csv",
+    "/home/jimi/PaperExperiment/CompilerOptimization/Result/zfp/yapall/LLVM14-O2-g/run_20260426_yapall_zfp_k0/ValueCases/zfp_yapall_value_cases.csv"
   ],
   "source_region_counts": {
-    "llvm_ir_only": 980710,
+    "llvm_ir_only": 980962,
     "project_header": 223843,
-    "project_source": 530115,
+    "project_source": 530495,
     "system_header": 205004,
     "system_source": 1089
   },
   "stats": {
-    "excluded_rows": 585664,
-    "included_rows": 1940761,
-    "raw_rows": 2526425
+    "excluded_rows": 585666,
+    "included_rows": 1941393,
+    "raw_rows": 2527059
   },
   "target_priority_counts": {
     "lepton": {
@@ -106,6 +109,11 @@
       "P1": 9020,
       "P2": 152
     },
+    "zfp": {
+      "P0": 108,
+      "P1": 272,
+      "P2": 252
+    },
     "zopfli": {
       "P0": 27,
       "P1": 239,
@@ -117,6 +125,7 @@
     "libsndfile": 1297232,
     "masscan": 406118,
     "tengine": 9930,
+    "zfp": 634,
     "zopfli": 314
   },
   "target_reason_counts": {
@@ -157,6 +166,12 @@
       "ToolOutputInsufficient": 7,
       "UnlocatableOperand": 145,
       "WrongFunctionAttribution": 159
+    },
+    "zfp": {
+      "InlineAttributionDrift": 272,
+      "LineZero": 108,
+      "ToolOutputInsufficient": 2,
+      "UnlocatableOperand": 250
     },
     "zopfli": {
       "ColumnPointsToWrongToken": 25,

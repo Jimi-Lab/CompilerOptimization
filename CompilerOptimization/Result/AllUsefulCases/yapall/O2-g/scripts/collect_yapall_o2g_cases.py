@@ -25,6 +25,7 @@ TARGET_SOURCE_ROOTS = {
     "masscan": TARGET_ROOT / "masscan",
     "tengine": TARGET_ROOT / "Tengine",
     "lepton": TARGET_ROOT / "lepton",
+    "zfp": TARGET_ROOT / "zfp",
 }
 
 TOOL_CASE_FIELDS = [
@@ -743,7 +744,7 @@ def main() -> None:
     profile.append("# yapall Native Output Profile\n\n")
     profile.append("## Run Selection Boundary\n")
     profile.append(f"- run selection file: {RUN_LIST}\n")
-    profile.append("- only the five run directories listed there are included in this profile and downstream CSVs\n\n")
+    profile.append("- only the run directories listed there are included in this profile and downstream CSVs\n\n")
     profile.append("## Native Inputs Used\n")
     profile.append("- ValueCases/*_yapall_value_cases.csv\n")
     profile.append("- ValueCases/raw_issues.csv and raw log paths referenced by each row\n")

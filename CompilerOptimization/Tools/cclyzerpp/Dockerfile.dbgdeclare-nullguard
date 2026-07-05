@@ -1,0 +1,6 @@
+FROM ghcr.io/galoisinc/cclyzerpp-dev:main
+
+LABEL org.opencontainers.image.title="PaperExperiment cclyzer++ LLVM14 dbg.declare nullguard"
+LABEL org.opencontainers.image.base.name="ghcr.io/galoisinc/cclyzerpp-dev:main"
+LABEL paperexperiment.cclyzerpp.patch="dbgdeclare-nullguard"
+LABEL paperexperiment.cclyzerpp.patch_notes="CompilerOptimization/Tools/cclyzerpp/PATCH_NOTES.md"

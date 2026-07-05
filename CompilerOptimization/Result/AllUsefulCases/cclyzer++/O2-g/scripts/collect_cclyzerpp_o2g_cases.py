@@ -23,6 +23,9 @@ SELECTED_RUNS = {
     / "CompilerOptimization/Result/tengine/cclyzerpp/LLVM14-O2-g/run_20260427_132038_tengine",
     "zopfli": ROOT
     / "CompilerOptimization/Result/zopfli/cclyzerpp/LLVM14-O2-g/run_20260427_132038_zopfli_O2_g_zopfli_only",
+    "lepton": ROOT / "CompilerOptimization/Result/lepton/cclyzerpp/LLVM14-O2-g/run_20260430_154121",
+    "masscan": ROOT / "CompilerOptimization/Result/masscan/cclyzerpp/LLVM14-O2-g/run_20260430_120006",
+    "zfp": ROOT / "CompilerOptimization/Result/zfp/cclyzerpp/LLVM14-O2-g/run_20260430_174927",
 }
 
 CASE_FIELDS = [
@@ -281,8 +284,9 @@ def collect_cases() -> tuple[list[dict[str, str]], list[dict[str, str]], dict[st
         "mapping_status_counts": {},
         "phenomenon_counts": {},
         "notes": [
-            "Selected only completed LLVM14-O2-g ValueCases for flatbuffers, libsndfile, tengine, and zopfli.",
-            "Existing per-run ValueCases/all_cases.csv were reclassified to the useful_cases_matrix_plan.md schema.",
+            "Selected completed LLVM14-O2-g cclyzer++ runs for flatbuffers, libsndfile, tengine, zopfli, lepton, masscan, and zfp.",
+            "Per-run ValueCases/all_cases.csv were generated from native relations/*.csv.gz and then reclassified to the useful_cases_matrix_plan.md schema.",
+            "The collector does not read extract/candidates.tsv or extract/relation_counts.tsv because those extract summaries can be incomplete.",
             "P0 is restricted to objective invalid source locations in project source/header files.",
             "Semantic source/IR mismatch candidates are P1 for project code and P2 for external/unresolved code.",
             "NoDebugLoc without an objective project source line/column failure is not promoted to P0.",
@@ -304,6 +308,11 @@ def collect_cases() -> tuple[list[dict[str, str]], list[dict[str, str]], dict[st
         command_artifact = command_path if command_path.exists() else None
         raw_artifacts = [
             case_file,
+            run_dir / "relations",
+            run_dir / "commands/command.txt",
+            run_dir / "status/run_status.tsv",
+            run_dir / "log/cclyzerpp.log",
+            run_dir / "report/final_report.md",
             value_dir / "analysis_manifest.json",
             value_dir / "inventory/relation_row_counts.tsv",
             value_dir / "index/ir_instruction_index.tsv",
@@ -398,7 +407,7 @@ def collect_cases() -> tuple[list[dict[str, str]], list[dict[str, str]], dict[st
                 "failed_modes": "",
                 "timeout_modes": "",
                 "raw_artifacts": raw_artifact_text,
-                "reason": "selected completed cclyzer++ LLVM14-O2-g ValueCases run",
+                "reason": "selected completed cclyzer++ LLVM14-O2-g native-relations run",
                 "excluded_reason": "",
                 "notes": f"return_code={status_row.get('return_code', '')}; elapsed_sec={status_row.get('elapsed_sec', '')}; value_cases={row_count}; command={command_artifact or ''}",
             }
@@ -429,6 +438,126 @@ def markdown_table(counter: Counter | dict[str, int]) -> str:
     for key, count in items:
         lines.append(f"| `{key}` | {count} |")
     return "\n".join(lines)
+
+
+def validate_p0(row: dict[str, str], source_cache: dict[str, list[str] | None]) -> str:
+    reason = row.get("priority_reason", "")
+    reported_file = row.get("reported_file", "")
+    path = remap_path(reported_file)
+    key = str(path)
+    if key not in source_cache:
+        if path.exists() and path.is_file():
+            source_cache[key] = path.read_text(encoding="utf-8", errors="replace").splitlines()
+        else:
+            source_cache[key] = None
+    lines = source_cache[key]
+    line = to_int(row.get("reported_line", ""))
+    column = to_int(row.get("reported_column", ""))
+
+    if reason == "LineZero":
+        return "ok" if lines is not None and line == 0 else "failed"
+    if reason == "LineOutOfRange":
+        return "ok" if lines is not None and line is not None and line > len(lines) else "failed"
+    if reason == "ColumnOutOfRange":
+        if lines is not None and line is not None and column is not None and 1 <= line <= len(lines):
+            return "ok" if column > len(lines[line - 1]) else "failed"
+        return "failed"
+    if reason == "MissingSourceFile":
+        return "ok" if lines is None else "failed"
+    return "not_checked"
+
+
+def write_p0_audit(cases: list[dict[str, str]]) -> dict[str, object]:
+    p0_rows = [row for row in cases if row["priority"] == "P0"]
+    row_reasons = Counter(row["priority_reason"] for row in p0_rows)
+    row_targets = Counter(row["target"] for row in p0_rows)
+    source_cache: dict[str, list[str] | None] = {}
+    unique: dict[tuple[str, str, str, str], dict[str, str]] = {}
+    validation = Counter()
+
+    for row in p0_rows:
+        key = (
+            row.get("reported_file", ""),
+            row.get("reported_line", ""),
+            row.get("reported_column", ""),
+            row.get("priority_reason", ""),
+        )
+        if key in unique:
+            continue
+        status = validate_p0(row, source_cache)
+        validation[status] += 1
+        unique[key] = {
+            "target": row.get("target", ""),
+            "priority_reason": row.get("priority_reason", ""),
+            "reported_file": row.get("reported_file", ""),
+            "reported_line": row.get("reported_line", ""),
+            "reported_column": row.get("reported_column", ""),
+            "location_validity": row.get("location_validity", ""),
+            "source_region": row.get("source_region", ""),
+            "example_case_uid": row.get("case_uid", ""),
+            "example_raw_artifact": row.get("raw_artifact", ""),
+            "example_raw_row_or_line": row.get("raw_row_or_line", ""),
+            "ir_snippet": row.get("ir_snippet", ""),
+            "source_snippet": row.get("source_snippet", ""),
+            "validation_status": status,
+        }
+
+    unique_fields = [
+        "target",
+        "priority_reason",
+        "reported_file",
+        "reported_line",
+        "reported_column",
+        "location_validity",
+        "source_region",
+        "example_case_uid",
+        "example_raw_artifact",
+        "example_raw_row_or_line",
+        "ir_snippet",
+        "source_snippet",
+        "validation_status",
+    ]
+    write_csv(OUT_DIR / "p0_unique_locations.csv", unique_fields, list(unique.values()))
+
+    unique_reasons = Counter(row["priority_reason"] for row in unique.values())
+    unique_targets = Counter(row["target"] for row in unique.values())
+    unique_files = {row["reported_file"] for row in unique.values() if row["reported_file"]}
+
+    lines = ["# cclyzer++ P0 Final Audit\n\n"]
+    lines.append("## Scope\n")
+    lines.append("- tool: `cclyzer++`\n")
+    lines.append("- universe: `LLVM14-O2-g` / `O2-g`\n")
+    lines.append(f"- source CSV: `{OUT_DIR / 'tool_cases.csv'}`\n")
+    lines.append(f"- unique locations CSV: `{OUT_DIR / 'p0_unique_locations.csv'}`\n\n")
+    lines.append("## P0 Counts\n")
+    lines.append(f"- P0 rows: {len(p0_rows)}\n")
+    lines.append(f"- P0 unique locations: {len(unique)}\n")
+    lines.append(f"- P0 unique files: {len(unique_files)}\n\n")
+    lines.append("## P0 Rows By Reason\n")
+    lines.append(markdown_table(row_reasons) + "\n\n")
+    lines.append("## P0 Unique Locations By Reason\n")
+    lines.append(markdown_table(unique_reasons) + "\n\n")
+    lines.append("## P0 Rows By Target\n")
+    lines.append(markdown_table(row_targets) + "\n\n")
+    lines.append("## P0 Unique Locations By Target\n")
+    lines.append(markdown_table(unique_targets) + "\n\n")
+    lines.append("## Validation\n")
+    lines.append(markdown_table(validation) + "\n\n")
+    lines.append("## Interpretation Notes\n")
+    lines.append("- P0 rows are relation-level evidence rows, not independent paper cases.\n")
+    lines.append("- Unique locations deduplicate by `(reported_file, reported_line, reported_column, priority_reason)`.\n")
+    lines.append("- `LineZero` supports no valid source line / source-location loss; only rows with additional nonzero recovered IR line should be phrased as direct line mismatch.\n")
+    lines.append("- `ColumnOutOfRange` and `LineOutOfRange` are direct objective line/column invalidity evidence.\n")
+    (OUT_DIR / "p0_final_audit.md").write_text("".join(lines), encoding="utf-8")
+
+    return {
+        "p0_rows": len(p0_rows),
+        "p0_unique_locations": len(unique),
+        "p0_unique_files": len(unique_files),
+        "p0_rows_by_reason": dict(row_reasons),
+        "p0_unique_by_reason": dict(unique_reasons),
+        "p0_validation": dict(validation),
+    }
 
 
 def write_reports(cases: list[dict[str, str]], runs: list[dict[str, str]], stats: dict[str, object]) -> None:
@@ -467,6 +596,8 @@ def write_reports(cases: list[dict[str, str]], runs: list[dict[str, str]], stats
         project_lines.append(
             f"| {target} | {total} | {project_only[target]['P0']} | {project_only[target]['P1']} | {project_only[target]['P2']} |"
         )
+    p0_audit = write_p0_audit(cases)
+    target_text = ", ".join(f"`{target}`" for target in SELECTED_RUNS)
 
     report = f"""# cclyzer++ O2-g Useful Case 收集报告
 
@@ -474,8 +605,9 @@ def write_reports(cases: list[dict[str, str]], runs: list[dict[str, str]], stats
 
 - tool: `cclyzer++`
 - universe: `LLVM14-O2-g`
-- 纳入的 targets: `flatbuffers`, `libsndfile`, `tengine`, `zopfli`
-- 数据来源: 已有各 run 的 `ValueCases/all_cases.csv`
+- 纳入的 targets: {target_text}
+- 数据来源: 每个 run 的原生 `relations/*.csv.gz`，经 `CompilerOptimization/Tools/cclyzerpp/analyze_native_value_cases.py` 生成 `ValueCases/all_cases.csv` 后统一标准化
+- 明确未使用: `extract/candidates.tsv`、`extract/relation_counts.tsv` 等不完整 extract 摘要
 - 重新分类依据: `CompilerOptimization/Result/AllUsefulCases/useful_cases_matrix_plan.md`
 - 参考分析方案: `CompilerOptimization/Tools/cclyzerpp/AnalysisResult/cclyzerpp_native_output_case_analysis_plan.md`
 
@@ -501,32 +633,11 @@ def write_reports(cases: list[dict[str, str]], runs: list[dict[str, str]], stats
 
 ## P0 最终审核
 
-最终审核日期: `2026-04-29`.
-
-结论: `P0` rows 是客观的 invalid-location 证据，但不能理解为 27,932 个彼此独立的论文 case。它们是 cclyzer++ 原生 facts 映射出来的 relation-level rows。按 `(reported_file, reported_line, reported_column, priority_reason)` 去重后，P0 集合包含 171 个 unique locations。
-
-P0 row 统计:
-
-| reason | rows | unique locations | audit result |
-| --- | ---: | ---: | --- |
-| `LineZero` | 27869 | 130 | 有效的 invalid-line 证据；应表述为 line missing / no valid source line，不总是 wrong-line mismatch |
-| `ColumnOutOfRange` | 56 | 35 | 最强的 location-invalid 证据；reported column 超过实际源码行长度 |
-| `LineOutOfRange` | 7 | 6 | 最强的 location-invalid 证据；reported line 超过实际文件总行数 |
-
-已执行的批量检查:
-
-- 每个 P0 `reported_file` 都能在本地找到。
-- 每个 `LineZero` P0 row 都满足 `reported_line=0`。
-- 每个 `LineOutOfRange` P0 unique location 都已按本地文件总行数检查。
-- 每个 `ColumnOutOfRange` P0 unique location 都已按实际本地源码行长度检查。
-- 未发现检查失败项。
-
-重要解释约束:
-
-- `LineOutOfRange` 和 `ColumnOutOfRange` 是最干净、最适合直接进入论文的 line/column invalidity cases。
-- `LineZero` 作为源码行号在客观上无效，但多数 rows 表示 debug/source-location loss，而不是已经证明 report 错到了另一个非零行。`LineZero` rows 中，27,115 行同时有 `ir_line=0`，318 行 `ir_line` 为空，436 行有非零 recovered `ir_line`。
-- 因此，使用 `LineZero` cases 时要谨慎：它们支持 "no valid source line / line attribution collapsed to 0"；只有 recovered `ir_line` 非零的子集，才适合表述为 relation line 与 recovered IR debug line 之间的直接行号不一致。
-- 论文应选择有代表性的 unique locations，而不是使用 raw relation-row counts。
+- P0 rows: `{p0_audit['p0_rows']}`
+- P0 unique locations: `{p0_audit['p0_unique_locations']}`
+- P0 unique files: `{p0_audit['p0_unique_files']}`
+- 详细审核文件: `p0_final_audit.md`
+- unique location 明细: `p0_unique_locations.csv`
 
 ## 纳入的 Runs
 
@@ -534,7 +645,8 @@ P0 row 统计:
 
 ## 说明
 
-- 没有覆盖或修改已有的 cclyzer++ `ValueCases`。
+- 没有删除或修改 cclyzer++ 原始 `relations/`、`log/`、`status/`、`commands/` artifact。
+- 新增 lepton/masscan/zfp 的 `ValueCases/` 是从原生 `relations/` 重建的分析输出；总表没有读取 `extract/`。
 - `P0` 当前只限于 project source/header 中的客观无效位置：`LineZero`、`LineOutOfRange`、`ColumnOutOfRange`，以及明确缺失的项目文件。
 - `SourceIRMismatch` 对 project code 归为 `P1`，因为它是 semantic/source-IR consistency candidate，不等同于工具原生 report 中可直接比对文本的 `SourceTextMismatch`。
 - `NoDebugLoc` 对 project code 归为 `P1`，对 external/unresolved code 归为 `P2`；除非它同时具备具体的 project line/column invalidity，否则不升为 P0。
@@ -554,9 +666,9 @@ P0 row 统计:
 
     profile = f"""# cclyzer++ 原生输出 Profile
 
-cclyzer++ 不输出 source-level bug report。它的原生输出是每个 run 的 `relations/*.csv.gz` 中的一组 Datalog relation facts。此次纳入的四个 run 已经包含从这些 raw relations 生成的 `ValueCases/`：relation inventory、IR/debug indexes、fact-to-source maps、classification TSVs、casebook entries，以及 `ValueCases/all_cases.csv`。
+cclyzer++ 不输出 source-level bug report。它的原生输出是每个 run 的 `relations/*.csv.gz` 中的一组 Datalog relation facts。此次纳入的 run 都使用这些 raw relations 生成或复用 `ValueCases/`：relation inventory、IR/debug indexes、fact-to-source maps、classification TSVs、casebook entries，以及 `ValueCases/all_cases.csv`。
 
-本 collector 只读取已完成的 `ValueCases/all_cases.csv` 文件，并保留指向 raw relation row 的证据字段：`relation_name`、`relation_row_number`、`relation_row_hash`，以及 IR snippet、source snippet、输入 `.bc`、生成的 `.ll` 和原始 evidence files。
+本 collector 不读取 `extract/` 摘要。它读取已完成的 `ValueCases/all_cases.csv` 文件，并保留指向 raw relation row 的证据字段：`relation_name`、`relation_row_number`、`relation_row_hash`，以及 IR snippet、source snippet、输入 `.bc`、生成的 `.ll`、`relations/` 和原始 evidence files。
 
 从原生 case 分析中保留的主要 phenomenon labels：
 
